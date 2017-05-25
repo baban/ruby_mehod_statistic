@@ -13,17 +13,20 @@ class RubyStatics
   using HashExtend
 
   def self.exec(root_path="gems/")
-    #ranking = generate_gem_ranking((500/20).to_i)
-    #ranking.each { |name| deploy_gem(name) }
-    #base_dirs = parsable_gems
-    #open("parsable_gems.rb", "w"){|f| f<< base_dirs.inspect }
-    #aggrigate_result = base_dirs.reduce({}){ |total, dir| p dir; h = parse_project(dir); total.sum_merge(h) }
-    #open("aggrigate_result.rb","w"){|f| f<< aggrigate_result.inspect }
+    # top500のgemの名前を取得する
+    ranking = generate_gem_ranking((500/20).to_i)
+    # top500のgemを指定のディレクトリにダウンロードして展開する
+    ranking.each { |name| deploy_gem(name) }
+    base_dirs = parsable_gems
+    open("parsable_gems.rb", "w"){|f| f<< base_dirs.inspect }
+    # 順番にファイルをパースしてメソッド名とその使用回数を抜き取っていく
     aggrigate_result = nil
-    binding.pry
-    open("aggrigate_result.rb"){ |f| aggrigate_result = eval(f.read) }
+    aggrigate_result = base_dirs.reduce({}){ |total, dir| p dir; h = parse_project(dir); total.sum_merge(h) }
+    open("aggrigate_result.rb","w"){|f| f<< aggrigate_result.inspect }
+    # ruby標準のライブラリにあるメソッド名だけに絞り込む
     dic = method_name_dictionary
     default_method_aggrigate_result = dic.reduce({}){ |h,(k,v)| h[k] = aggrigate_result[k] || 0; h }
+    # 結果を使用回数でソートする
     sort_result = default_method_aggrigate_result.sort{ |a,b| b[1]<=>a[1] }
     open("result.txt"){|f| f<< sort_result.inspect }
     sort_result
@@ -42,8 +45,8 @@ class RubyStatics
     ranking
   end
 
-  def self.deploy_gem(name)
-    `cd gems; gem fetch #{name}`
+  def self.deploy_gem(name, version)
+    `cd gems; gem fetch #{name} -v #{version}`
     `cd gems; gem unpack #{name}`
     `cd gems; mv *.gem ../cache`
   end
