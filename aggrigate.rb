@@ -2,6 +2,8 @@ require 'parser/current'
 require "pry"
 require 'faraday'
 require 'nokogiri'
+require 'yaml'
+
 class RubyStatics
   module HashExtend
     refine Hash do
@@ -18,17 +20,16 @@ class RubyStatics
     # top500のgemを指定のディレクトリにダウンロードして展開する
     ranking.each { |name| deploy_gem(name) }
     base_dirs = parsable_gems
-    open("parsable_gems.rb", "w"){|f| f<< base_dirs.inspect }
+    YAML.dump(base_dirs, open("parsable_gems.yml", "w"))
     # 順番にファイルをパースしてメソッド名とその使用回数を抜き取っていく
-    aggrigate_result = nil
     aggrigate_result = base_dirs.reduce({}){ |total, dir| p dir; h = parse_project(dir); total.sum_merge(h) }
-    open("aggrigate_result.rb","w"){|f| f<< aggrigate_result.inspect }
+    YAML.dump(aggrigate_result, open("aggrigate_result.yml", "w"))
     # ruby標準のライブラリにあるメソッド名だけに絞り込む
     dic = method_name_dictionary
     default_method_aggrigate_result = dic.reduce({}){ |h,(k,v)| h[k] = aggrigate_result[k] || 0; h }
     # 結果を使用回数でソートする
     sort_result = default_method_aggrigate_result.sort{ |a,b| b[1]<=>a[1] }
-    open("result.txt"){|f| f<< sort_result.inspect }
+    YAML.dump(sort_result, open("sort_result.yml", "w"))
     sort_result
   end
 
@@ -45,8 +46,8 @@ class RubyStatics
     ranking
   end
 
-  def self.deploy_gem(name, version)
-    `cd gems; gem fetch #{name} -v #{version}`
+  def self.deploy_gem(name)
+    `cd gems; gem fetch #{name}`
     `cd gems; gem unpack #{name}`
     `cd gems; mv *.gem ../cache`
   end
