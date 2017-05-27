@@ -10,11 +10,11 @@ rubyの世界で、使われているメソッドの名前を集計して、そ�
 
 # インストール方法
 
-aggrigate.rbが実行ファイルなので、以下のコマンドで実行してください。
+generate_method_ranking.rbが実行ファイルなので、以下のコマンドで実行してください。
 
 ```
 bundle install
-bundle exec ruby ./aggrigate.rb
+bundle exec ruby ./generate_method_ranking.rb
 ```
 
 処理時間は長いですが、途中の計算結果をそれぞれファイルとして出力してあるので、いい感じにコメントアウトとかすれば、結果だけ簡単に見れます。
