@@ -98,11 +98,11 @@ class RubyStatics
         squeeze_method_names(child_node, result)
       end
     end
-    return result
+    result
   end
 
   def self.method_name_dictionary
-    except_names = %w[< Pry Gem Bundler DidYouMean Psych Nokogiri CodeRay Faraday AST]
+    except_names = %w[< Pry Gem Bundler DidYouMean Psych Nokogiri CodeRay Faraday AST Parser]
     standard_classes = ObjectSpace.each_object(Class).reject{ |k,v| k.to_s.match(except_names*"|") }
     standard_classes.inject({}) do |h,klass|
       klass.instance_methods.each{ |k| h[k]||=[]; h[k]<< klass }
