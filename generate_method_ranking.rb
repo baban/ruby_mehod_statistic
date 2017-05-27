@@ -28,7 +28,7 @@ class RubyStatics
     dic = method_name_dictionary
     default_method_aggrigate_result = dic.reduce({}){ |h,(k,v)| h[k] = aggrigate_result[k] || 0; h }
     # 結果を使用回数でソートする
-    sort_result = default_method_aggrigate_result.sort{ |a,b| b[1]<=>a[1] }
+    sort_result = default_method_aggrigate_result.sort{ |a,b| r=b[1]<=>a[1]; r==0 ? a[0]<=>b[0] : r }.reduce({}){|h,(k,v)| h[k]=v; h}
     YAML.dump(sort_result, open("sort_result.yml", "w"))
     sort_result
   end
@@ -75,10 +75,9 @@ class RubyStatics
   end
 
   def self.parse(file, hash)
-    #p file
     stream = File.open(file, "r", encoding: Encoding::UTF_8).read
     ast = Parser::CurrentRuby.parse(stream)
-    #p ast
+
     # 空のファイルはパース結果がnilになる
     return hash unless ast
 
@@ -103,7 +102,9 @@ class RubyStatics
   end
 
   def self.method_name_dictionary
-    ObjectSpace.each_object(Class).inject({}) do |h,klass|
+    except_names = %w[< Pry Gem Bundler DidYouMean Psych Nokogiri CodeRay Faraday AST]
+    standard_classes = ObjectSpace.each_object(Class).reject{ |k,v| k.to_s.match(except_names*"|") }
+    standard_classes.inject({}) do |h,klass|
       klass.instance_methods.each{ |k| h[k]||=[]; h[k]<< klass }
       klass.methods.each { |k| h[k]||=[]; h[k]<< klass }
       h
@@ -111,5 +112,4 @@ class RubyStatics
   end
 end
 
-hash = RubyStatics.exec()
-#p hash.to_a.sort{ |a,b| b[1]<=>a[1] }.reduce({}){ |h,(k,v)| h[k]=v; h }
+pp RubyStatics.exec()

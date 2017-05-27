@@ -1,7836 +1,2133 @@
---- 
-...
-[]
-  - 93782
-- - :new
-  - 30679
-- - :require
-  - 24534
-- - :[]=
-  - 21549
-- - :==
-  - 19236
-- - :<<
-  - 17019
-- - :raise
-  - 14119
-- - :each
-  - 11728
-- - :+
-  - 10709
-- - :to_s
-  - 9674
-- - :!
-  - 8959
-- - :name
-  - 8148
-- - :is_a?
-  - 7404
-- - :map
-  - 6843
-- - :nil?
-  - 6798
-- - :join
-  - 6642
-- - :class
-  - 6245
-- - :request
-  - 6054
-- - :freeze
-  - 5997
-- - :include
-  - 5937
-- - :empty?
-  - 5883
-- - :options
-  - 5157
-- - :include?
-  - 5132
-- - :first
-  - 4874
-- - :-
-  - 4670
-- - :respond_to?
-  - 4440
-- - :attribute
-  - 4361
-- - :delete
-  - 4084
-- - :size
-  - 4055
-- - :value
-  - 3780
-- - :=~
-  - 3713
-- - :send
-  - 3183
-- - :to_i
-  - 3172
-- - :inspect
-  - 3154
-- - :split
-  - 3129
-- - :!=
-  - 3084
-- - :>
-  - 3057
-- - :autoload
-  - 3015
-- - :call
-  - 2909
-- - :length
-  - 2799
-- - :config
-  - 2764
-- - :merge!
-  - 2727
-- - :merge
-  - 2708
-- - :*
-  - 2699
-- - :body
-  - 2699
-- - :puts
-  - 2608
-- - :extend
-  - 2577
-- - :last
-  - 2497
-- - :to_sym
-  - 2479
-- - :dup
-  - 2471
-- - :push
-  - 2310
-- - :pos=
-  - 2297
-- - :gsub
-  - 2233
-- - :find
-  - 2029
-- - :type
-  - 1954
-- - :path
-  - 1926
-- - :<
-  - 1896
-- - :debug
-  - 1857
-- - :parse
-  - 1800
-- - :fetch
-  - 1751
-- - :key?
-  - 1723
-- - :message
-  - 1655
-- - :index
-  - 1641
-- - :keys
-  - 1635
-- - :select
-  - 1609
-- - :read
-  - 1600
-- - :scan
-  - 1597
-- - :to
-  - 1583
-- - :any?
-  - 1574
-- - :expand_path
-  - 1478
-- - :match
-  - 1445
-- - :flatten
-  - 1436
-- - :warn
-  - 1408
-- - :concat
-  - 1399
-- - :escape
-  - 1398
-- - :now
-  - 1364
-- - :===
-  - 1343
-- - :pos
-  - 1334
-- - :downcase
-  - 1302
-- - :synchronize
-  - 1293
-- - :>=
-  - 1267
-- - :strip
-  - 1187
-- - :has_key?
-  - 1173
-- - :shift
-  - 1167
-- - :load
-  - 1150
-- - :body=
-  - 1143
-- - :requires
-  - 1139
-- - :children
-  - 1138
-- - :state
-  - 1127
-- - :%
-  - 1124
-- - :exist?
-  - 1121
-- - :source
-  - 1091
-- - :values
-  - 1082
-- - :pop
-  - 1081
-- - :option
-  - 1061
-- - :get
-  - 1058
-- - :open
-  - 1056
-- - :compact
-  - 1045
-- - :status=
-  - 1039
-- - :inject
-  - 982
-- - :version
-  - 967
-- - :attributes
-  - 959
-- - :info
-  - 957
-- - :desc
-  - 949
-- - :kind_of?
-  - 919
-- - :/
-  - 918
-- - :loc
-  - 915
-- - :on
-  - 892
-- - :&
-  - 886
-- - :write
-  - 878
-- - :collect
-  - 870
-- - :method
-  - 866
-- - :parent
-  - 849
-- - :add
-  - 845
-- - :to_a
-  - 838
-- - :sub
-  - 837
-- - :sort
-  - 834
-- - :line
-  - 819
-- - :<=
-  - 819
-- - :env
-  - 814
-- - :configuration
-  - 808
-- - :close
-  - 803
-- - :headers
-  - 800
-- - :text
-  - 797
-- - :to_f
-  - 796
-- - :ui
-  - 795
-- - :|
-  - 791
-- - :key
-  - 779
-- - :current
-  - 778
-- - :dirname
-  - 753
-- - :context
-  - 745
-- - :error
-  - 738
-- - :clear
-  - 720
-- - :execute
-  - 714
-- - :class_eval
-  - 703
-- - :encode
-  - 702
-- - :format
-  - 685
-- - :pack
-  - 678
-- - :reject
-  - 671
-- - :host
-  - 667
-- - :gsub!
-  - 657
-- - :tag
-  - 651
-- - :target
-  - 641
-- - :args
-  - 639
-- - :tap
-  - 632
-- - :output
-  - 625
-- - :token
-  - 617
-- - :text_token
-  - 611
-- - :uniq
-  - 608
-- - :count
-  - 606
-- - :backtrace
-  - 603
-- - :each_with_index
-  - 586
-- - :unpack
-  - 582
-- - :build
-  - 573
-- - :exit
-  - 550
-- - :instance
-  - 542
-- - :status
-  - 540
-- - :print
-  - 538
-- - :root
-  - 537
-- - :object
-  - 536
-- - :method_defined?
-  - 536
-- - :style
-  - 523
-- - :unshift
-  - 511
-- - :update
-  - 506
-- - :node
-  - 500
-- - :set
-  - 500
-- - :upcase
-  - 499
-- - :command
-  - 496
-- - :port
-  - 489
-- - :all?
-  - 481
-- - :force_encoding
-  - 479
-- - :response
-  - 478
-- - :chomp
-  - 477
-- - :spec
-  - 473
-- - :basename
-  - 472
-- - :module_eval
-  - 469
-- - :run
-  - 469
-- - :const_get
-  - 469
-- - :file
-  - 461
-- - :tok
-  - 457
-- - :replace
-  - 455
-- - :instance_variable_set
-  - 453
-- - :process
-  - 451
-- - :klass
-  - 450
-- - :rand
-  - 448
-- - :start_with?
-  - 446
-- - :object_id
-  - 444
-- - :__send__
-  - 440
-- - :to_hash
-  - 418
-- - :exists?
-  - 415
-- - :bytesize
-  - 415
-- - :chr
-  - 411
-- - :<=>
-  - 411
-- - :register
-  - 410
-- - :instance_eval
-  - 410
-- - :code
-  - 408
-- - :create
-  - 400
-- - :begin
-  - 397
-- - :params
-  - 391
-- - :description
-  - 389
-- - :separator
-  - 388
-- - :source_range
-  - 386
-- - :directory?
-  - 384
-- - :input
-  - 381
-- - :metadata
-  - 381
-- - :times
-  - 380
-- - :sort_by
-  - 379
-- - :all
-  - 378
-- - :each_pair
-  - 378
-- - :present?
-  - 376
-- - :full_name
-  - 376
-- - :max
-  - 373
-- - :loop
-  - 371
-- - :clone
-  - 369
-- - :uri
-  - 367
-- - :hash
-  - 367
-- - :scheme
-  - 366
-- - :say
-  - 364
-- - :opts
-  - 361
-- - :start
-  - 360
-- - :map!
-  - 355
-- - :namespace
-  - 353
-- - :string
-  - 347
-- - :action
-  - 347
-- - :warning
-  - 346
-- - :instance_variable_get
-  - 343
-- - :end
-  - 341
-- - :user
-  - 335
-- - :detect
-  - 333
-- - :dump
-  - 333
-- - :eval
-  - 329
-- - :group
-  - 329
-- - :blank?
-  - 329
-- - :const_defined?
-  - 328
-- - :superclass
-  - 324
-- - :query
-  - 324
-- - :column
-  - 320
-- - :scope
-  - 317
-- - :accept
-  - 305
-- - :!~
-  - 303
-- - :title
-  - 303
-- - :encoding
-  - 302
-- - :-@
-  - 299
-- - :delete_if
-  - 299
-- - :groups
-  - 299
-- - :min
-  - 296
-- - :result
-  - 293
-- - :tr
-  - 290
-- - :zero?
-  - 290
-- - :reset
-  - 290
-- - :reverse
-  - 282
-- - :slice
-  - 281
-- - :emit
-  - 280
-- - :use
-  - 280
-- - :utc
-  - 279
-- - :url
-  - 278
-- - :errors
-  - 277
-- - :arity
-  - 275
-- - :attr
-  - 275
-- - :insert
-  - 275
-- - :label
-  - 273
-- - :owner
-  - 271
-- - :environment
-  - 271
-- - :lines
-  - 267
-- - :default
-  - 266
-- - :at
-  - 266
-- - :list
-  - 265
-- - :location
-  - 263
-- - :header
-  - 260
-- - :render
-  - 259
-- - :check
-  - 258
-- - :file?
-  - 257
-- - :delegate
-  - 256
-- - :sleep
-  - 251
-- - :tokens
-  - 249
-- - :declare
-  - 247
-- - :app
-  - 246
-- - :flush
-  - 244
-- - :banner
-  - 244
-- - :zip
-  - 243
-- - :from
-  - 242
-- - :expression
-  - 240
-- - :>>
-  - 240
-- - :store
-  - 239
-- - :members
-  - 239
-- - :before
-  - 238
-- - :elements
-  - 237
-- - :iso8601
-  - 237
-- - :href
-  - 235
-- - :validate
-  - 234
-- - :post
-  - 233
-- - :block
-  - 232
-- - :password
-  - 232
-- - :literal
-  - 230
-- - :stat
-  - 229
-- - :filename
-  - 228
-- - :strftime
-  - 228
-- - :quote
-  - 227
-- - :intern
-  - 227
-- - :equal?
-  - 227
-- - :platform
-  - 226
-- - :reduce
-  - 222
-- - :peek
-  - 221
-- - :pwd
-  - 220
-- - :exec
-  - 220
-- - :diagnostic
-  - 218
-- - :binding
-  - 218
-- - :digest
-  - 217
-- - :each_line
-  - 216
-- - :next
-  - 215
-- - :lookup
-  - 215
-- - :call_method
-  - 214
-- - :sub!
-  - 214
-- - :base
-  - 214
-- - :offset
-  - 212
-- - :extend_string
-  - 211
-- - :selector
-  - 210
-- - :parameters
-  - 210
-- - :glob
-  - 210
-- - :begin_pos
-  - 208
-- - :commands
-  - 208
-- - :year
-  - 207
-- - :hexdigest
-  - 206
-- - :compile
-  - 205
-- - :slice!
-  - 204
-- - :def_delegators
-  - 204
-- - :columns
-  - 203
-- - :comments
-  - 201
-- - :range
-  - 200
-- - :filter
-  - 200
-- - :lineno
-  - 199
-- - :stop
-  - 198
-- - :eql?
-  - 197
-- - :io
-  - 196
-- - :binary_op
-  - 195
-- - :requirements
-  - 194
-- - :remove
-  - 194
-- - :abs
-  - 194
-- - :reject!
-  - 193
-- - :files
-  - 192
-- - :width
-  - 192
-- - :flat_map
-  - 191
-- - :timeout
-  - 190
-- - :end_with?
-  - 189
-- - :directory
-  - 188
-- - :private_class_method
-  - 187
-- - :match?
-  - 186
-- - :color
-  - 186
-- - :**
-  - 186
-- - :wrap
-  - 183
-- - :requirement
-  - 181
-- - :evaluate
-  - 181
-- - :breakable
-  - 179
-- - :capitalize
-  - 179
-- - :summary
-  - 178
-- - :add_option
-  - 177
-- - :each_with_object
-  - 175
-- - :finish
-  - 174
-- - :skip
-  - 174
-- - :month
-  - 172
-- - :find_all
-  - 172
-- - :pid
-  - 171
-- - :node_type
-  - 171
-- - :prefix
-  - 170
-- - :last_match
-  - 168
-- - :exitstatus
-  - 168
-- - :cache
-  - 166
-- - :name=
-  - 166
-- - :instance_methods
-  - 166
-- - :arguments
-  - 165
-- - :memory
-  - 165
-- - :dependencies
-  - 165
-- - :chdir
-  - 164
-- - :options=
-  - 163
-- - :value=
-  - 162
-- - :day
-  - 162
-- - :domain
-  - 161
-- - :content
-  - 161
-- - :grep
-  - 161
-- - :to_enum
-  - 160
-- - :document
-  - 160
-- - :assignable
-  - 159
-- - :end_pos
-  - 157
-- - :ord
-  - 156
-- - :unextend
-  - 155
-- - :resolve
-  - 154
-- - :round
-  - 154
-- - :const_set
-  - 154
-- - :keyword_cmd
-  - 153
-- - :shell
-  - 152
-- - :values_at
-  - 152
-- - :unescape
-  - 151
-- - :rewind
-  - 151
-- - :plugin
-  - 150
-- - :exception
-  - 148
-- - :aliases
-  - 148
-- - :with
-  - 148
-- - :to_str
-  - 148
-- - :instance_of?
-  - 147
-- - :search
-  - 147
-- - :splat
-  - 145
-- - :upto
-  - 144
-- - :to_h
-  - 144
-- - :def_delegator
-  - 144
-- - :parser
-  - 142
-- - :identifier
-  - 141
-- - :pp
-  - 141
-- - :ancestors
-  - 140
-- - :content_type
-  - 140
-- - :uniq!
-  - 139
-- - :extname
-  - 139
-- - :define
-  - 139
-- - :cond
-  - 138
-- - :each_value
-  - 138
-- - :system
-  - 136
-- - :unlink
-  - 136
-- - :eos?
-  - 136
-- - :instance_variable_defined?
-  - 133
-- - :indent
-  - 133
-- - :mtime
-  - 133
-- - :class_name
-  - 132
-- - :cmdarg
-  - 132
-- - :builder
-  - 131
-- - :flatten!
-  - 130
-- - :op_assign
-  - 130
-- - :gets
-  - 129
-- - :level=
-  - 128
-- - :status_code
-  - 128
-- - :normalize
-  - 128
-- - :parts
-  - 127
-- - :frozen?
-  - 127
-- - :_pry_
-  - 127
-- - :public_send
-  - 127
-- - :types
-  - 127
-- - :constants
-  - 127
-- - :ref
-  - 127
-- - :after
-  - 126
-- - :entries
-  - 126
-- - :pop!
-  - 126
-- - :closed?
-  - 125
-- - :instance_method
-  - 125
-- - :mode
-  - 124
-- - :eof?
-  - 124
-- - :from_hash
-  - 123
-- - :captures
-  - 123
-- - :yyerror
-  - 122
-- - :serialize
-  - 122
-- - :bind
-  - 121
-- - :relative_path_from
-  - 121
-- - :matches?
-  - 120
-- - :zone
-  - 120
-- - :catch
-  - 119
-- - :^
-  - 119
-- - :undef_method
-  - 119
-- - :handler
-  - 118
-- - :default_options
-  - 118
-- - :wait
-  - 118
-- - :setup
-  - 117
-- - :invoke
-  - 117
-- - :level
-  - 117
-- - :reverse_each
-  - 116
-- - :partition
-  - 115
-- - :run_command
-  - 114
-- - :instance_exec
-  - 112
-- - :strip!
-  - 111
-- - :line=
-  - 111
-- - :operator
-  - 110
-- - :keyword
-  - 110
-- - :to_xml
-  - 110
-- - :sort!
-  - 109
-- - :defaults
-  - 109
-- - :for
-  - 108
-- - :kill
-  - 108
-- - :convert
-  - 106
-- - :stack
-  - 106
-- - :success?
-  - 105
-- - :gid
-  - 105
-- - :getc
-  - 105
-- - :getbyte
-  - 104
-- - :word
-  - 104
-- - :order
-  - 104
-- - :member?
-  - 103
-- - :group_by
-  - 101
-- - :hex
-  - 101
-- - :end_group
-  - 101
-- - :condition
-  - 100
-- - :abort
-  - 100
-- - :rest
-  - 100
-- - :pattern
-  - 99
-- - :matched
-  - 98
-- - :xpath
-  - 98
-- - :put
-  - 98
-- - :dir
-  - 96
-- - :file_name
-  - 96
-- - :cpu
-  - 95
-- - :state=
-  - 94
-- - :sources
-  - 93
-- - :uid
-  - 93
-- - :append
-  - 93
-- - :activated
-  - 93
-- - :set_backtrace
-  - 93
-- - :local
-  - 92
-- - :sample
-  - 92
-- - :valid?
-  - 92
-- - :rstrip
-  - 92
-- - :reopen
-  - 92
-- - :path=
-  - 91
-- - :regexp?
-  - 91
-- - :install
-  - 91
-- - :node_for
-  - 90
-- - :hostname
-  - 90
-- - :each_key
-  - 90
-- - :associate
-  - 89
-- - :transform
-  - 89
-- - :enabled
-  - 89
-- - :parse!
-  - 89
-- - :receiver
-  - 88
-- - :page
-  - 88
-- - :transaction
-  - 87
-- - :instance_variables
-  - 87
-- - :signature
-  - 86
-- - :specs
-  - 86
-- - :load_file
-  - 86
-- - :enum_for
-  - 86
-- - :lock
-  - 86
-- - :adapter
-  - 85
-- - :ljust
-  - 85
-- - :version?
-  - 85
-- - :delete_at
-  - 85
-- - :file_path
-  - 85
-- - :enabled?
-  - 84
-- - :record
-  - 83
-- - :proxy
-  - 83
-- - :engine
-  - 82
-- - :chomp!
-  - 82
-- - :private_constant
-  - 82
-- - :hour
-  - 82
-- - :rindex
-  - 81
-- - :executable?
-  - 81
-- - :source_location
-  - 81
-- - :readable?
-  - 80
-- - :prepend
-  - 79
-- - :colorize
-  - 79
-- - :singleton_class
-  - 79
-- - :depth
-  - 78
-- - :bytes
-  - 78
-- - :to_set
-  - 78
-- - :root?
-  - 78
-- - :comment
-  - 77
-- - :none?
-  - 77
-- - :banner=
-  - 77
-- - :chars
-  - 76
-- - :rjust
-  - 75
-- - :extensions
-  - 75
-- - :init
-  - 75
-- - :jruby?
-  - 74
-- - :tty?
-  - 74
-- - :escapeHTML
-  - 74
-- - :seek
-  - 73
-- - :verify
-  - 72
-- - :each_slice
-  - 72
-- - :satisfied_by?
-  - 72
-- - :versions
-  - 71
-- - :priority
-  - 71
-- - :gem
-  - 70
-- - :chmod
-  - 70
-- - :readlines
-  - 70
-- - :pop_literal
-  - 70
-- - :home
-  - 70
-- - :invert
-  - 69
-- - :get_byte
-  - 69
-- - :debug?
-  - 69
-- - :segments
-  - 69
-- - :alias
-  - 69
-- - :sync=
-  - 69
-- - :begin_group
-  - 67
-- - :loaded?
-  - 67
-- - :binmode
-  - 67
-- - :exclude_end?
-  - 67
-- - :ruby
-  - 66
-- - :source_line
-  - 66
-- - :add_command
-  - 66
-- - :h
-  - 66
-- - :~
-  - 66
-- - :compact!
-  - 66
-- - :head
-  - 66
-- - :verify_mode=
-  - 66
-- - :restarg
-  - 66
-- - :valid_encoding?
-  - 66
-- - :casecmp
-  - 66
-- - :__id__
-  - 65
-- - :pointer
-  - 65
-- - :union
-  - 65
-- - :symlink?
-  - 65
-- - :patch
-  - 64
-- - :assign
-  - 64
-- - :logical_op
-  - 64
-- - :checksum
-  - 63
-- - :request_uri
-  - 62
-- - :writable?
-  - 62
-- - :active?
-  - 62
-- - :hooks
-  - 62
-- - :diff
-  - 62
-- - :step
-  - 61
-- - :getch
-  - 61
-- - :build_message
-  - 61
-- - :mkdir
-  - 60
-- - :rename
-  - 60
-- - :insert_before
-  - 60
-- - :methods
-  - 60
-- - :full_gem_path
-  - 60
-- - :untaint
-  - 60
-- - :items
-  - 59
-- - :plugins
-  - 59
-- - :os
-  - 59
-- - :sync
-  - 58
-- - :headers=
-  - 58
-- - :sec
-  - 58
-- - :confirm
-  - 58
-- - :verbose
-  - 57
-- - :pipe
-  - 57
-- - :private_key
-  - 57
-- - :fragment
-  - 57
-- - :drop
-  - 57
-- - :from_file
-  - 56
-- - :to_html
-  - 56
-- - :on_tail
-  - 56
-- - :popen
-  - 56
-- - :is?
-  - 56
-- - :doc
-  - 55
-- - :summary=
-  - 55
-- - :httpdate
-  - 55
-- - :help
-  - 55
-- - :truncate
-  - 54
-- - :attr_asgn
-  - 54
-- - :downcase!
-  - 54
-- - :node_name
-  - 53
-- - :description=
-  - 53
-- - :prerelease?
-  - 53
-- - :realpath
-  - 52
-- - :absolute?
-  - 52
-- - :visibility
-  - 52
-- - :query=
-  - 52
-- - :insert_after
-  - 52
-- - :public_instance_methods
-  - 52
-- - :argument
-  - 52
-- - :array
-  - 52
-- - :names
-  - 52
-- - :nest_and_try_closing
-  - 52
-- - :enable
-  - 52
-- - :encode!
-  - 51
-- - :registry
-  - 51
-- - :chop
-  - 51
-- - :ungetc
-  - 51
-- - :password=
-  - 51
-- - :scan_until
-  - 51
-- - :ceil
-  - 50
-- - :dependency
-  - 50
-- - :consumer
-  - 50
-- - :type=
-  - 50
-- - :define_singleton_method
-  - 49
-- - :alive?
-  - 49
-- - :remote
-  - 49
-- - :unlock
-  - 49
-- - :tmpdir
-  - 48
-- - :to_ruby
-  - 48
-- - :release
-  - 48
-- - :parent=
-  - 48
-- - :allocate
-  - 48
-- - :to_time
-  - 48
-- - :progress
-  - 48
-- - :signal
-  - 47
-- - :raw
-  - 47
-- - :inflate
-  - 46
-- - :to_io
-  - 46
-- - :host=
-  - 46
-- - :register_for
-  - 46
-- - :git
-  - 46
-- - :binread
-  - 46
-- - :const_fetch
-  - 46
-- - :source_buffer
-  - 46
-- - :copy
-  - 45
-- - :encode_escape
-  - 45
-- - :version=
-  - 45
-- - :ftype
-  - 45
-- - :extend_static
-  - 45
-- - :heredoc?
-  - 45
-- - :tokenize
-  - 45
-- - :remove_instance_variable
-  - 45
-- - :gvar
-  - 45
-- - :downto
-  - 45
-- - :dot
-  - 45
-- - :source=
-  - 44
-- - :trace
-  - 44
-- - :cause
-  - 44
-- - :munge_escape?
-  - 44
-- - :terminate_interaction
-  - 44
-- - :child
-  - 44
-- - :alert_error
-  - 44
-- - :when_invoked
-  - 43
-- - :default=
-  - 43
-- - :not_op
-  - 43
-- - :one?
-  - 43
-- - :read_nonblock
-  - 43
-- - :multi_lhs
-  - 43
-- - :fork
-  - 43
-- - :try_convert
-  - 43
-- - :arg
-  - 42
-- - :extend_dynamic
-  - 42
-- - :change
-  - 42
-- - :each_byte
-  - 42
-- - :oct
-  - 42
-- - :cleanpath
-  - 42
-- - :to_yaml
-  - 42
-- - :license
-  - 42
-- - :file=
-  - 42
-- - :pass
-  - 42
-- - :get_attribute
-  - 41
-- - :post_match
-  - 41
-- - :yield
-  - 41
-- - :flock
-  - 41
-- - :default_external
-  - 41
-- - :const_global
-  - 41
-- - :with_index
-  - 41
-- - :enabled=
-  - 41
-- - :nonzero?
-  - 41
-- - :float
-  - 41
-- - :event
-  - 41
-- - :utc_offset
-  - 41
-- - :unary_op
-  - 41
-- - :refresh
-  - 40
-- - :updated
-  - 40
-- - :push_cmdarg
-  - 40
-- - :pop_cmdarg
-  - 40
-- - :finished?
-  - 40
-- - :stubs
-  - 40
-- - :replacement
-  - 39
-- - :printf
-  - 39
-- - :config=
-  - 39
-- - :ask
-  - 39
-- - :readline
-  - 39
-- - :emit_table
-  - 39
-- - :cache_path
-  - 39
-- - :squeeze
-  - 39
-- - :root_path
-  - 38
-- - :take
-  - 38
-- - :mkpath
-  - 38
-- - :required?
-  - 38
-- - :regexp
-  - 38
-- - :reverse!
-  - 38
-- - :main
-  - 38
-- - :coerce
-  - 38
-- - :private_method_defined?
-  - 37
-- - :revision
-  - 37
-- - :reference
-  - 37
-- - :errno
-  - 37
-- - :program_name
-  - 37
-- - :advance
-  - 37
-- - :line_range
-  - 37
-- - :parse_options
-  - 37
-- - :mktmpdir
-  - 37
-- - :sum
-  - 37
-- - :yyerrok
-  - 37
-- - :ssl
-  - 37
-- - :indentation
-  - 37
-- - :redefine_method
-  - 36
-- - :relative?
-  - 36
-- - :struct
-  - 36
-- - :original_name
-  - 36
-- - :history
-  - 36
-- - :b
-  - 36
-- - :to_ary
-  - 36
-- - :children=
-  - 36
-- - :open_timeout=
-  - 36
-- - :symbol
-  - 36
-- - :port=
-  - 35
-- - :loaded_specs
-  - 35
-- - :broadcast
-  - 35
-- - :rescue_body
-  - 35
-- - :div
-  - 35
-- - :authorization
-  - 35
-- - :changed?
-  - 35
-- - :empty
-  - 35
-- - :begin_body
-  - 35
-- - :loader
-  - 35
-- - :import
-  - 35
-- - :base_dir
-  - 34
-- - :user=
-  - 34
-- - :last_line
-  - 34
-- - :readpartial
-  - 34
-- - :strict?
-  - 34
-- - :str
-  - 34
-- - :str_s
-  - 34
-- - :boundary
-  - 33
-- - :extract
-  - 33
-- - :lockfile
-  - 33
-- - :each_index
-  - 33
-- - :divmod
-  - 33
-- - :expires
-  - 33
-- - :lstrip
-  - 33
-- - :traverse
-  - 33
-- - :set_encoding
-  - 33
-- - :putc
-  - 32
-- - :has_attribute?
-  - 32
-- - :tr!
-  - 32
-- - :enter
-  - 32
-- - :original_filename
-  - 32
-- - :flush_string
-  - 32
-- - :top
-  - 32
-- - :started?
-  - 32
-- - :basic_auth
-  - 32
-- - :usec
-  - 32
-- - :cover?
-  - 32
-- - :resume
-  - 32
-- - :classify
-  - 32
-- - :executables
-  - 31
-- - :remove_file
-  - 31
-- - :display
-  - 31
-- - :platforms
-  - 31
-- - :attribute_names
-  - 31
-- - :default_value
-  - 31
-- - :link
-  - 31
-- - :namespaces
-  - 31
-- - :bindir
-  - 31
-- - :executable
-  - 30
-- - :cert_store=
-  - 30
-- - :element_type
-  - 30
-- - :stopped?
-  - 30
-- - :make
-  - 30
-- - :seplist
-  - 30
-- - :encoding=
-  - 30
-- - :lexpop
-  - 30
-- - :else
-  - 30
-- - :readlink
-  - 30
-- - :reason
-  - 30
-- - :activate
-  - 30
-- - :to_path
-  - 30
-- - :fileno
-  - 30
-- - :binding_stack
-  - 30
-- - :emit_comment
-  - 30
-- - :on_complete
-  - 30
-- - :conflicts
-  - 30
-- - :copy_file
-  - 30
-- - :filesystem_access
-  - 30
-- - :umask
-  - 29
-- - :clean
-  - 29
-- - :escape_html
-  - 29
-- - :raise_inspect
-  - 29
-- - :restore
-  - 29
-- - :branch
-  - 29
-- - :read_binary
-  - 29
-- - :params=
-  - 29
-- - :matched_size
-  - 29
-- - :command_options
-  - 29
-- - :integer
-  - 29
-- - :source_file
-  - 29
-- - :resize
-  - 29
-- - :build_request
-  - 29
-- - :to_proc
-  - 28
-- - :repository
-  - 28
-- - :text?
-  - 28
-- - :email
-  - 28
-- - :certificate
-  - 28
-- - :lang
-  - 28
-- - :from_string
-  - 28
-- - :gem_dir
-  - 28
-- - :shuffle
-  - 28
-- - :loaded_from
-  - 28
-- - :lstat
-  - 28
-- - :scrub
-  - 27
-- - :public_method_defined?
-  - 27
-- - :cmdarg=
-  - 27
-- - :download
-  - 27
-- - :prompt
-  - 27
-- - :ascii_only?
-  - 27
-- - :url=
-  - 27
-- - :target=
-  - 27
-- - :scanner
-  - 26
-- - :between
-  - 26
-- - :quiet
-  - 26
-- - :class_exec
-  - 26
-- - :available?
-  - 26
-- - :shellescape
-  - 26
-- - :tree
-  - 26
-- - :set_attribute
-  - 26
-- - :foreach
-  - 26
-- - :lex_error
-  - 26
-- - :negate
-  - 25
-- - :require_paths
-  - 25
-- - :current_context
-  - 25
-- - :default_lockfile
-  - 25
-- - :case
-  - 25
-- - :locked?
-  - 25
-- - :to_datetime
-  - 25
-- - :codepoints
-  - 25
-- - :eval_string
-  - 25
-- - :byteslice
-  - 25
-- - :today
-  - 25
-- - :pre_match
-  - 25
-- - :floor
-  - 25
-- - :autorequire
-  - 25
-- - :create_command
-  - 24
-- - :subcommands
-  - 24
-- - :user_home
-  - 24
-- - :timeout=
-  - 24
-- - :complete
-  - 24
-- - :max_by
-  - 24
-- - :absolute_path
-  - 24
-- - :ivar
-  - 24
-- - :transpose
-  - 24
-- - :without
-  - 24
-- - :contents
-  - 24
-- - :userinfo
-  - 24
-- - :gem_version
-  - 24
-- - :warnings
-  - 23
-- - :scheme=
-  - 23
-- - :write_nonblock
-  - 23
-- - :symlink
-  - 23
-- - :silence
-  - 23
-- - :next=
-  - 23
-- - :between?
-  - 23
-- - :handlers
-  - 23
-- - :proxy=
-  - 23
-- - :next_token
-  - 23
-- - :multi_assign
-  - 23
-- - :close!
-  - 23
-- - :object=
-  - 23
-- - :gemfile
-  - 23
-- - :chop!
-  - 23
-- - :each_cons
-  - 23
-- - :first_line
-  - 23
-- - :wrapped
-  - 23
-- - :command_name
-  - 22
-- - :ui=
-  - 22
-- - :cache_file
-  - 22
-- - :chown
-  - 22
-- - :infinite?
-  - 22
-- - :backup
-  - 22
-- - :ruby_version
-  - 22
-- - :terminate
-  - 22
-- - :in_def?
-  - 22
-- - :words?
-  - 22
-- - :css
-  - 22
-- - :parse_file
-  - 22
-- - :pair
-  - 22
-- - :open_timeout
-  - 22
-- - :find_all_by_name
-  - 22
-- - :add_child
-  - 22
-- - :find_by_name
-  - 22
-- - :extend_space
-  - 22
-- - :decorate
-  - 22
-- - :guess
-  - 21
-- - :to_query
-  - 21
-- - :content=
-  - 21
-- - :installed?
-  - 21
-- - :lstrip!
-  - 21
-- - :lazy
-  - 21
-- - :ca_file=
-  - 21
-- - :find_command
-  - 21
-- - :active
-  - 21
-- - :default_gem?
-  - 21
-- - :locations
-  - 21
-- - :succ
-  - 21
-- - :wday
-  - 21
-- - :with_object
-  - 21
-- - :each_char
-  - 20
-- - :file_extension
-  - 20
-- - :disable
-  - 20
-- - :filter_backtrace
-  - 20
-- - :fill
-  - 20
-- - :pry
-  - 20
-- - :opt
-  - 20
-- - :to_date
-  - 20
-- - :remove_attribute
-  - 20
-- - :const_missing
-  - 20
-- - :expires=
-  - 20
-- - :gems
-  - 20
-- - :syswrite
-  - 20
-- - :pager
-  - 20
-- - :hook
-  - 20
-- - :newline
-  - 20
-- - :select!
-  - 20
-- - :fcntl
-  - 20
-- - :short
-  - 19
-- - :for_fd
-  - 19
-- - :of
-  - 19
-- - :at_xpath
-  - 19
-- - :error?
-  - 19
-- - :xmlschema
-  - 19
-- - :nan?
-  - 19
-- - :date
-  - 19
-- - :add_dependency
-  - 19
-- - :thread
-  - 19
-- - :wakeup
-  - 19
-- - :scope=
-  - 19
-- - :words_compose
-  - 18
-- - :out
-  - 18
-- - :public_methods
-  - 18
-- - :response_headers
-  - 18
-- - :create_element
-  - 18
-- - :const
-  - 18
-- - :return_value
-  - 18
-- - :stub
-  - 18
-- - :seed
-  - 18
-- - :authors
-  - 18
-- - :index_asgn
-  - 18
-- - :runtime_dependencies
-  - 18
-- - :command?
-  - 18
-- - :string_internal
-  - 18
-- - :condition_mod
-  - 18
-- - :source_paths
-  - 18
-- - :add_class
-  - 18
-- - :loop_mod
-  - 18
-- - :namespace=
-  - 18
-- - :back_ref
-  - 18
-- - :cvar
-  - 18
-- - :second
-  - 18
-- - :uri=
-  - 18
-- - :color=
-  - 18
-- - :ruby_engine
-  - 18
-- - :string_compose
-  - 18
-- - :usage
-  - 18
-- - :ino
-  - 18
-- - :rstrip!
-  - 17
-- - :default_port
-  - 17
-- - :abort_on_exception=
-  - 17
-- - :included_modules
-  - 17
-- - :infer_indent_level
-  - 17
-- - :rmtree
-  - 17
-- - :drop_while
-  - 17
-- - :around
-  - 17
-- - :optarg
-  - 17
-- - :heredoc_e
-  - 17
-- - :normalize_uri
-  - 17
-- - :default_gemfile
-  - 17
-- - :gem_name
-  - 17
-- - :safe_send
-  - 17
-- - :eof_codepoint?
-  - 17
-- - :verbose=
-  - 17
-- - :memoized
-  - 17
-- - :checkout
-  - 17
-- - :editor
-  - 17
-- - :to_int
-  - 17
-- - :getlocal
-  - 16
-- - :arg_or_cmdarg
-  - 16
-- - :attribute_nodes
-  - 16
-- - :private_instance_methods
-  - 16
-- - :major_deprecation
-  - 16
-- - :console
-  - 16
-- - :fnmatch
-  - 16
-- - :to_java
-  - 16
-- - :set_option
-  - 16
-- - :compstmt
-  - 16
-- - :dsl_path
-  - 16
-- - :as_list
-  - 16
-- - :objc_restarg
-  - 16
-- - :to_app
-  - 16
-- - :force
-  - 16
-- - :verify_mode
-  - 16
-- - :loaded_from=
-  - 16
-- - :load_plugins
-  - 16
-- - :input_array
-  - 16
-- - :alert_warning
-  - 15
-- - :expire
-  - 15
-- - :html?
-  - 15
-- - :unresolved_deps
-  - 15
-- - :done
-  - 15
-- - :elem?
-  - 15
-- - :doc_dir
-  - 15
-- - :rmdir
-  - 15
-- - :add_namespace
-  - 15
-- - :arg_string
-  - 15
-- - :sysread
-  - 15
-- - :canonicalize
-  - 15
-- - :scalar
-  - 15
-- - :mon
-  - 15
-- - :clear_paths
-  - 15
-- - :process_all
-  - 15
-- - :do_parse
-  - 15
-- - :credentials_path
-  - 15
-- - :title=
-  - 15
-- - :const_op_assignable
-  - 15
-- - :diagnostics
-  - 15
-- - :default_encoding
-  - 15
-- - :accessible
-  - 15
-- - :active=
-  - 15
-- - :civil
-  - 15
-- - :assoc
-  - 15
-- - :root=
-  - 15
-- - :delete!
-  - 15
-- - :parser=
-  - 15
-- - :ascend
-  - 14
-- - :platform=
-  - 14
-- - :tuple
-  - 14
-- - :method_missing
-  - 14
-- - :_all
-  - 14
-- - :jd
-  - 14
-- - :in
-  - 14
-- - :default_proc=
-  - 14
-- - :provides?
-  - 14
-- - :copy_stream
-  - 14
-- - :localname
-  - 14
-- - :request=
-  - 14
-- - :global
-  - 14
-- - :inner_html
-  - 14
-- - :exit_code
-  - 14
-- - :request_headers
-  - 14
-- - :thread_variable_set
-  - 14
-- - :http_header
-  - 14
-- - :srand
-  - 14
-- - :collect!
-  - 14
-- - :element?
-  - 14
-- - :scrub!
-  - 14
-- - :unescapeHTML
-  - 14
-- - :alias_command
-  - 14
-- - :setbyte
-  - 14
-- - :sort_by!
-  - 13
-- - :view_clip
-  - 13
-- - :load_paths
-  - 13
-- - :homepage
-  - 13
-- - :min_by
-  - 13
-- - :private_methods
-  - 13
-- - :fetchers
-  - 13
-- - :domain=
-  - 13
-- - :requires_sudo?
-  - 13
-- - :app_cache_path
-  - 13
-- - :long
-  - 13
-- - :default_proc
-  - 13
-- - :obj
-  - 13
-- - :target_self
-  - 13
-- - :spec_file
-  - 13
-- - :prerelease=
-  - 13
-- - :really_verbose
-  - 13
-- - :on_error
-  - 13
-- - :utime
-  - 13
-- - :__getobj__
-  - 13
-- - :gem_path
-  - 13
-- - :matches_spec?
-  - 13
-- - :extend_content
-  - 13
-- - :add?
-  - 13
-- - :fragment=
-  - 13
-- - :rfc2822
-  - 13
-- - :chunk
-  - 13
-- - :previous
-  - 13
-- - :name_tuple
-  - 13
-- - :begin_line
-  - 13
-- - :utc?
-  - 13
-- - :dn
-  - 13
-- - :wait_until
-  - 12
-- - :autoload?
-  - 12
-- - :patchlevel
-  - 12
-- - :current_line
-  - 12
-- - :ex
-  - 12
-- - :common_options
-  - 12
-- - :mri?
-  - 12
-- - :_local_specification
-  - 12
-- - :even?
-  - 12
-- - :apply_to
-  - 12
-- - :atime
-  - 12
-- - :matching_specs
-  - 12
-- - :satisfies_requirement?
-  - 12
-- - :install_path
-  - 12
-- - :opaque
-  - 12
-- - :helpers
-  - 12
-- - :options_for
-  - 12
-- - :extensions=
-  - 12
-- - :modulo
-  - 12
-- - :d
-  - 12
-- - :alert
-  - 12
-- - :latest_specs
-  - 12
-- - :find_index
-  - 12
-- - :caches
-  - 12
-- - :tell
-  - 12
-- - :order!
-  - 12
-- - :end_element
-  - 12
-- - :code_object
-  - 12
-- - :cert_store
-  - 12
-- - :default_internal
-  - 12
-- - :start_element
-  - 12
-- - :extra_rdoc_files
-  - 12
-- - :tv_sec
-  - 12
-- - :exact?
-  - 11
-- - :licenses
-  - 11
-- - :document?
-  - 11
-- - :minute
-  - 11
-- - :string=
-  - 11
-- - :inner_text
-  - 11
-- - :new_offset
-  - 11
-- - :max_size
-  - 11
-- - :find_name
-  - 11
-- - :eval_path
-  - 11
-- - :build_path
-  - 11
-- - :identical?
-  - 11
-- - :default_parser
-  - 11
-- - :ctime
-  - 11
-- - :real
-  - 11
-- - :unbind
-  - 11
-- - :product
-  - 11
-- - :comments=
-  - 11
-- - :odd?
-  - 11
-- - :errs
-  - 11
-- - :with_line_numbers
-  - 11
-- - :method=
-  - 11
-- - :root_dir
-  - 11
-- - :install!
-  - 11
-- - :element_children
-  - 11
-- - :path_prefix
-  - 11
-- - :add_source
-  - 11
-- - :attributes=
-  - 11
-- - :switch_name
-  - 11
-- - :capitalize!
-  - 11
-- - :save_response
-  - 11
-- - :thread_variable_get
-  - 11
-- - :alter
-  - 10
-- - :args=
-  - 10
-- - :exited?
-  - 10
-- - :def_method
-  - 10
-- - :take_while
-  - 10
-- - :hostname=
-  - 10
-- - :rpartition
-  - 10
-- - :shellsplit
-  - 10
-- - :install_dir
-  - 10
-- - :preexe
-  - 10
-- - :all=
-  - 10
-- - :fetch_spec
-  - 10
-- - :default_external=
-  - 10
-- - :getwd
-  - 10
-- - :ca_path=
-  - 10
-- - :to_r
-  - 10
-- - :exception_handler
-  - 10
-- - :path_sources
-  - 10
-- - :git_sources
-  - 10
-- - :module_exec
-  - 10
-- - :ident
-  - 10
-- - :close_on_exec=
-  - 10
-- - :subtract
-  - 10
-- - :obj_name
-  - 10
-- - :post_install_message
-  - 10
-- - :plain
-  - 10
-- - :kwoptarg
-  - 10
-- - :kwrestarg
-  - 10
-- - :pretty_inspect
-  - 10
-- - :sources=
-  - 10
-- - :ternary
-  - 10
-- - :symbols_compose
-  - 10
-- - :characters
-  - 10
-- - :rbx?
-  - 10
-- - :metadata=
-  - 10
-- - :last_column
-  - 10
-- - :gmtime
-  - 10
-- - :_parse
-  - 10
-- - :validate_runtime!
-  - 10
-- - :end_line
-  - 10
-- - :declared?
-  - 10
-- - :symbol_compose
-  - 10
-- - :self
-  - 10
-- - :keep_if
-  - 10
-- - :inline?
-  - 10
-- - :sec_fraction
-  - 10
-- - :development_dependencies
-  - 10
-- - :nil
-  - 10
-- - :true
-  - 10
-- - :character
-  - 10
-- - :files=
-  - 10
-- - :false
-  - 10
-- - :comment?
-  - 10
-- - :handle_options
-  - 10
-- - :when
-  - 10
-- - :bol?
-  - 9
-- - :module?
-  - 9
-- - :range_inclusive
-  - 9
-- - :number_of_candidates
-  - 9
-- - :css_path
-  - 9
-- - :__LINE__
-  - 9
-- - :fsync
-  - 9
-- - :scan_setup
-  - 9
-- - :startTag
-  - 9
-- - :def_class
-  - 9
-- - :spec_dir
-  - 9
-- - :block_pass
-  - 9
-- - :__platform
-  - 9
-- - :argv
-  - 9
-- - :previous=
-  - 9
-- - :component
-  - 9
-- - :strptime
-  - 9
-- - :bin_path
-  - 9
-- - :gemspec
-  - 9
-- - :__FILE__
-  - 9
-- - :blocks
-  - 9
-- - :endTag
-  - 9
-- - :delim
-  - 9
-- - :parallel?
-  - 9
-- - :cache_dir
-  - 9
-- - :localtime
-  - 9
-- - :public_class_method
-  - 9
-- - :author
-  - 9
-- - :nsec
-  - 9
-- - :denominator
-  - 9
-- - :close_write
-  - 9
-- - :protected_methods
-  - 9
-- - :get_all_gem_names
-  - 9
-- - :exclusive
-  - 9
-- - :winsize
-  - 9
-- - :xstring_compose
-  - 9
-- - :def_sclass
-  - 9
-- - :def_module
-  - 9
-- - :requirements_list
-  - 9
-- - :regexp_options
-  - 9
-- - :register_middleware
-  - 9
-- - :regexp_compose
-  - 9
-- - :location=
-  - 9
-- - :blockarg
-  - 9
-- - :nth_ref
-  - 9
-- - :push_literal
-  - 9
-- - :base_uri
-  - 9
-- - :def_singleton
-  - 9
-- - :add_hook
-  - 9
-- - :extension_dir
-  - 9
-- - :bundler_version
-  - 9
-- - :fdiv
-  - 9
-- - :email=
-  - 9
-- - :absolute
-  - 9
-- - :postexe
-  - 9
-- - :range_exclusive
-  - 9
-- - :readbyte
-  - 9
-- - :current_binding
-  - 9
-- - :block_length
-  - 9
-- - :indent_level
-  - 9
-- - :dev
-  - 9
-- - :raw_require_paths
-  - 9
-- - :begin_keyword
-  - 9
-- - :heredoc_body
-  - 8
-- - :full_require_paths
-  - 8
-- - :rubygems_version
-  - 8
-- - :set_attributes
-  - 8
-- - :started
-  - 8
-- - :protected_instance_methods
-  - 8
-- - :each_child
-  - 8
-- - :compatible?
-  - 8
-- - :each_filename
-  - 8
-- - :context=
-  - 8
-- - :start_interp_brace
-  - 8
-- - :summarize
-  - 8
-- - :errors=
-  - 8
-- - :tsort
-  - 8
-- - :materialize
-  - 8
-- - :pair_keyword
-  - 8
-- - :source_type
-  - 8
-- - :kwarg
-  - 8
-- - :attribute_count
-  - 8
-- - :from_yaml
-  - 8
-- - :entities
-  - 8
-- - :deprecated?
-  - 8
-- - :output=
-  - 8
-- - :shadowarg
-  - 8
-- - :to_xhtml
-  - 8
-- - :super
-  - 8
-- - :consumer=
-  - 8
-- - :from_str
-  - 8
-- - :select_message
-  - 8
-- - :all_specs
-  - 8
-- - :node=
-  - 8
-- - :versions_string
-  - 8
-- - :id2name
-  - 8
-- - :__ENCODING__
-  - 8
-- - :try_lock
-  - 8
-- - :prompt_name
-  - 8
-- - :fetch_option
-  - 8
-- - :add_callback
-  - 8
-- - :protected_method_defined?
-  - 8
-- - :add_previous_sibling
-  - 8
-- - :named_captures
-  - 8
-- - :pattern=
-  - 8
-- - :remotes
-  - 8
-- - :bin_file
-  - 8
-- - :in_kwarg=
-  - 8
-- - :last_exception
-  - 8
-- - :value?
-  - 8
-- - :swap
-  - 8
-- - :match_op
-  - 8
-- - :build_args
-  - 8
-- - :find_command_by_match_or_listing
-  - 8
-- - :procarg0
-  - 8
-- - :pretty_print
-  - 8
-- - :to_spec
-  - 8
-- - :WrappedModule
-  - 8
-- - :restarg_expr
-  - 8
-- - :taint
-  - 8
-- - :correct?
-  - 8
-- - :add_common_option
-  - 8
-- - :tv_usec
-  - 8
-- - :original_platform
-  - 8
-- - :cdata?
-  - 8
-- - :call_lambda
-  - 8
-- - :assignment?
-  - 8
-- - :load_specs
-  - 7
-- - :client_cert
-  - 7
-- - :git_version
-  - 7
-- - :verify_depth=
-  - 7
-- - :integer?
-  - 7
-- - :candidates
-  - 7
-- - :params_encoder
-  - 7
-- - :decorators
-  - 7
-- - :highlighted
-  - 7
-- - :finite?
-  - 7
-- - :api_fetchers
-  - 7
-- - :enable!
-  - 7
-- - :signing_key
-  - 7
-- - :Method
-  - 7
-- - :set_path
-  - 7
-- - :shelljoin
-  - 7
-- - :clear_all
-  - 7
-- - :response=
-  - 7
-- - :normalize!
-  - 7
-- - :exec_hook
-  - 7
-- - :dedent_level
-  - 7
-- - :build_extensions
-  - 7
-- - :helper_module
-  - 7
-- - :default_internal=
-  - 7
-- - :reset_defaults
-  - 7
-- - :max=
-  - 7
-- - :match=
-  - 7
-- - :content_for
-  - 7
-- - :strict
-  - 7
-- - :stop?
-  - 7
-- - :process_line
-  - 7
-- - :engine_versions
-  - 7
-- - :class_variable_defined?
-  - 7
-- - :convert!
-  - 7
-- - :object_group
-  - 7
-- - :resolve_remotely!
-  - 7
-- - :url_prefix
-  - 7
-- - :handles?
-  - 7
-- - :new_cond
-  - 7
-- - :termsig
-  - 7
-- - :raw_source=
-  - 7
-- - :filename_argument
-  - 7
-- - :interrupt
-  - 7
-- - :handle_interrupt
-  - 7
-- - :anchor
-  - 7
-- - :add_next_sibling
-  - 7
-- - :repo_cache_dir
-  - 7
-- - :write_to
-  - 7
-- - :column_count
-  - 7
-- - :fnmatch?
-  - 7
-- - :class?
-  - 7
-- - :default?
-  - 7
-- - :spec=
-  - 7
-- - :dependency_names
-  - 7
-- - :argument?
-  - 7
-- - :ignore?
-  - 7
-- - :last_error
-  - 7
-- - :__setobj__
-  - 7
-- - :filter=
-  - 7
-- - :mday
-  - 7
-- - :complete_expression?
-  - 7
-- - :lock!
-  - 6
-- - :to_lock
-  - 6
-- - :rubygems_sources
-  - 6
-- - :parse_time
-  - 6
-- - :gmt_offset
-  - 6
-- - :map=
-  - 6
-- - :bsearch
-  - 6
-- - :original_path
-  - 6
-- - :typecode
-  - 6
-- - :quoted
-  - 6
-- - :dedent_string
-  - 6
-- - :leap?
-  - 6
-- - :remote=
-  - 6
-- - :each_entry
-  - 6
-- - :supports_parallel=
-  - 6
-- - :binwrite
-  - 6
-- - :clear_cache
-  - 6
-- - :symbolize
-  - 6
-- - :first?
-  - 6
-- - :command_state
-  - 6
-- - :priority=
-  - 6
-- - :ask_yes_no
-  - 6
-- - :_resort!
-  - 6
-- - :activated?
-  - 6
-- - :minmax
-  - 6
-- - :finished
-  - 6
-- - :width!
-  - 6
-- - :xpath_for
-  - 6
-- - :singleton_class?
-  - 6
-- - :locked_gems
-  - 6
-- - :to_specs
-  - 6
-- - :correct_indentation
-  - 6
-- - :toplevel_binding
-  - 6
-- - :signaled?
-  - 6
-- - :class_variable_set
-  - 6
-- - :rubygems_dir
-  - 6
-- - :blockarg_expr
-  - 6
-- - :custom_members
-  - 6
-- - :enq
-  - 6
-- - :binding_for
-  - 6
-- - :dep
-  - 6
-- - :conj
-  - 6
-- - :shell=
-  - 6
-- - :numerator
-  - 6
-- - :first_element_child
-  - 6
-- - :date=
-  - 6
-- - :in_bundle?
-  - 6
-- - :require_paths=
-  - 6
-- - :author=
-  - 6
-- - :authors=
-  - 6
-- - :ascii_compatible?
-  - 6
-- - :bin_dir
-  - 6
-- - :to_ruby_for_cache
-  - 6
-- - :disable!
-  - 6
-- - :lineno=
-  - 6
-- - :boundary=
-  - 6
-- - :each_codepoint
-  - 6
-- - :yaml_initialize
-  - 6
-- - :_load
-  - 6
-- - :passwd
-  - 6
-- - :prompt=
-  - 6
-- - :problem
-  - 6
-- - :size?
-  - 6
-- - :installed_specs
-  - 6
-- - :expression_at
-  - 6
-- - :api_uri
-  - 6
-- - :required_rubygems_version
-  - 6
-- - :quo
-  - 6
-- - :plugin_host
-  - 6
-- - :required_ruby_version
-  - 5
-- - :line_width
-  - 5
-- - :homepage=
-  - 5
-- - :streaming?
-  - 5
-- - :stime
-  - 5
-- - :pager=
-  - 5
-- - :conv
-  - 5
-- - :column_range
-  - 5
-- - :gid=
-  - 5
-- - :cert_chain
-  - 5
-- - :all_from_class
-  - 5
-- - :overlaps?
-  - 5
-- - :quiet?
-  - 5
-- - :quiet=
-  - 5
-- - :ruby?
-  - 5
-- - :list_commands
-  - 5
-- - :marshal_dump
-  - 5
-- - :parse_with
-  - 5
-- - :dirs
-  - 5
-- - :singleton_class_of
-  - 5
-- - :gem_build_complete_path
-  - 5
-- - :deq
-  - 5
-- - :to=
-  - 5
-- - :submodules
-  - 5
-- - :imag
-  - 5
-- - :command_set
-  - 5
-- - :critical_section
-  - 5
-- - :add_options
-  - 5
-- - :slop
-  - 5
-- - :echo?
-  - 5
-- - :opts=
-  - 5
-- - :noecho
-  - 5
-- - :stack_pop
-  - 5
-- - :missing
-  - 5
-- - :nonblank_name
-  - 5
-- - :get_method
-  - 5
-- - :to_env
-  - 5
-- - :date_time
-  - 5
-- - :credentials_for
-  - 5
-- - :optional?
-  - 5
-- - :tv_nsec
-  - 5
-- - :input=
-  - 5
-- - :symbol_internal
-  - 5
-- - :source_encoding
-  - 5
-- - :all_sources
-  - 5
-- - :default_specifications_dir
-  - 5
-- - :version_message
-  - 5
-- - :github
-  - 5
-- - :git_source
-  - 5
-- - :binary_string
-  - 5
-- - :abort_on_exception
-  - 5
-- - :build_response
-  - 5
-- - :reset_instance
-  - 5
-- - :kwsplat
-  - 5
-- - :satisfies?
-  - 5
-- - :eval_gemfile
-  - 5
-- - :gemspecs
-  - 5
-- - :index=
-  - 5
-- - :lambda?
-  - 5
-- - :tag=
-  - 5
-- - :uri_hash
-  - 5
-- - :requested_specs
-  - 5
-- - :should_include?
-  - 5
-- - :spec_cache_dir
-  - 5
-- - :gem_bindir
-  - 5
-- - :skip_until
-  - 5
-- - :document=
-  - 5
-- - :subset?
-  - 5
-- - :def_option
-  - 5
-- - :use_ui
-  - 5
-- - :saver
-  - 5
-- - :with_expression
-  - 5
-- - :specification_version
-  - 5
-- - :mark_loaded
-  - 5
-- - :upcase!
-  - 5
-- - :class_variable_get
-  - 5
-- - :contains_requirable_file?
-  - 5
-- - :fetch_specs
-  - 5
-- - :previous_value
-  - 5
-- - :has_value?
-  - 5
-- - :tainted?
-  - 5
-- - :show_help
-  - 5
-- - :rotate
-  - 5
-- - :squeeze!
-  - 5
-- - :set_user
-  - 5
-- - :get_one_gem_name
-  - 5
-- - :rewrite
-  - 5
-- - :rdoc_options
-  - 5
-- - :test_files=
-  - 4
-- - :next!
-  - 4
-- - :succ!
-  - 4
-- - :credless_remotes
-  - 4
-- - :swapcase
-  - 4
-- - :update_cache?
-  - 4
-- - :add_remote
-  - 4
-- - :heredoc
-  - 4
-- - :guess_encoding
-  - 4
-- - :client_key
-  - 4
-- - :find_gem
-  - 4
-- - :paren_depth
-  - 4
-- - :ls
-  - 4
-- - :use_line_numbers?
-  - 4
-- - :next_state
-  - 4
-- - :userinfo=
-  - 4
-- - :memoized_attributes
-  - 4
-- - :set_password
-  - 4
-- - :with_operator
-  - 4
-- - :attribute_options
-  - 4
-- - :parallel_manager
-  - 4
-- - :shuffle!
-  - 4
-- - :load_path_insert_index
-  - 4
-- - :reason_phrase
-  - 4
-- - :default_file
-  - 4
-- - :objc_kwarg
-  - 4
-- - :beginning_of_line?
-  - 4
-- - :unscan
-  - 4
-- - :missing_extensions?
-  - 4
-- - :bt_source_location_for
-  - 4
-- - :source_lines
-  - 4
-- - :wrapped_exception
-  - 4
-- - :major?
-  - 4
-- - :on_argument
-  - 4
-- - :open_delimiters
-  - 4
-- - :spec_name
-  - 4
-- - :resolve_with_cache!
-  - 4
-- - :make_regexp
-  - 4
-- - :sort_obj
-  - 4
-- - :specs_for
-  - 4
-- - :url_prefix=
-  - 4
-- - :tmp
-  - 4
-- - :root_dir=
-  - 4
-- - :post_reset_hooks
-  - 4
-- - :curry
-  - 4
-- - :build_url
-  - 4
-- - :delete?
-  - 4
-- - :intersection
-  - 4
-- - :strongly_connected_components
-  - 4
-- - :ask_for_password
-  - 4
-- - :code_type
-  - 4
-- - :id_for
-  - 4
-- - :getutc
-  - 4
-- - :build_exclusive_url
-  - 4
-- - :config_file_name
-  - 4
-- - :to_definition
-  - 4
-- - :api_keys
-  - 4
-- - :highlight
-  - 4
-- - :sort_specs
-  - 4
-- - :load_error
-  - 4
-- - :xml?
-  - 4
-- - :encode_tokens
-  - 4
-- - :dst?
-  - 4
-- - :unmet_dependency_names
-  - 4
-- - :plugin_sources
-  - 4
-- - :add_rubygems_source
-  - 4
-- - :ssl_client_cert
-  - 4
-- - :can_lock?
-  - 4
-- - :filter_uri
-  - 4
-- - :middleware_mutex
-  - 4
-- - :load_middleware
-  - 4
-- - :add_platform
-  - 4
-- - :ssl_ca_cert
-  - 4
-- - :emit_do
-  - 4
-- - :ssl_verify_mode
-  - 4
-- - :match_platform
-  - 4
-- - :system_id
-  - 4
-- - :gems_dir
-  - 4
-- - :executables=
-  - 4
-- - :matches_for_glob
-  - 4
-- - :complex
-  - 4
-- - :prepend_child
-  - 4
-- - :gm
-  - 4
-- - :block=
-  - 4
-- - :add_spec
-  - 4
-- - :coerce_encoding
-  - 4
-- - :rational
-  - 4
-- - :autoclose=
-  - 4
-- - :option_processors
-  - 4
-- - :recover
-  - 4
-- - :local_path
-  - 4
-- - :unlock!
-  - 4
-- - :namespace_definitions
-  - 4
-- - :candidate
-  - 4
-- - :heredoc_end
-  - 4
-- - :block?
-  - 4
-- - :has_rdoc?
-  - 4
-- - :command_options=
-  - 4
-- - :instance_resolution_order
-  - 4
-- - :phase
-  - 4
-- - :question
-  - 4
-- - :cli=
-  - 4
-- - :cli
-  - 4
-- - :blksize
-  - 4
-- - :line_buffer
-  - 4
-- - :all_from_obj
-  - 4
-- - :interpolate?
-  - 4
-- - :subclass
-  - 4
-- - :tokens=
-  - 4
-- - :push_prompt
-  - 4
-- - :saved_herebody_s=
-  - 4
-- - :last_exception=
-  - 4
-- - :in_kwarg
-  - 4
-- - :source?
-  - 4
-- - :from_module
-  - 4
-- - :name_with_owner
-  - 4
-- - :repl
-  - 4
-- - :file_and_line
-  - 4
-- - :sticky_locals
-  - 4
-- - :mem
-  - 4
-- - :method_visibility
-  - 4
-- - :cert_chain=
-  - 4
-- - :init_with
-  - 4
-- - :sub_ext
-  - 4
-- - :comment_describing
-  - 4
-- - :+@
-  - 4
-- - :post_install_message=
-  - 4
-- - :from_io
-  - 4
-- - :i
-  - 4
-- - :yard_docs?
-  - 4
-- - :socket?
-  - 4
-- - :print=
-  - 4
-- - :output_array
-  - 4
-- - :input_expression_ranges
-  - 3
-- - :remainder
-  - 3
-- - :chardev?
-  - 3
-- - :register_namespaces
-  - 3
-- - :last_file
-  - 3
-- - :static_env
-  - 3
-- - :last_result
-  - 3
-- - :from_method
-  - 3
-- - :pipe?
-  - 3
-- - :find_by_path
-  - 3
-- - :from_binding
-  - 3
-- - :editor=
-  - 3
-- - :create_text_node
-  - 3
-- - :print_to_output
-  - 3
-- - :mark
-  - 3
-- - :inject_options
-  - 3
-- - :push_binding
-  - 3
-- - :inject_local
-  - 3
-- - :add_color
-  - 3
-- - :restrict_to_lines
-  - 3
-- - :inject_sticky_locals!
-  - 3
-- - :reset_eval_string
-  - 3
-- - :read_io
-  - 3
-- - :intersect
-  - 3
-- - :singleton_instance
-  - 3
-- - :redefine
-  - 3
-- - :evaluate_ruby
-  - 3
-- - :detect_encoding
-  - 3
-- - :method_prefix
-  - 3
-- - :eof
-  - 3
-- - :process_command
-  - 3
-- - :loaded_parser_version
-  - 3
-- - :dirs=
-  - 3
-- - :advise
-  - 3
-- - :compiled_parser_version
-  - 3
-- - :gecos
-  - 3
-- - :add_namespace_definition
-  - 3
-- - :retval
-  - 3
-- - :libxml2?
-  - 3
-- - :command_regex
-  - 3
-- - :lib_files
-  - 3
-- - :with_marker
-  - 3
-- - :from_obj
-  - 3
-- - :Code
-  - 3
-- - :resolution_order
-  - 3
-- - :num_waiting
-  - 3
-- - :backslash_delimited?
-  - 3
-- - :signing_key=
-  - 3
-- - :no?
-  - 3
-- - :call_safely
-  - 3
-- - :set_headers
-  - 3
-- - :interpolate_string
-  - 3
-- - :void
-  - 3
-- - :build_part
-  - 3
-- - :groups=
-  - 3
-- - :bad_option_combination?
-  - 3
-- - :input_args
-  - 3
-- - :internal_subset
-  - 3
-- - :descend
-  - 3
-- - :specific?
-  - 3
-- - :echo=
-  - 3
-- - :security_policies
-  - 3
-- - :backtrace=
-  - 3
-- - :wait_while
-  - 3
-- - :mark_version
-  - 3
-- - :reason=
-  - 3
-- - :normal_method?
-  - 3
-- - :load_defaults
-  - 3
-- - :each_spec
-  - 3
-- - :with=
-  - 3
-- - :compact?
-  - 3
-- - :inner_html=
-  - 3
-- - :mirror_for
-  - 3
-- - :digest!
-  - 3
-- - :set_global
-  - 3
-- - :subsec
-  - 3
-- - :spec_from_gem
-  - 3
-- - :accepts_optional_argument?
-  - 3
-- - :expects_argument?
-  - 3
-- - :autoload_all
-  - 3
-- - :lock_sources
-  - 3
-- - :requirement=
-  - 3
-- - :rfc822
-  - 3
-- - :rubygems_remotes
-  - 3
-- - :ext_lock
-  - 3
-- - :app_cache_dirname
-  - 3
-- - :add_git_source
-  - 3
-- - :thread_variable?
-  - 3
-- - :ignore_warnings=
-  - 3
-- - :all_errors_are_fatal=
-  - 3
-- - :yday
-  - 3
-- - :prefix=
-  - 3
-- - :licenses=
-  - 3
-- - :processing_instruction?
-  - 3
-- - :required_attribute?
-  - 3
-- - :set_trace_func
-  - 3
-- - :load_api_keys
-  - 3
-- - :pair_quoted
-  - 3
-- - :dependency_names=
-  - 3
-- - :set_authorization_header
-  - 3
-- - :current_platform?
-  - 3
-- - :new_seed
-  - 3
-- - :gem_platforms
-  - 3
-- - :format?
-  - 3
-- - :rev_parse
-  - 3
-- - :error_char
-  - 3
-- - :scan_rest
-  - 3
-- - :casefold?
-  - 3
-- - :run_request
-  - 3
-- - :intersect?
-  - 3
-- - :at_css
-  - 3
-- - :extensions_dir
-  - 3
-- - :rehash
-  - 3
-- - :default_pager
-  - 3
-- - :cached_path
-  - 3
-- - :screen_size
-  - 3
-- - :locked_ruby_version_object
-  - 3
-- - :size!
-  - 3
-- - :program_name=
-  - 3
-- - :edit_tempfile_with_content
-  - 3
-- - :invoke_editor
-  - 3
-- - :path_prefix=
-  - 3
-- - :activated=
-  - 3
-- - :spec_missing_extensions?
-  - 3
-- - :lex_en_plain_string
-  - 3
-- - :yaml_as
-  - 3
-- - :to_type
-  - 3
-- - :to_ast
-  - 3
-- - :on_if
-  - 3
-- - :build_error
-  - 3
-- - :str1
-  - 3
-- - :strict=
-  - 3
-- - :singleton_methods
-  - 3
-- - :on_args
-  - 3
-- - :line_for_position
-  - 3
-- - :display_index
-  - 3
-- - :current_dependencies
-  - 3
-- - :full_gem_path=
-  - 3
-- - :compare_by_identity
-  - 3
-- - :os_match
-  - 3
-- - :cpu_match
-  - 3
-- - :lex_en_line_begin
-  - 3
-- - :pretty_print_cycle
-  - 3
-- - :test_files
-  - 3
-- - :secure=
-  - 3
-- - :start_line_for
-  - 3
-- - :merge_query
-  - 3
-- - :remote_specs
-  - 3
-- - :combination
-  - 3
-- - :release=
-  - 3
-- - :platform_version_match
-  - 3
-- - :update_operator
-  - 3
-- - :build_args=
-  - 3
-- - :no_definition_message
-  - 3
-- - :method_sections
-  - 3
-- - :_dump
-  - 3
-- - :local_variable_get
-  - 3
-- - :getopts
-  - 3
-- - :for_lockfile
-  - 3
-- - :private_key=
-  - 3
-- - :verify?
-  - 3
-- - :certificate=
-  - 3
-- - :crypt
-  - 3
-- - :feed
-  - 3
-- - :ca_file
-  - 3
-- - :activate!
-  - 3
-- - :forget
-  - 3
-- - :gem_from_path
-  - 3
-- - :default_window_size
-  - 3
-- - :missing_specs
-  - 3
-- - :client_cert=
-  - 2
-- - :verify=
-  - 2
-- - :client_key=
-  - 2
-- - :signo
-  - 2
-- - :inherited
-  - 2
-- - :lcm
-  - 2
-- - :center
-  - 2
-- - :oauth
-  - 2
-- - :bit_length
-  - 2
-- - :permutation
-  - 2
-- - :rotate!
-  - 2
-- - :secure
-  - 2
-- - :reason_phrase=
-  - 2
-- - :pretty
-  - 2
-- - :yyparse
-  - 2
-- - :builder_class
-  - 2
-- - :in_member_set?
-  - 2
-- - :decolorize_maybe
-  - 2
-- - :ruby_18?
-  - 2
-- - :member_set
-  - 2
-- - :unlock_gems
-  - 2
-- - :minor?
-  - 2
-- - :gem_version_promoter
-  - 2
-- - :in_string?
-  - 2
-- - :unescape_css_identifier
-  - 2
-- - :_next_token
-  - 2
-- - :has_local_dependencies?
-  - 2
-- - :locked_ruby_version
-  - 2
-- - :scan_str
-  - 2
-- - :parse_io
-  - 2
-- - :ensure_equivalent_gemfile_and_lockfile
-  - 2
-- - :parse_memory
-  - 2
-- - :page?
-  - 2
-- - :search_all
-  - 2
-- - :local_search
-  - 2
-- - :sysopen
-  - 2
-- - :singleline_pp
-  - 2
-- - :nest
-  - 2
-- - :current_group
-  - 2
-- - :native_content=
-  - 2
-- - :session_line_count
-  - 2
-- - :pointer_id
-  - 2
-- - :encode_special_chars
-  - 2
-- - :namespace_scopes
-  - 2
-- - :orig_exception
-  - 2
-- - :highlights
-  - 2
-- - :command_block
-  - 2
-- - :external_encoding
-  - 2
-- - :next_element
-  - 2
-- - :previous_sibling
-  - 2
-- - :next_sibling
-  - 2
-- - :ioctl
-  - 2
-- - :convert_to_regex
-  - 2
-- - :block_command
-  - 2
-- - :isatty
-  - 2
-- - :disabled_command
-  - 2
-- - :hook_exists?
-  - 2
-- - :disjoint?
-  - 2
-- - :input_expressions
-  - 2
-- - :file_with_embedded_line
-  - 2
-- - :output_result_ranges
-  - 2
-- - :handler=
-  - 2
-- - :leave_interruptible_region
-  - 2
-- - :line_width=
-  - 2
-- - :binding_stack=
-  - 2
-- - :custom_completions=
-  - 2
-- - :canonical
-  - 2
-- - :last_dir
-  - 2
-- - :commands=
-  - 2
-- - :nesting_at
-  - 2
-- - :exception_handler=
-  - 2
-- - :memory_size
-  - 2
-- - :extra_sticky_locals
-  - 2
-- - :show_result
-  - 2
-- - :set_last_result
-  - 2
-- - :last_result_is_exception?
-  - 2
-- - :pop_prompt
-  - 2
-- - :raise_up_common
-  - 2
-- - :mswin?
-  - 2
-- - :source_buffer=
-  - 2
-- - :history=
-  - 2
-- - :locate_plugins
-  - 2
-- - :take_lines
-  - 2
-- - :installed_by_version
-  - 2
-- - :initial_session_setup
-  - 2
-- - :config_shortcut
-  - 2
-- - :file_and_line_for_current_exception
-  - 2
-- - :reload?
-  - 2
-- - :initial_temp_file_content
-  - 2
-- - :installed_by_version=
-  - 2
-- - :break
-  - 2
-- - :raise?
-  - 2
-- - :public_id
-  - 2
-- - :rfc3339
-  - 2
-- - :day_fraction
-  - 2
-- - :cweek
-  - 2
-- - :next_day
-  - 2
-- - :prev_day
-  - 2
-- - :ordinal
-  - 2
-- - :_strptime
-  - 2
-- - :_rfc3339
-  - 2
-- - :represent_seq
-  - 2
-- - :represent_object
-  - 2
-- - :style=
-  - 2
-- - :lex_en_interp_words
-  - 2
-- - :super_level
-  - 2
-- - :lex_en_interp_string
-  - 2
-- - :rows_to_s
-  - 2
-- - :items=
-  - 2
-- - :fatal?
-  - 2
-- - :fits_on_line?
-  - 2
-- - :scanner=
-  - 2
-- - :warning?
-  - 2
-- - :int1
-  - 2
-- - :to_sexp
-  - 2
-- - :str3
-  - 2
-- - :str2
-  - 2
-- - :mri_2?
-  - 2
-- - :on_vasgn
-  - 2
-- - :on_var
-  - 2
-- - :visible_commands
-  - 2
-- - :column_for_position
-  - 2
-- - :command_groups
-  - 2
-- - :decompose_position
-  - 2
-- - :display_command
-  - 2
-- - :search_hash
-  - 2
-- - :file_content
-  - 2
-- - :builtin_gem?
-  - 2
-- - :fetch_gem
-  - 2
-- - :code_object_with_accessible_source
-  - 2
-- - :lex_en_expr_arg
-  - 2
-- - :shortcuts
-  - 2
-- - :lex_en_expr_cmdarg
-  - 2
-- - :gem_remote_fetcher
-  - 2
-- - :command_prefix
-  - 2
-- - :cached_gem
-  - 2
-- - :auto_indent
-  - 2
-- - :correct_indent
-  - 2
-- - :cached_built_in_gem
-  - 2
-- - :to_unix
-  - 2
-- - :print_major_deprecations!
-  - 2
-- - :should_load_plugins
-  - 2
-- - :lex_en_expr_value
-  - 2
-- - :const_get_safely
-  - 2
-- - :lex_en_expr_end
-  - 2
-- - :set_bundle_environment
-  - 2
-- - :control_d_handler
-  - 2
-- - :default_bundle_dir
-  - 2
-- - :build_info_file
-  - 2
-- - :command_completions
-  - 2
-- - :completer
-  - 2
-- - :default_executable
-  - 2
-- - :to_xpath
-  - 2
-- - :set_installed_by_version
-  - 2
-- - :disasm
-  - 2
-- - :pointer=
-  - 2
-- - :from_lock
-  - 2
-- - :is_a_path?
-  - 2
-- - :local_specs
-  - 2
-- - :cached!
-  - 2
-- - :spec_cache_dirs
-  - 2
-- - :encode_with
-  - 2
-- - :allow_git_ops?
-  - 2
-- - :executable=
-  - 2
-- - :lookup_middleware
-  - 2
-- - :supports_parallel?
-  - 2
-- - :load_spec_files
-  - 2
-- - :extra_rdoc_files=
-  - 2
-- - :build_gem
-  - 2
-- - :to_gem_version_with_patchlevel
-  - 2
-- - :build_head
-  - 2
-- - :outdated_and_latest_version
-  - 2
-- - :stub_source_index
-  - 2
-- - :read_memory
-  - 2
-- - :stopsig
-  - 2
-- - :parse_stylesheet_doc
-  - 2
-- - :non_nil_attributes
-  - 2
-- - :cstime
-  - 2
-- - :method_definition?
-  - 2
-- - :yes?
-  - 2
-- - :attribute_type
-  - 2
-- - :cutime
-  - 2
-- - :lookup_method_via_binding
-  - 2
-- - :module_with_yard_docs?
-  - 2
-- - :real_method_object?
-  - 2
-- - :pry_method?
-  - 2
-- - :remove_namespaces!
-  - 2
-- - :collect_namespaces
-  - 2
-- - :uid=
-  - 2
-- - :wrapped_owner
-  - 2
-- - :opendir
-  - 2
-- - :code_for
-  - 2
-- - :libxml2_using_packaged?
-  - 2
-- - :saved_herebody_s
-  - 2
-- - :array_attributes
-  - 2
-- - :raised_exception
-  - 2
-- - :clear_buffer
-  - 2
-- - :add_specs
-  - 2
-- - :emit_start_tok
-  - 2
-- - :dedent
-  - 2
-- - :allow_sudo?
-  - 2
-- - :bulk_threshold
-  - 2
-- - :without=
-  - 2
-- - :def_instance_delegator
-  - 2
-- - :pretty_values_for
-  - 2
-- - :update_sources=
-  - 2
-- - :_clear_load_cache
-  - 2
-- - :rdoc_options=
-  - 2
-- - :temporary
-  - 2
-- - :__materialize__
-  - 2
-- - :exit_code=
-  - 2
-- - :check_credentials_permissions
-  - 2
-- - :_close
-  - 2
-- - :get_relative_path
-  - 2
-- - :dir_shortref
-  - 2
-- - :choose_from_list
-  - 2
-- - :platform_string
-  - 2
-- - :specific_extra_args_hash
-  - 2
-- - :all_errors
-  - 2
-- - :merge_options
-  - 2
-- - :summary_indent=
-  - 2
-- - :remove_option
-  - 2
-- - :write_gem_make_out
-  - 2
-- - :arg_expr
-  - 2
-- - :call_type_for_dot
-  - 2
-- - :invoke_with_build_args
-  - 2
-- - :objc_varargs
-  - 2
-- - :hierarchical?
-  - 2
-- - :opaque=
-  - 2
-- - :rel
-  - 2
-- - :get_one_optional_argument
-  - 2
-- - :parse_with_comments
-  - 2
-- - :show_lookup_failure
-  - 2
-- - :defaults=
-  - 2
-- - :bump
-  - 2
-- - :marshal_load
-  - 2
-- - :relative_loaded_from
-  - 2
-- - :dependency_resolver_set
-  - 2
-- - :on_head
-  - 2
-- - :conflicting_dependencies
-  - 2
-- - :define_head
-  - 1
-- - :rg_extension_dir
-  - 1
-- - :fixup_dependency_types!
-  - 1
-- - :modernize
-  - 1
-- - :rg_loaded_from
-  - 1
-- - :emit_procarg0
-  - 1
-- - :rg_full_gem_path
-  - 1
-- - :relative_loaded_from=
-  - 1
-- - :emit_lambda
-  - 1
-- - :os=
-  - 1
-- - :installable?
-  - 1
-- - :reset_nil_attributes_to_default
-  - 1
-- - :to_gemfile
-  - 1
-- - :nondevelopment_dependencies
-  - 1
-- - :set_port
-  - 1
-- - :base_dir=
-  - 1
-- - :begins?
-  - 1
-- - :validate_permissions
-  - 1
-- - :extension_dir=
-  - 1
-- - :validate_dependencies
-  - 1
-- - :get_all_gem_names_and_versions
-  - 1
-- - :ignored=
-  - 1
-- - :route_from
-  - 1
-- - :find_proxy
-  - 1
-- - :defaults_str
-  - 1
-- - :__binding__
-  - 1
-- - :to_yaml_properties
-  - 1
-- - :lstat!
-  - 1
-- - :total_bytes
-  - 1
-- - :class_variables
-  - 1
-- - :builder_for
-  - 1
-- - :build_extension
-  - 1
-- - :_gets_noecho
-  - 1
-- - :summary_width=
-  - 1
-- - :outs
-  - 1
-- - :add_extra_args
-  - 1
-- - :requirements=
-  - 1
-- - :redirector
-  - 1
-- - :extra_args
-  - 1
-- - :extra_args=
-  - 1
-- - :specific_extra_args
-  - 1
-- - :add_specific_extra_args
-  - 1
-- - :backtrace_locations
-  - 1
-- - :progress_reporter
-  - 1
-- - :download_reporter
-  - 1
-- - :warn_for_outdated_bundler_version
-  - 1
-- - :sections_in_lockfile
-  - 1
-- - :unknown_sections_in_lockfile
-  - 1
-- - :sections_to_ignore
-  - 1
-- - :inc
-  - 1
-- - :need_submodules
-  - 1
-- - :unmet_deps
-  - 1
-- - :handle_arguments
-  - 1
-- - :find_full_gem_path
-  - 1
-- - :rubygems_api_key=
-  - 1
-- - :each_gemspec
-  - 1
-- - :rubygems_api_key
-  - 1
-- - :raise_if_conflicts
-  - 1
-- - :pair_list_18
-  - 1
-- - :file_path=
-  - 1
-- - :new2
-  - 1
-- - :cli_flags_given
-  - 1
-- - :cli_flags_given=
-  - 1
-- - :set_local
-  - 1
-- - :disable_default_gem_server
-  - 1
-- - :digest_length
-  - 1
-- - :yard_file
-  - 1
-- - :yard_line
-  - 1
-- - :yard_doc
-  - 1
-- - :update_sources
-  - 1
-- - :local_overrides
-  - 1
-- - :bulk_threshold=
-  - 1
-- - :lib_dirs_glob
-  - 1
-- - :hexdigest!
-  - 1
-- - :gem_mirrors
-  - 1
-- - :base64digest!
-  - 1
-- - :find_in_unresolved
-  - 1
-- - :try_enter
-  - 1
-- - :ignore_config?
-  - 1
-- - :find_in_unresolved_tree
-  - 1
-- - :unprinted_warnings
-  - 1
-- - :method_id
-  - 1
-- - :normalize_yaml_input
-  - 1
-- - :mon_enter
-  - 1
-- - :mon_exit
-  - 1
-- - :mon_synchronize
-  - 1
-- - :for_cache
-  - 1
-- - :extension_dir_name
-  - 1
-- - :end_interp_brace_and_try_closing
-  - 1
-- - :local_override!
-  - 1
-- - :magnitude
-  - 1
-- - :env_var_version
-  - 1
-- - :cli_arg_version
-  - 1
-- - :to_markdown
-  - 1
-- - :dir=
-  - 1
-- - :lockfile_version
-  - 1
-- - :patch_in_ram
-  - 1
-- - :undefined?
-  - 1
-- - :remote!
-  - 1
-- - :empty_doc?
-  - 1
-- - :to_c
-  - 1
-- - :slop!
-  - 1
-- - :passwd=
-  - 1
-- - :undo_replacements
-  - 1
-- - :create_comment
-  - 1
-- - :find_by_type
-  - 1
-- - :dependent_gems
-  - 1
-- - :lex_en_line_begin=
-  - 1
-- - :prune_cache
-  - 1
-- - :lex_en_line_comment=
-  - 1
-- - :bundled_gem_in_old_ruby?
-  - 1
-- - :create_cdata
-  - 1
-- - :lex_en_leading_dot=
-  - 1
-- - :create_entity
-  - 1
-- - :with_clean_git_env
-  - 1
-- - :lex_en_expr_end=
-  - 1
-- - :build_info_dir
-  - 1
-- - :lex_en_expr_value=
-  - 1
-- - :lex_en_expr_labelarg=
-  - 1
-- - :lex_en_expr_labelarg
-  - 1
-- - :lex_en_expr_beg=
-  - 1
-- - :add_self_to_load_path
-  - 1
-- - :lex_en_expr_beg
-  - 1
-- - :lex_en_expr_mid=
-  - 1
-- - :replace_remotes
-  - 1
-- - :add_bindir
-  - 1
-- - :lex_en_expr_mid
-  - 1
-- - :remotes_for_spec
-  - 1
-- - :lex_en_expr_endarg=
-  - 1
-- - :lex_en_expr_endarg
-  - 1
-- - :suppress_configured_credentials
-  - 1
-- - :lex_en_expr_cmdarg=
-  - 1
-- - :cached_specs
-  - 1
-- - :lex_en_expr_arg=
-  - 1
-- - :lex_en_expr_dot=
-  - 1
-- - :lex_en_expr_dot
-  - 1
-- - :lex_en_expr_endfn=
-  - 1
-- - :activate_dependencies
-  - 1
-- - :lex_en_expr_endfn
-  - 1
-- - :alias?
-  - 1
-- - :lex_en_expr_fname=
-  - 1
-- - :c_method?
-  - 1
-- - :associate_locations
-  - 1
-- - :lex_en_expr_fname
-  - 1
-- - :lex_en_expr_variable=
-  - 1
-- - :backport_spec_file
-  - 1
-- - :lex_en_regexp_modifiers=
-  - 1
-- - :lex_en_regexp_modifiers
-  - 1
-- - :register_ns
-  - 1
-- - :recognize_encoding
-  - 1
-- - :reencode_string
-  - 1
-- - :register_variable
-  - 1
-- - :backport_cache_file
-  - 1
-- - :from_memory
-  - 1
-- - :backport_base_dir
-  - 1
-- - :html5_dtd?
-  - 1
-- - :html_dtd?
-  - 1
-- - :external_id
-  - 1
-- - :singleton_method_definition?
-  - 1
-- - :instance_method_definition?
-  - 1
-- - :singleton_class_resolution_order
-  - 1
-- - :backport_yaml_initialize
-  - 1
-- - :lex_en_plain_backslash_delimited_words=
-  - 1
-- - :backport_segment_generation
-  - 1
-- - :replace_entrypoints
-  - 1
-- - :from_document
-  - 1
-- - :replace_refresh
-  - 1
-- - :replace_bin_path
-  - 1
-- - :engine_gem_version
-  - 1
-- - :single_version_string
-  - 1
-- - :lex_en_plain_backslash_delimited_words
-  - 1
-- - :replace_gem
-  - 1
-- - :reverse_rubygems_kernel_mixin
-  - 1
-- - :security_policy_keys
-  - 1
-- - :weird_method?
-  - 1
-- - :interpreted_string_state
-  - 1
-- - :scan_tokens
-  - 1
-- - :with_build_args
-  - 1
-- - :fetch_middleware
-  - 1
-- - :fetch_prerelease_specs
-  - 1
-- - :loaded_gem_paths
-  - 1
-- - :preserve_paths
-  - 1
-- - :config_map
-  - 1
-- - :lex_en_interp_backslash_delimited_words=
-  - 1
-- - :lex_en_interp_backslash_delimited_words
-  - 1
-- - :build_env
-  - 1
-- - :set_string_from_source
-  - 1
-- - :set_tokens_from_options
-  - 1
-- - :raise_inspect_arguments
-  - 1
-- - :scanner_state_info
-  - 1
-- - :tokens_size
-  - 1
-- - :with_uri_credentials
-  - 1
-- - :tokens_last
-  - 1
-- - :charpos
-  - 1
-- - :gem_cache
-  - 1
-- - :check_until
-  - 1
-- - :in_parallel
-  - 1
-- - :default_parallel_manager
-  - 1
-- - :owned?
-  - 1
-- - :rest?
-  - 1
-- - :install_with_build_args
-  - 1
-- - :file_completions
-  - 1
-- - :windows_console_warning
-  - 1
-- - :encode_with_encoding
-  - 1
-- - :should_load_requires
-  - 1
-- - :output_prefix
-  - 1
-- - :on_send
-  - 1
-- - :collision_warning
-  - 1
-- - :repository_subdirectories
-  - 1
-- - :on_while
-  - 1
-- - :disable_auto_reload
-  - 1
-- - :should_trap_interrupts
-  - 1
-- - :should_load_local_rc
-  - 1
-- - :should_load_rc
-  - 1
-- - :heredoc_pattern
-  - 1
-- - :exception_whitelist
-  - 1
-- - :prompt_safe_objects
-  - 1
-- - :interpreted
-  - 1
-- - :on_retry
-  - 1
-- - :compile_option=
-  - 1
-- - :download_gem
-  - 1
-- - :load_cli_options
-  - 1
-- - :opening_paren
-  - 1
-- - :local_variables
-  - 1
-- - :gem_name=
-  - 1
-- - :lex_en_plain_backslash_delimited=
-  - 1
-- - :method_size_cutoff
-  - 1
-- - :on_case
-  - 1
-- - :code?
-  - 1
-- - :local_variable_set
-  - 1
-- - :eval!
-  - 1
-- - :color_toggle
-  - 1
-- - :file_and_line_for
-  - 1
-- - :fetch_all_remote_specs
-  - 1
-- - :show_all_modules?
-  - 1
-- - :next_state=
-  - 1
-- - :module_header
-  - 1
-- - :method_header
-  - 1
-- - :code_object_header
-  - 1
-- - :simple_key_pattern
-  - 1
-- - :content_and_headers_for_all_module_candidates
-  - 1
-- - :handler_missing
-  - 1
-- - :indices_range
-  - 1
-- - :assign_properties
-  - 1
-- - :lex_en_plain_backslash_delimited
-  - 1
-- - :lex_en_interp_backslash_delimited=
-  - 1
-- - :fancy_type
-  - 1
-- - :content_and_header_for_code_object
-  - 1
-- - :lex_en_interp_backslash_delimited
-  - 1
-- - :lex_en_plain_string=
-  - 1
-- - :split_into_parts
-  - 1
-- - :lex_en_plain_words
-  - 1
-- - :lex_en_interp_string=
-  - 1
-- - :required_rubygems_version=
-  - 1
-- - :valid_superclass?
-  - 1
-- - :lex_en_interp_words=
-  - 1
-- - :lex_error=
-  - 1
-- - :lex_start=
-  - 1
-- - :stub_rubygems
-  - 1
-- - :use_gemdeps
-  - 1
-- - :header_options
-  - 1
-- - :docs_for
-  - 1
-- - :render_doc_markup_for
-  - 1
-- - :wordy
-  - 1
-- - :backport_ext_builder_monitor
-  - 1
-- - :latest_version?
-  - 1
-- - :display_content
-  - 1
-- - :add_line_number
-  - 1
-- - :add_marker
-  - 1
-- - :save_file
-  - 1
-- - :code_type=
-  - 1
-- - :add_development_dependency
-  - 1
-- - :ruby_2?
-  - 1
-- - :maglev?
-  - 1
-- - :should_use_default_file?
-  - 1
-- - :content_at_expression
-  - 1
-- - :with_indentation
-  - 1
-- - :max_lineno_width
-  - 1
-- - :content_after_options
-  - 1
-- - :show_input
-  - 1
-- - :cond=
-  - 1
-- - :jruby_18?
-  - 1
-- - :perform_play
-  - 1
-- - :entities_table
-  - 1
-- - :static_env=
-  - 1
-- - :diagnostics=
-  - 1
-- - :correct_opts?
-  - 1
-- - :output_self
-  - 1
-- - :grep=
-  - 1
-- - :no_user_opts?
-  - 1
-- - :attrs_req
-  - 1
-- - :update_expression
-  - 1
-- - :attrs_depr
-  - 1
-- - :bindir=
-  - 1
-- - :display_filtered_commands
-  - 1
-- - :attrs_opt
-  - 1
-- - :display_filtered_search_results
-  - 1
-- - :display_search
-  - 1
-- - :sorted_commands
-  - 1
-- - :defaultsubelt
-  - 1
-- - :sorted_group_names
-  - 1
-- - :help_text_for_commands
-  - 1
-- - :gist_content
-  - 1
-- - :comment_expression_result_for_gist
-  - 1
-- - :input_content
-  - 1
-- - :allow_multiple_insertions?
-  - 1
-- - :clipboard_content
-  - 1
-- - :anchor=
-  - 1
-- - :exit_value
-  - 1
-- - :method_or_class_lookup
-  - 1
-- - :default_lookup
-  - 1
-- - :colon
-  - 1
-- - :empty_lookup
-  - 1
-- - :command_lookup
-  - 1
-- - :yaml
-  - 1
-- - :column=
-  - 1
-- - :scalar=
-  - 1
-- - :depr
-  - 1
-- - :represent_map
-  - 1
-- - :seq
-  - 1
-- - :option_processors=
-  - 1
-- - :saveEndTag
-  - 1
-- - :input_args=
-  - 1
-- - :_iso8601
-  - 1
-- - :add_plugin_options
-  - 1
-- - :add_option_processor
-  - 1
-- - :gregorian_leap?
-  - 1
-- - :history_line_count
-  - 1
-- - :guard_inspect_key
-  - 1
-- - :parse_int
-  - 1
-- - :gregorian
-  - 1
-- - :julian?
-  - 1
-- - :public_id=
-  - 1
-- - :object_address_group
-  - 1
-- - :system_id=
-  - 1
-- - :restore_default_behavior
-  - 1
-- - :xinclude?
-  - 1
-- - :recover?
-  - 1
-- - :mktime
-  - 1
-- - :chroot
-  - 1
-- - :process_pop_and_return
-  - 1
-- - :perform_patch
-  - 1
-- - :probably_a_file?
-  - 1
-- - :never_reload?
-  - 1
-- - :reloadable?
-  - 1
-- - :input_expression
-  - 1
-- - :patch_exception?
-  - 1
-- - :file_edit
-  - 1
-- - :without_cache
-  - 1
-- - :ensure_file_name_is_valid
-  - 1
-- - :apply_runtime_patch
-  - 1
-- - :runtime_patch?
-  - 1
-- - :file_based_exception?
-  - 1
-- - :repl_edit
-  - 1
-- - :repl_edit?
-  - 1
-- - :in_critical_section?
-  - 1
-- - :default_editor_for_platform
-  - 1
-- - :get_output
-  - 1
-- - :initial_session?
-  - 1
-- - :load_history
-  - 1
-- - :load_file_through_repl
-  - 1
-- - :load_win32console
-  - 1
-- - :token_to_str
-  - 1
-- - :load_traps
-  - 1
-- - :load_requires
-  - 1
-- - :real_path_to
-  - 1
-- - :rc_files_to_load
-  - 1
-- - :height!
-  - 1
-- - :actual_screen_size
-  - 1
-- - :screen_size_according_to_io_console
-  - 1
-- - :screen_size_according_to_env
-  - 1
-- - :screen_size_according_to_readline
-  - 1
-- - :screen_size_according_to_ansicon_env
-  - 1
-- - :load_rc_files
-  - 1
-- - :load_file_at_toplevel
-  - 1
-- - :from_stub
-  - 1
-- - :last_internal_error=
-  - 1
-- - :current_prefix
-  - 1
-- - :indentation_delta
-  - 1
-- - :end_of_statement?
-  - 1
-- - :eval_path=
-  - 1
-- - :track_delimiter
-  - 1
-- - :line_buffer=
-  - 1
-- - :open_delimiters_line
-  - 1
-- - :track_module_nesting
-  - 1
-- - :track_module_nesting_end
-  - 1
-- - :module_nesting
-  - 1
-- - :current_line=
-  - 1
-- - :bt_index
-  - 1
-- - :bt_index=
-  - 1
-- - :readable_real?
-  - 1
-- - :select_prompt
-  - 1
-- - :inc_bt_index
-  - 1
-- - :__swap__
-  - 1
-- - :should_print?
-  - 1
-- - :fetch_platform
-  - 1
-- - :update_input_history
-  - 1
-- - :process_command_safely
-  - 1
-- - :stub=
-  - 1
-- - :push_initial_binding
-  - 1
-- - :world_writable?
-  - 1
-- - :nesting
-  - 1
-- - :locale_charmap
-  - 1
-- - :hooks=
-  - 1
-- - :blockdev?
-  - 1
-- - :last_dir=
-  - 1
-- - :last_file=
-  - 1
-- - :last_result=
-  - 1
-- - :suppress_output
-  - 1
-- - :custom_completions
-  - 1
-- - :_racc_do_parse_rb
-  - 1
-- - :name_list
-  - 1
-- - :global_lock=
-  - 1
-- - :global_lock
-  - 1
-- - :dummy?
-  - 1
-- - :input_locks=
-  - 1
-- - :_racc_setup
-  - 1
-- - :input_locks
-  - 1
-- - :interruptible_region
-  - 1
-- - :enter_interruptible_region
-  - 1
-- - :unicode_normalize
-  - 1
-- - :with_ownership
-  - 1
-- - :__with_ownership
-  - 1
-- - :symbolized_key_set
-  - 1
-- - :tr_s
-  - 1
-- - :pry_input_content
-  - 1
-- - :pry_output_content
-  - 1
-- - :load_path_completions
-  - 1
-- - :is_jruby_without_fix?
-  - 1
-- - :fetch_error_class
-  - 1
-- - :readchar
-  - 1
-- - :disable?
-  - 1
-- - :valid_command?
-  - 1
-- - :find_command_for_help
-  - 1
-- - :detect_encoding_for_jruby_without_fix
-  - 1
-- - :found_encoding
-  - 1
-- - :close_read
-  - 1
-- - :binmode?
-  - 1
-- - :sysseek
-  - 1
-- - :void_command?
-  - 1
-- - :all_symbols
-  - 1
-- - :match_score
-  - 1
-- - :dependencies_met?
-  - 1
-- - :check_for_command_collision
-  - 1
-- - :attribute_with_ns
-  - 1
-- - :command_block=
-  - 1
-- - :_pry_=
-  - 1
-- - :command_set=
-  - 1
-- - :arg_string=
-  - 1
-- - :eval_string=
-  - 1
-- - :captures=
-  - 1
-- - :decorate!
-  - 1
-- - :lchmod
-  - 1
-- - :lchown
-  - 1
-- - :delimiter?
-  - 1
-- - :optional_argument?
-  - 1
-- - :argument_in_value=
-  - 1
-- - :argument_in_value
-  - 1
-- - :count=
-  - 1
-- - :rubygems_primary_remotes
-  - 1
-- - :replace_sources!
-  - 1
-- - :add_rubygems_remote
-  - 1
-- - :add_plugin_source
-  - 1
-- - :add_path_source
-  - 1
-- - :ruby_20?
-  - 1
-- - :primitive_convert
-  - 1
-- - :primitive_errinfo
-  - 1
-- - :dependencies_eql?
-  - 1
-- - :fragment?
-  - 1
-- - :current_env?
-  - 1
-- - :ruby_19?
-  - 1
-- - :request_headers=
-  - 1
-- - :each_strongly_connected_component
-  - 1
-- - :ssl=
-  - 1
-- - :tsort_each
-  - 1
-- - :find_by_name_and_platform
-  - 1
-- - :materialized_for_all_platforms
-  - 1
-- - :valid_for?
-  - 1
-- - :do_xinclude
-  - 1
-- - :proper_superset?
-  - 1
-- - :find_indexed_specs
-  - 1
-- - :response_headers=
-  - 1
-- - :find_resolved_spec
-  - 1
-- - :add_current_platform
-  - 1
-- - :remove_platform
-  - 1
-- - :validate_platforms!
-  - 1
-- - :new_builder
-  - 1
-- - :validate_ruby!
-  - 1
-- - :builder=
-  - 1
-- - :scan_file
-  - 1
-- - :needs_body?
-  - 1
-- - :clear_body
-  - 1
-- - :parse_body?
-  - 1
-- - :locked_bundler_version
-  - 1
-- - :spec_git_paths
-  - 1
-- - :jruby_19?
-  - 1
-- - :has_rubygems_remotes?
-  - 1
-- - :rubygems_index
-  - 1
-- - :as_path_source
-  - 1
-- - :locked_specs
-  - 1
-- - :on_19?
-  - 1
-- - :missing_dependencies
-  - 1
-- - :new_platform?
-  - 1
-- - :sort_versions
-  - 1
-- - :create_gem_version_promoter
-  - 1
-- - :lex_en_plain_words=
-  - 1
-- - :_reduce_5
-  - 0
-- - :locked_deps
-  - 0
-- - :_reduce_4
-  - 0
-- - :_reduce_6
-  - 0
-- - :_reduce_7
-  - 0
-- - :_reduce_3
-  - 0
-- - :_reduce_2
-  - 0
-- - :new_specs
-  - 0
-- - :removed_specs
-  - 0
-- - :_reduce_8
-  - 0
-- - :_reduce_1
-  - 0
-- - :_reduce_9
-  - 0
-- - :_reduce_11
-  - 0
-- - :rassoc
-  - 0
-- - :_reduce_12
-  - 0
-- - :_reduce_13
-  - 0
-- - :_reduce_14
-  - 0
-- - :_reduce_15
-  - 0
-- - :builder_class=
-  - 0
-- - :maglev_19?
-  - 0
-- - :mingw_19?
-  - 0
-- - :mri_19?
-  - 0
-- - :_reduce_16
-  - 0
-- - :_reduce_18
-  - 0
-- - :_reduce_20
-  - 0
-- - :_reduce_21
-  - 0
-- - :compare_by_identity?
-  - 0
-- - :_reduce_22
-  - 0
-- - :flatten_merge
-  - 0
-- - :superset?
-  - 0
-- - :_reduce_23
-  - 0
-- - :mswin_19?
-  - 0
-- - :proper_subset?
-  - 0
-- - :mswin64_19?
-  - 0
-- - :fixed_encoding?
-  - 0
-- - :_reduce_25
-  - 0
-- - :write_xml_to
-  - 0
-- - :difference
-  - 0
-- - :write_xhtml_to
-  - 0
-- - :write_html_to
-  - 0
-- - :divide
-  - 0
-- - :incomplete_input?
-  - 0
-- - :_reduce_26
-  - 0
-- - :readagain_bytes
-  - 0
-- - :_reduce_27
-  - 0
-- - :parallel_manager=
-  - 0
-- - :error_bytes
-  - 0
-- - :_reduce_28
-  - 0
-- - :rbx_19?
-  - 0
-- - :_reduce_29
-  - 0
-- - :each_strongly_connected_component_from
-  - 0
-- - :repeated_permutation
-  - 0
-- - :default_namespace=
-  - 0
-- - :repeated_combination
-  - 0
-- - :x64_mingw_19?
-  - 0
-- - :destination_encoding_name
-  - 0
-- - :source_encoding_name
-  - 0
-- - :on_20?
-  - 0
-- - :jruby_20?
-  - 0
-- - :maglev_20?
-  - 0
-- - :search_convpath
-  - 0
-- - :read_only?
-  - 0
-- - :_reduce_30
-  - 0
-- - :install_if
-  - 0
-- - :asciicompat_encoding
-  - 0
-- - :replacement=
-  - 0
-- - :mingw_20?
-  - 0
-- - :putback
-  - 0
-- - :mri_20?
-  - 0
-- - :mswin_20?
-  - 0
-- - :mswin64_20?
-  - 0
-- - :rbx_20?
-  - 0
-- - :insert_output
-  - 0
-- - :_reduce_31
-  - 0
-- - :pred
-  - 0
-- - :gcd
-  - 0
-- - :destination_encoding
-  - 0
-- - :oauth=
-  - 0
-- - :_reduce_32
-  - 0
-- - :x64_mingw_20?
-  - 0
-- - :on_21?
-  - 0
-- - :_reduce_33
-  - 0
-- - :_reduce_34
-  - 0
-- - :jruby_21?
-  - 0
-- - :maglev_21?
-  - 0
-- - :mingw_21?
-  - 0
-- - :mri_21?
-  - 0
-- - :mswin_21?
-  - 0
-- - :gcdlcm
-  - 0
-- - :_reduce_35
-  - 0
-- - :convpath
-  - 0
-- - :mswin64_21?
-  - 0
-- - :inplace_mode=
-  - 0
-- - :inplace_mode
-  - 0
-- - :to_write_io
-  - 0
-- - :next_float
-  - 0
-- - :prev_float
-  - 0
-- - :bind=
-  - 0
-- - :rbx_21?
-  - 0
-- - :ruby_21?
-  - 0
-- - :x64_mingw_21?
-  - 0
-- - :_reduce_36
-  - 0
-- - :tail?
-  - 0
-- - :on_22?
-  - 0
-- - :callback?
-  - 0
-- - :_reduce_37
-  - 0
-- - :limit?
-  - 0
-- - :jruby_22?
-  - 0
-- - :maglev_22?
-  - 0
-- - :as?
-  - 0
-- - :autocreated?
-  - 0
-- - :mingw_22?
-  - 0
-- - :mri_22?
-  - 0
-- - :realdirpath
-  - 0
-- - :mswin_22?
-  - 0
-- - :params_encoder=
-  - 0
-- - :fetch_command
-  - 0
-- - :_reduce_40
-  - 0
-- - :optspec
-  - 0
-- - :pathconf
-  - 0
-- - :ioflush
-  - 0
-- - :oflush
-  - 0
-- - :iflush
-  - 0
-- - :winsize=
-  - 0
-- - :mswin64_22?
-  - 0
-- - :rbx_22?
-  - 0
-- - :_reduce_41
-  - 0
-- - :ruby_22?
-  - 0
-- - :create_external_subset
-  - 0
-- - :cooked!
-  - 0
-- - :cooked
-  - 0
-- - :raw!
-  - 0
-- - :verify_depth
-  - 0
-- - :create_internal_subset
-  - 0
-- - :_reduce_42
-  - 0
-- - :autoclose?
-  - 0
-- - :_reduce_43
-  - 0
-- - :external_subset
-  - 0
-- - :_reduce_44
-  - 0
-- - :signm
-  - 0
-- - :x64_mingw_22?
-  - 0
-- - :_reduce_45
-  - 0
-- - :_reduce_48
-  - 0
-- - :internal_encoding
-  - 0
-- - :on_23?
-  - 0
-- - :_reduce_49
-  - 0
-- - :jruby_23?
-  - 0
-- - :maglev_23?
-  - 0
-- - :_reduce_50
-  - 0
-- - :namespaced_key?
-  - 0
-- - :mingw_23?
-  - 0
-- - :previous_element
-  - 0
-- - :mri_23?
-  - 0
-- - :_reduce_51
-  - 0
-- - :last_element_child
-  - 0
-- - :mswin_23?
-  - 0
-- - :node_name=
-  - 0
-- - :mswin64_23?
-  - 0
-- - :_reduce_52
-  - 0
-- - :rbx_23?
-  - 0
-- - :ruby_23?
-  - 0
-- - :x64_mingw_23?
-  - 0
-- - :before_command
-  - 0
-- - :after_command
-  - 0
-- - :_reduce_58
-  - 0
-- - :import_from
-  - 0
-- - :_reduce_59
-  - 0
-- - :on_24?
-  - 0
-- - :rename_command
-  - 0
-- - :jruby_24?
-  - 0
-- - :ca_path
-  - 0
-- - :swapcase!
-  - 0
-- - :close_on_exec?
-  - 0
-- - :_reduce_60
-  - 0
-- - :_reduce_62
-  - 0
-- - :_reduce_63
-  - 0
-- - :ungetbyte
-  - 0
-- - :_reduce_64
-  - 0
-- - :_reduce_65
-  - 0
-- - :hook_count
-  - 0
-- - :get_hook
-  - 0
-- - :get_hooks
-  - 0
-- - :delete_hook
-  - 0
-- - :delete_hooks
-  - 0
-- - :encoding_found
-  - 0
-- - :processing_instruction
-  - 0
-- - :cdata_block
-  - 0
-- - :_reduce_66
-  - 0
-- - :maglev_24?
-  - 0
-- - :input_expressions=
-  - 0
-- - :fdatasync
-  - 0
-- - :end_element_namespace
-  - 0
-- - :start_element_namespace
-  - 0
-- - :mingw_24?
-  - 0
-- - :sticky?
-  - 0
-- - :xmldecl
-  - 0
-- - :_reduce_67
-  - 0
-- - :_reduce_68
-  - 0
-- - :setgid?
-  - 0
-- - :mri_24?
-  - 0
-- - :input_expression_ranges=
-  - 0
-- - :external_encoding=
-  - 0
-- - :output_result_ranges=
-  - 0
-- - :mswin_24?
-  - 0
-- - :tr_s!
-  - 0
-- - :_reduce_69
-  - 0
-- - :_reduce_none
-  - 0
-- - :mswin64_24?
-  - 0
-- - :unicode_normalize!
-  - 0
-- - :unicode_normalized?
-  - 0
-- - :_racc_init_sysvars
-  - 0
-- - :x64_mingw_18?
-  - 0
-- - :replicate
-  - 0
-- - :setuid?
-  - 0
-- - :indentation=
-  - 0
-- - :rfc1123_date
-  - 0
-- - :rbx_24?
-  - 0
-- - :unescape_element
-  - 0
-- - :suppress_output=
-  - 0
-- - :canonical=
-  - 0
-- - :escape_element
-  - 0
-- - :ruby_24?
-  - 0
-- - :unescapeElement
-  - 0
-- - :end_mapping
-  - 0
-- - :escapeElement
-  - 0
-- - :start_mapping
-  - 0
-- - :end_sequence
-  - 0
-- - :unescape_html
-  - 0
-- - :start_sequence
-  - 0
-- - :x64_mingw_24?
-  - 0
-- - :end_document
-  - 0
-- - :start_document
-  - 0
-- - :end_stream
-  - 0
-- - :_racc_yyparse_rb
-  - 0
-- - :start_stream
-  - 0
-- - :grpowned?
-  - 0
-- - :visit_Psych_Nodes_Alias
-  - 0
-- - :visit_Psych_Nodes_Stream
-  - 0
-- - :executable_real?
-  - 0
-- - :visit_Psych_Nodes_Document
-  - 0
-- - :visit_Psych_Nodes_Mapping
-  - 0
-- - :memory_size=
-  - 0
-- - :visit_Psych_Nodes_Sequence
-  - 0
-- - :extra_sticky_locals=
-  - 0
-- - :accept_charset=
-  - 0
-- - :visit_Psych_Nodes_Scalar
-  - 0
-- - :accept_charset
-  - 0
-- - :writable_real?
-  - 0
-- - :world_readable?
-  - 0
-- - :visit_BasicObject
-  - 0
-- - :visit_Symbol
-  - 0
-- - :visit_NilClass
-  - 0
-- - :add_sticky_local
-  - 0
-- - :visit_Array
-  - 0
-- - :visit_Psych_Set
-  - 0
-- - :visit_Hash
-  - 0
-- - :visit_Range
-  - 0
-- - :visit_Class
-  - 0
-- - :visit_Module
-  - 0
-- - :nph?
-  - 0
-- - :visit_String
-  - 0
-- - :visit_BigDecimal
-  - 0
-- - :_racc_evalact
-  - 0
-- - :visit_Float
-  - 0
-- - :_racc_do_reduce
-  - 0
-- - :yyaccept
-  - 0
-- - :visit_Date
-  - 0
-- - :visit_FalseClass
-  - 0
-- - :visit_TrueClass
-  - 0
-- - :raise_up
-  - 0
-- - :raise_up!
-  - 0
-- - :visit_Integer
-  - 0
-- - :visit_Complex
-  - 0
-- - :rbx_18?
-  - 0
-- - :birthtime
-  - 0
-- - :racc_read_token
-  - 0
-- - :visit_Rational
-  - 0
-- - :racc_shift
-  - 0
-- - :visit_Time
-  - 0
-- - :racc_reduce
-  - 0
-- - :visit_DateTime
-  - 0
-- - :visit_Regexp
-  - 0
-- - :rdev_minor
-  - 0
-- - :visit_NameError
-  - 0
-- - :last_internal_error
-  - 0
-- - :racc_accept
-  - 0
-- - :rdev_major
-  - 0
-- - :visit_Exception
-  - 0
-- - :rdev
-  - 0
-- - :visit_Struct
-  - 0
-- - :nlink
-  - 0
-- - :racc_e_pop
-  - 0
-- - :racc_next_state
-  - 0
-- - :racc_print_stacks
-  - 0
-- - :racc_print_states
-  - 0
-- - :racc_token2str
-  - 0
-- - :loader=
-  - 0
-- - :saver=
-  - 0
-- - :visit_Object
-  - 0
-- - :cache_on
-  - 0
-- - :dev_minor
-  - 0
-- - :cache_on=
-  - 0
-- - :pusher
-  - 0
-- - :pusher=
-  - 0
-- - :auto_resize!
-  - 0
-- - :visit_Encoding
-  - 0
-- - :dev_major
-  - 0
-- - :visit_Psych_Omap
-  - 0
-- - :on_25?
-  - 0
-- - :toplevel_binding=
-  - 0
-- - :cache_on?
-  - 0
-- - :jruby_25?
-  - 0
-- - :maglev_25?
-  - 0
-- - :set_cache
-  - 0
-- - :singleline_format
-  - 0
-- - :clearer
-  - 0
-- - :sharing_detection=
-  - 0
-- - :sharing_detection
-  - 0
-- - :mcall
-  - 0
-- - :mingw_25?
-  - 0
-- - :racc_runtime_type
-  - 0
-- - :mri_25?
-  - 0
-- - :group_sub
-  - 0
-- - :mswin_25?
-  - 0
-- - :clearer=
-  - 0
-- - :fill_breakable
-  - 0
-- - :break_outmost_groups
-  - 0
-- - :mswin64_25?
-  - 0
-- - :rbx_25?
-  - 0
-- - :mswin64_18?
-  - 0
-- - :file_and_line=
-  - 0
-- - :group_queue
-  - 0
-- - :genspace
-  - 0
-- - :psych_set
-  - 0
-- - :original_lines
-  - 0
-- - :breakables
-  - 0
-- - :psych_omap
-  - 0
-- - :break?
-  - 0
-- - :maxwidth
-  - 0
-- - :ruby_25?
-  - 0
-- - :norecover
-  - 0
-- - :pp_hash
-  - 0
-- - :noent
-  - 0
-- - :nonoent
-  - 0
-- - :noent?
-  - 0
-- - :dtdload
-  - 0
-- - :nodtdload
-  - 0
-- - :dtdload?
-  - 0
-- - :dtdattr
-  - 0
-- - :nodtdattr
-  - 0
-- - :dtdattr?
-  - 0
-- - :dtdvalid
-  - 0
-- - :nodtdvalid
-  - 0
-- - :dtdvalid?
-  - 0
-- - :noerror
-  - 0
-- - :nonoerror
-  - 0
-- - :noerror?
-  - 0
-- - :nowarning
-  - 0
-- - :nonowarning
-  - 0
-- - :nowarning?
-  - 0
-- - :pedantic
-  - 0
-- - :nopedantic
-  - 0
-- - :pedantic?
-  - 0
-- - :noblanks
-  - 0
-- - :nonoblanks
-  - 0
-- - :noblanks?
-  - 0
-- - :sax1
-  - 0
-- - :nosax1
-  - 0
-- - :sax1?
-  - 0
-- - :xinclude
-  - 0
-- - :noxinclude
-  - 0
-- - :pp_object
-  - 0
-- - :nonet
-  - 0
-- - :nononet
-  - 0
-- - :nonet?
-  - 0
-- - :nodict
-  - 0
-- - :nonodict
-  - 0
-- - :nodict?
-  - 0
-- - :nsclean
-  - 0
-- - :nonsclean
-  - 0
-- - :nsclean?
-  - 0
-- - :nocdata
-  - 0
-- - :nonocdata
-  - 0
-- - :nocdata?
-  - 0
-- - :noxincnode
-  - 0
-- - :nonoxincnode
-  - 0
-- - :noxincnode?
-  - 0
-- - :nocompact
-  - 0
-- - :big_decimal
-  - 0
-- - :old10
-  - 0
-- - :noold10
-  - 0
-- - :old10?
-  - 0
-- - :nobasefix
-  - 0
-- - :nonobasefix
-  - 0
-- - :nobasefix?
-  - 0
-- - :huge
-  - 0
-- - :nohuge
-  - 0
-- - :huge?
-  - 0
-- - :default_xml
-  - 0
-- - :nodefault_xml
-  - 0
-- - :default_xml?
-  - 0
-- - :default_html
-  - 0
-- - :nodefault_html
-  - 0
-- - :default_html?
-  - 0
-- - :comma_breakable
-  - 0
-- - :generate_gem_ranking
-  - 0
-- - :deploy_gem
-  - 0
-- - :parsable_gems
-  - 0
-- - :parse_project
-  - 0
-- - :rb_files
-  - 0
-- - :squeeze_method_names
-  - 0
-- - :method_name_dictionary
-  - 0
-- - :startTag=
-  - 0
-- - :saturday?
-  - 0
-- - :friday?
-  - 0
-- - :thursday?
-  - 0
-- - :second_fraction
-  - 0
-- - :wednesday?
-  - 0
-- - :tuesday?
-  - 0
-- - :monday?
-  - 0
-- - :x64_mingw_25?
-  - 0
-- - :jisx0301
-  - 0
-- - :ajd
-  - 0
-- - :amjd
-  - 0
-- - :sunday?
-  - 0
-- - :mjd
-  - 0
-- - :ld
-  - 0
-- - :cdata
-  - 0
-- - :cwyear
-  - 0
-- - :on_1?
-  - 0
-- - :cwday
-  - 0
-- - :pop_inspect_key
-  - 0
-- - :gregorian?
-  - 0
-- - :arity=
-  - 0
-- - :new_start
-  - 0
-- - :italy
-  - 0
-- - :england
-  - 0
-- - :julian
-  - 0
-- - :push_inspect_key
-  - 0
-- - :jruby_1?
-  - 0
-- - :maglev_1?
-  - 0
-- - :next_month
-  - 0
-- - :prev_month
-  - 0
-- - :next_year
-  - 0
-- - :prev_year
-  - 0
-- - :gmt?
-  - 0
-- - :mingw_1?
-  - 0
-- - :mri_1?
-  - 0
-- - :doc=
-  - 0
-- - :gmtoff
-  - 0
-- - :commercial
-  - 0
-- - :check_inspect_key
-  - 0
-- - :class_loader
-  - 0
-- - :valid_jd?
-  - 0
-- - :valid_ordinal?
-  - 0
-- - :valid_civil?
-  - 0
-- - :valid_date?
-  - 0
-- - :valid_commercial?
-  - 0
-- - :julian_leap?
-  - 0
-- - :mswin_18?
-  - 0
-- - :isdst
-  - 0
-- - :endTag=
-  - 0
-- - :mswin_1?
-  - 0
-- - :_xmlschema
-  - 0
-- - :_rfc2822
-  - 0
-- - :_rfc822
-  - 0
-- - :_httpdate
-  - 0
-- - :_jisx0301
-  - 0
-- - :mswin64_1?
-  - 0
-- - :implicit_end=
-  - 0
-- - :localname=
-  - 0
-- - :implicit_end
-  - 0
-- - :asctime
-  - 0
-- - :saveEndTag=
-  - 0
-- - :represent_scalar
-  - 0
-- - :tag_directives=
-  - 0
-- - :empty=
-  - 0
-- - :tag_directives
-  - 0
-- - :closed_write?
-  - 0
-- - :quoted=
-  - 0
-- - :seq=
-  - 0
-- - :plain=
-  - 0
-- - :rbx_1?
-  - 0
-- - :closed_read?
-  - 0
-- - :getgm
-  - 0
-- - :ruby_1?
-  - 0
-- - :x64_mingw_1?
-  - 0
-- - :implicit=
-  - 0
-- - :no_declaration
-  - 0
-- - :no_declaration?
-  - 0
-- - :no_empty_tags
-  - 0
-- - :no_empty_tags?
-  - 0
-- - :no_xhtml
-  - 0
-- - :no_xhtml?
-  - 0
-- - :as_xhtml
-  - 0
-- - :as_xhtml?
-  - 0
-- - :as_xml
-  - 0
-- - :as_xml?
-  - 0
-- - :as_html
-  - 0
-- - :as_html?
-  - 0
-- - :default_xhtml
-  - 0
-- - :default_xhtml?
-  - 0
-- - :implicit
-  - 0
-- - :str=
-  - 0
-- - :depr=
-  - 0
-- - :super_level=
-  - 0
-- - :dtd
-  - 0
-- - :dtd=
-  - 0
-- - :isinline
-  - 0
-- - :isinline=
-  - 0
-- - :mri_18?
-  - 0
-- - :on_2?
-  - 0
-- - :super_method
-  - 0
-- - :jruby_2?
-  - 0
-- - :desc=
-  - 0
-- - :maglev_2?
-  - 0
-- - :column_count=
-  - 0
-- - :mingw_2?
-  - 0
-- - :local_variable_defined?
-  - 0
-- - :subelts
-  - 0
-- - :allow_multiple_insertions
-  - 0
-- - :rubygems_version=
-  - 0
-- - :insert_after_multi
-  - 0
-- - :mswin_2?
-  - 0
-- - :mswin64_2?
-  - 0
-- - :double_colon
-  - 0
-- - :subelts=
-  - 0
-- - :insert_before_multi
-  - 0
-- - :skip_directives=
-  - 0
-- - :skip_directives
-  - 0
-- - :defaultsubelt=
-  - 0
-- - :attrs_opt=
-  - 0
-- - :attrs_depr=
-  - 0
-- - :rbx_2?
-  - 0
-- - :group_sort_key
-  - 0
-- - :attrs_req=
-  - 0
-- - :pry=
-  - 0
-- - :write_out
-  - 0
-- - :mingw_18?
-  - 0
-- - :maglev_18?
-  - 0
-- - :force_utf32
-  - 0
-- - :force_utf32=
-  - 0
-- - :on_18?
-  - 0
-- - :x64_mingw?
-  - 0
-- - :mingw?
-  - 0
-- - :mswin64?
-  - 0
-- - :push_cond
-  - 0
-- - :x64_mingw_2?
-  - 0
-- - :add_runtime_dependency
-  - 0
-- - :pop_cond
-  - 0
-- - :lang=
-  - 0
-- - :required_attributes
-  - 0
-- - :ignore_warnings
-  - 0
-- - :lex_start
-  - 0
-- - :all_errors_are_fatal
-  - 0
-- - :license=
-  - 0
-- - :required_ruby_version=
-  - 0
-- - :autorequire=
-  - 0
-- - :default_executable=
-  - 0
-- - :original_platform=
-  - 0
-- - :on_postexe
-  - 0
-- - :on_preexe
-  - 0
-- - :on_kwbegin
-  - 0
-- - :on_begin
-  - 0
-- - :on_ensure
-  - 0
-- - :on_rescue
-  - 0
-- - :on_resbody
-  - 0
-- - :on_match_with_lvasgn
-  - 0
-- - :paren_depth=
-  - 0
-- - :on_match_current_line
-  - 0
-- - :on_eflipflop
-  - 0
-- - :on_iflipflop
-  - 0
-- - :on_when
-  - 0
-- - :method_size_cutoff=
-  - 0
-- - :opening_paren=
-  - 0
-- - :on_or
-  - 0
-- - :on_and
-  - 0
-- - :on_not
-  - 0
-- - :peek_values
-  - 0
-- - :next_values
-  - 0
-- - :heredoc=
-  - 0
-- - :delim=
-  - 0
-- - :on_defined?
-  - 0
-- - :on_yield
-  - 0
-- - :underlying_error
-  - 0
-- - :on_super
-  - 0
-- - :interpreted=
-  - 0
-- - :on_redo
-  - 0
-- - :compile_option
-  - 0
-- - :on_next
-  - 0
-- - :on_break
-  - 0
-- - :on_return
-  - 0
-- - :on_for
-  - 0
-- - :on_until_post
-  - 0
-- - :on_until
-  - 0
-- - :on_while_post
-  - 0
-- - :must_C_version
-  - 0
-- - :on_block
-  - 0
-- - :plugin_id
-  - 0
-- - :on_csend
-  - 0
-- - :on_alias
-  - 0
-- - :on_undef
-  - 0
-- - :on_defs
-  - 0
-- - :on_def
-  - 0
-- - :restsize
-  - 0
-- - :rest_size
-  - 0
-- - :on_sclass
-  - 0
-- - :on_class
-  - 0
-- - :matched?
-  - 0
-- - :on_module
-  - 0
-- - :default_parallel_manager=
-  - 0
-- - :compile_file
-  - 0
-- - :first_lineno
-  - 0
-- - :base_label
-  - 0
-- - :disassemble
-  - 0
-- - :peep
-  - 0
-- - :enclosed?
-  - 0
-- - :enclose
-  - 0
-- - :token_auth
-  - 0
-- - :on_block_pass
-  - 0
-- - :on_blockarg_expr
-  - 0
-- - :in_parallel?
-  - 0
-- - :on_restarg_expr
-  - 0
-- - :search_full
-  - 0
-- - :on_arg_expr
-  - 0
-- - :scan_full
-  - 0
-- - :on_procarg0
-  - 0
-- - :on_kwrestarg
-  - 0
-- - :add_trace_func
-  - 0
-- - :on_kwoptarg
-  - 0
-- - :on_kwarg
-  - 0
-- - :on_shadowarg
-  - 0
-- - :on_blockarg
-  - 0
-- - :safe_level
-  - 0
-- - :handlers=
-  - 0
-- - :on_restarg
-  - 0
-- - :on_optarg
-  - 0
-- - :on_arg
-  - 0
-- - :process_argument_node
-  - 0
-- - :marshal_spec_dir
-  - 0
-- - :on_casgn
-  - 0
-- - :on_const
-  - 0
-- - :on_masgn
-  - 0
-- - :on_mlhs
-  - 0
-- - :on_op_asgn
-  - 0
-- - :on_or_asgn
-  - 0
-- - :thread_variables
-  - 0
-- - :on_and_asgn
-  - 0
-- - :load_autoloaded_constants
-  - 0
-- - :all_loaded_constants
-  - 0
-- - :on_cvasgn
-  - 0
-- - :on_gvasgn
-  - 0
-- - :lost_method?
-  - 0
-- - :on_ivasgn
-  - 0
-- - :apply_request
-  - 0
-- - :pending_interrupt?
-  - 0
-- - :coredump?
-  - 0
-- - :on_lvasgn
-  - 0
-- - :process_var_asgn_node
-  - 0
-- - :on_nth_ref
-  - 0
-- - :ensure_open_and_readable
-  - 0
-- - :on_back_ref
-  - 0
-- - :on_cvar
-  - 0
-- - :clear_aliases!
-  - 0
-- - :on_gvar
-  - 0
-- - :on_ivar
-  - 0
-- - :implied_start_tag?
-  - 0
-- - :implied_end_tag?
-  - 0
-- - :save_end_tag?
-  - 0
-- - :on_lvar
-  - 0
-- - :sub_elements
-  - 0
-- - :default_sub_element
-  - 0
-- - :optional_attributes
-  - 0
-- - :deprecated_attributes
-  - 0
-- - :process_variable_node
-  - 0
-- - :on_erange
-  - 0
-- - :on_irange
-  - 0
-- - :on_hash
-  - 0
-- - :replace_entities=
-  - 0
-- - :replace_entities
-  - 0
-- - :recovery=
-  - 0
-- - :recovery
-  - 0
-- - :cstime=
-  - 0
-- - :on_pair
-  - 0
-- - :original_content
-  - 0
-- - :entity_type
-  - 0
-- - :on_array
-  - 0
-- - :cutime=
-  - 0
-- - :all_from_common
-  - 0
-- - :enumeration
-  - 0
-- - :occur
-  - 0
-- - :notations
-  - 0
-- - :from_class
-  - 0
-- - :on_splat
-  - 0
-- - :on_xstr
-  - 0
-- - :inner_xml
-  - 0
-- - :outer_xml
-  - 0
-- - :local_name
-  - 0
-- - :namespace_uri
-  - 0
-- - :xml_version
-  - 0
-- - :stime=
-  - 0
-- - :attribute_at
-  - 0
-- - :empty_element?
-  - 0
-- - :attributes?
-  - 0
-- - :on_regexp
-  - 0
-- - :self_closing?
-  - 0
-- - :on_dsym
-  - 0
-- - :on_dstr
-  - 0
-- - :process_regular_node
-  - 0
-- - :rubyforge_project
-  - 0
-- - :lex_en_expr_variable
-  - 0
-- - :utime=
-  - 0
-- - :remove_class
-  - 0
-- - :rubyforge_project=
-  - 0
-- - :remove_attr
-  - 0
-- - :specification_version=
-  - 0
-- - :meta_encoding
-  - 0
-- - :meta_encoding=
-  - 0
-- - :singleton_method?
-  - 0
-- - :bound_method?
-  - 0
-- - :lex_en_leading_dot
-  - 0
-- - :unbound_method?
-  - 0
-- - :singleton_method_added
-  - 0
-- - :dynamically_defined?
-  - 0
-- - :lex_en_line_comment
-  - 0
-- - :visit_function
-  - 0
-- - :dependent_specs
-  - 0
-- - :visit_not
-  - 0
-- - :visit_id
-  - 0
-- - :visit_attribute_condition
-  - 0
-- - :rationalize
-  - 0
-- - :mem=
-  - 0
-- - :visit_pseudo_class
-  - 0
-- - :visit_class_condition
-  - 0
-- - :visit_combinator
-  - 0
-- - :gecos=
-  - 0
-- - :libxml2_using_system?
-  - 0
-- - :visit_direct_adjacent_selector
-  - 0
-- - :visit_following_selector
-  - 0
-- - :visit_descendant_selector
-  - 0
-- - :real?
-  - 0
-- - :visit_child_selector
-  - 0
-- - :conjugate
-  - 0
-- - :visit_conditional_selector
-  - 0
-- - :change=
-  - 0
-- - :uclass
-  - 0
-- - :polar
-  - 0
-- - :rect
-  - 0
-- - :rectangular
-  - 0
-- - :to_rfc822text
-  - 0
-- - :to_mailtext
-  - 0
-- - :angle
-  - 0
-- - :abs2
-  - 0
-- - :visit_element_name
-  - 0
-- - :remove_spec
-  - 0
-- - :uclass=
-  - 0
-- - :set_to
-  - 0
-- - :imaginary
-  - 0
-- - :expire=
-  - 0
-- - :home=
-  - 0
-- - :outdated
-  - 0
-- - :atype
-  - 0
-- - :defined_class
-  - 0
-- - :has_rdoc
-  - 0
-- - :try_mon_enter
-  - 0
-- - :has_rdoc=
-  - 0
-- - :emit_file_line_as_literals
-  - 0
-- - :emit_file_line_as_literals=
-  - 0
-- - :has_unit_tests?
-  - 0
-- - :mon_try_enter
-  - 0
-- - :each_option
-  - 0
-- - :add_banner
-  - 0
-- - :base64digest
-  - 0
-- - :has_test_suite?
-  - 0
-- - :compsys
-  - 0
-- - :match_nonswitch?
-  - 0
-- - :find_inactive_by_path
-  - 0
-- - :incompatible_argument_styles
-  - 0
-- - :make_link
-  - 0
-- - :make_symlink
-  - 0
-- - :mountpoint?
-  - 0
-- - :all_names
-  - 0
-- - :conflict
-  - 0
-- - :set_dn
-  - 0
-- - :dn=
-  - 0
-- - :typecode=
-  - 0
-- - :set_typecode
-  - 0
-- - :disable_default_gem_server=
-  - 0
-- - :source_exception=
-  - 0
-- - :source_exception
-  - 0
-- - :def_instance_delegators
-  - 0
-- - :instance_delegate
-  - 0
-- - :ssl_ca_cert=
-  - 0
-- - :delegating_block
-  - 0
-- - :public_api
-  - 0
-- - :each_stub
-  - 0
-- - :set_scope
-  - 0
-- - :to_fullpath
-  - 0
-- - :slice_when
-  - 0
-- - :slice_after
-  - 0
-- - :slice_before
-  - 0
-- - :cycle
-  - 0
-- - :set_filter
-  - 0
-- - :minmax_by
-  - 0
-- - :set_extensions
-  - 0
-- - :collect_concat
-  - 0
-- - :require_path
-  - 0
-- - :dependencies=
-  - 0
-- - :add_officious
-  - 0
-- - :ins
-  - 0
-- - :summary_width
-  - 0
-- - :require_path=
-  - 0
-- - :ri_dir
-  - 0
-- - :psych_yaml_as
-  - 0
-- - :public_instance_method
-  - 0
-- - :summary_indent
-  - 0
-- - :public_constant
-  - 0
-- - :default_argv
-  - 0
-- - :default_argv=
-  - 0
-- - :wrap_traverse
-  - 0
-- - :remove_class_variable
-  - 0
-- - :test_file
-  - 0
-- - :yaml_tag
-  - 0
-- - :build2
-  - 0
-- - :use_registry
-  - 0
-- - :singleton_method
-  - 0
-- - :public_method
-  - 0
-- - :postorder_traverse
-  - 0
-- - :preorder_traverse
-  - 0
-- - :trust
-  - 0
-- - :platform_support
-  - 0
-- - :set_banner
-  - 0
-- - :untrusted?
-  - 0
-- - :remove_dir1
-  - 0
-- - :untrust
-  - 0
-- - :copy_metadata
-  - 0
-- - :itself
-  - 0
-- - :os_match=
-  - 0
-- - :pretty_print_inspect
-  - 0
-- - :pretty_print_instance_variables
-  - 0
-- - :test_file=
-  - 0
-- - :set_program_name
-  - 0
-- - :psych_to_yaml
-  - 0
-- - :set_summary_width
-  - 0
-- - :set_summary_indent
-  - 0
-- - :component_ary
-  - 0
-- - :stat!
-  - 0
-- - :route_to
-  - 0
-- - :ver
-  - 0
-- - :door?
-  - 0
-- - :dereference?
-  - 0
-- - :set_opaque
-  - 0
-- - :cpu_match=
-  - 0
-- - :registry=
-  - 0
-- - :set_registry
-  - 0
-- - :stubbed?
-  - 0
-- - :set_host
-  - 0
-- - :permute!
-  - 0
-- - :permute
-  - 0
-- - :make_switch
-  - 0
-- - :emit_lambda=
-  - 0
-- - :def_tail_option
-  - 0
-- - :emit_procarg0=
-  - 0
-- - :define_tail
-  - 0
-- - :platform_version_match=
-  - 0
-- - :set_userinfo
-  - 0
-- - :parse_file_with_comments
-  - 0
-- - :cpu=
-  - 0
-- - :set_scheme
-  - 0
-- - :_reduce_10
-  - 0
-- - :_reduce_17
-  - 0
-- - :_reduce_19
-  - 0
-- - :_reduce_24
-  - 0
-- - :_reduce_38
-  - 0
-- - :_reduce_39
-  - 0
-- - :_reduce_46
-  - 0
-- - :_reduce_47
-  - 0
-- - :_reduce_53
-  - 0
-- - :_reduce_54
-  - 0
-- - :_reduce_55
-  - 0
-- - :_reduce_57
-  - 0
-- - :_reduce_61
-  - 0
-- - :_reduce_70
-  - 0
-- - :_reduce_71
-  - 0
-- - :_reduce_73
-  - 0
-- - :_reduce_74
-  - 0
-- - :_reduce_75
-  - 0
-- - :_reduce_76
-  - 0
-- - :_reduce_77
-  - 0
-- - :_reduce_78
-  - 0
-- - :_reduce_79
-  - 0
-- - :_reduce_80
-  - 0
-- - :_reduce_81
-  - 0
-- - :_reduce_83
-  - 0
-- - :_reduce_84
-  - 0
-- - :_reduce_85
-  - 0
-- - :_reduce_86
-  - 0
-- - :_reduce_87
-  - 0
-- - :_reduce_88
-  - 0
-- - :_reduce_89
-  - 0
-- - :_reduce_90
-  - 0
-- - :_reduce_91
-  - 0
-- - :_reduce_92
-  - 0
-- - :_reduce_93
-  - 0
-- - :_reduce_94
-  - 0
-- - :_reduce_95
-  - 0
-- - :_reduce_96
-  - 0
-- - :_reduce_97
-  - 0
-- - :_reduce_98
-  - 0
-- - :_reduce_99
-  - 0
-- - :_reduce_100
-  - 0
-- - :_reduce_101
-  - 0
-- - :_reduce_102
-  - 0
-- - :_reduce_103
-  - 0
-- - :_reduce_104
-  - 0
-- - :_reduce_105
-  - 0
-- - :_reduce_106
-  - 0
-- - :_reduce_108
-  - 0
-- - :_reduce_109
-  - 0
-- - :_reduce_110
-  - 0
-- - :_reduce_116
-  - 0
-- - :_reduce_120
-  - 0
-- - :_reduce_121
-  - 0
-- - :_reduce_122
-  - 0
-- - :_reduce_194
-  - 0
-- - :_reduce_195
-  - 0
-- - :_reduce_196
-  - 0
-- - :_reduce_197
-  - 0
-- - :_reduce_198
-  - 0
-- - :_reduce_199
-  - 0
-- - :_reduce_200
-  - 0
-- - :_reduce_201
-  - 0
-- - :_reduce_202
-  - 0
-- - :_reduce_203
-  - 0
-- - :_reduce_204
-  - 0
-- - :_reduce_205
-  - 0
-- - :_reduce_206
-  - 0
-- - :_reduce_207
-  - 0
-- - :_reduce_208
-  - 0
-- - :_reduce_209
-  - 0
-- - :_reduce_210
-  - 0
-- - :_reduce_211
-  - 0
-- - :_reduce_212
-  - 0
-- - :_reduce_213
-  - 0
-- - :_reduce_214
-  - 0
-- - :_reduce_215
-  - 0
-- - :_reduce_216
-  - 0
-- - :_reduce_217
-  - 0
-- - :_reduce_218
-  - 0
-- - :_reduce_219
-  - 0
-- - :_reduce_220
-  - 0
-- - :_reduce_221
-  - 0
-- - :_reduce_222
-  - 0
-- - :_reduce_223
-  - 0
-- - :_reduce_224
-  - 0
-- - :_reduce_225
-  - 0
-- - :_reduce_226
-  - 0
-- - :_reduce_227
-  - 0
-- - :_reduce_228
-  - 0
-- - :_reduce_229
-  - 0
-- - :_reduce_230
-  - 0
-- - :_reduce_231
-  - 0
-- - :_reduce_232
-  - 0
-- - :_reduce_233
-  - 0
-- - :_reduce_234
-  - 0
-- - :_reduce_235
-  - 0
-- - :_reduce_236
-  - 0
-- - :_reduce_241
-  - 0
-- - :_reduce_242
-  - 0
-- - :_reduce_243
-  - 0
-- - :_reduce_244
-  - 0
-- - :_reduce_246
-  - 0
-- - :_reduce_249
-  - 0
-- - :_reduce_250
-  - 0
-- - :_reduce_251
-  - 0
-- - :_reduce_252
-  - 0
-- - :_reduce_253
-  - 0
-- - :_reduce_254
-  - 0
-- - :_reduce_255
-  - 0
-- - :_reduce_256
-  - 0
-- - :_reduce_257
-  - 0
-- - :_reduce_258
-  - 0
-- - :_reduce_259
-  - 0
-- - :_reduce_260
-  - 0
-- - :_reduce_261
-  - 0
-- - :_reduce_262
-  - 0
-- - :_reduce_263
-  - 0
-- - :_reduce_264
-  - 0
-- - :_reduce_265
-  - 0
-- - :_reduce_267
-  - 0
-- - :_reduce_268
-  - 0
-- - :_reduce_269
-  - 0
-- - :_reduce_280
-  - 0
-- - :_reduce_281
-  - 0
-- - :_reduce_282
-  - 0
-- - :_reduce_283
-  - 0
-- - :_reduce_284
-  - 0
-- - :_reduce_285
-  - 0
-- - :_reduce_286
-  - 0
-- - :_reduce_287
-  - 0
-- - :_reduce_288
-  - 0
-- - :_reduce_289
-  - 0
-- - :_reduce_290
-  - 0
-- - :_reduce_291
-  - 0
-- - :_reduce_292
-  - 0
-- - :_reduce_293
-  - 0
-- - :_reduce_294
-  - 0
-- - :_reduce_295
-  - 0
-- - :_reduce_296
-  - 0
-- - :_reduce_297
-  - 0
-- - :_reduce_298
-  - 0
-- - :_reduce_299
-  - 0
-- - :_reduce_300
-  - 0
-- - :_reduce_302
-  - 0
-- - :_reduce_303
-  - 0
-- - :_reduce_304
-  - 0
-- - :_reduce_305
-  - 0
-- - :_reduce_306
-  - 0
-- - :_reduce_307
-  - 0
-- - :_reduce_308
-  - 0
-- - :_reduce_309
-  - 0
-- - :_reduce_310
-  - 0
-- - :_reduce_311
-  - 0
-- - :_reduce_312
-  - 0
-- - :_reduce_313
-  - 0
-- - :_reduce_314
-  - 0
-- - :_reduce_315
-  - 0
-- - :_reduce_316
-  - 0
-- - :_reduce_317
-  - 0
-- - :_reduce_318
-  - 0
-- - :_reduce_319
-  - 0
-- - :_reduce_320
-  - 0
-- - :_reduce_321
-  - 0
-- - :_reduce_322
-  - 0
-- - :def_head_option
-  - 0
-- - :_reduce_324
-  - 0
-- - :_reduce_325
-  - 0
-- - :_reduce_326
-  - 0
-- - :_reduce_327
-  - 0
-- - :_reduce_328
-  - 0
-- - :_reduce_329
-  - 0
-- - :_reduce_330
-  - 0
-- - :_reduce_331
-  - 0
-- - :_reduce_335
-  - 0
-- - :_reduce_339
-  - 0
-- - :_reduce_341
-  - 0
-- - :_reduce_344
-  - 0
-- - :_reduce_345
-  - 0
-- - :_reduce_346
-  - 0
-- - :_reduce_347
-  - 0
-- - :_reduce_349
-  - 0
-- - :_reduce_350
-  - 0
-- - :_reduce_351
-  - 0
-- - :_reduce_352
-  - 0
-- - :_reduce_353
-  - 0
-- - :_reduce_354
-  - 0
-- - :_reduce_355
-  - 0
-- - :_reduce_356
-  - 0
-- - :_reduce_357
-  - 0
-- - :_reduce_358
-  - 0
-- - :_reduce_359
-  - 0
-- - :_reduce_360
-  - 0
-- - :_reduce_361
-  - 0
-- - :_reduce_362
-  - 0
-- - :_reduce_363
-  - 0
-- - :_reduce_364
-  - 0
-- - :_reduce_365
-  - 0
-- - :_reduce_366
-  - 0
-- - :_reduce_367
-  - 0
-- - :_reduce_369
-  - 0
-- - :_reduce_370
-  - 0
-- - :_reduce_371
-  - 0
-- - :_reduce_372
-  - 0
-- - :_reduce_373
-  - 0
-- - :_reduce_374
-  - 0
-- - :_reduce_375
-  - 0
-- - :_reduce_376
-  - 0
-- - :_reduce_378
-  - 0
-- - :_reduce_379
-  - 0
-- - :_reduce_380
-  - 0
-- - :_reduce_381
-  - 0
-- - :_reduce_382
-  - 0
-- - :_reduce_383
-  - 0
-- - :_reduce_384
-  - 0
-- - :_reduce_385
-  - 0
-- - :_reduce_386
-  - 0
-- - :_reduce_387
-  - 0
-- - :_reduce_389
-  - 0
-- - :_reduce_390
-  - 0
-- - :_reduce_391
-  - 0
-- - :_reduce_392
-  - 0
-- - :_reduce_393
-  - 0
-- - :_reduce_394
-  - 0
-- - :_reduce_395
-  - 0
-- - :_reduce_396
-  - 0
-- - :_reduce_397
-  - 0
-- - :_reduce_398
-  - 0
-- - :_reduce_399
-  - 0
-- - :_reduce_400
-  - 0
-- - :_reduce_401
-  - 0
-- - :_reduce_402
-  - 0
-- - :_reduce_403
-  - 0
-- - :_reduce_404
-  - 0
-- - :_reduce_405
-  - 0
-- - :_reduce_406
-  - 0
-- - :_reduce_407
-  - 0
-- - :_reduce_408
-  - 0
-- - :_reduce_409
-  - 0
-- - :_reduce_410
-  - 0
-- - :_reduce_411
-  - 0
-- - :_reduce_412
-  - 0
-- - :_reduce_413
-  - 0
-- - :_reduce_414
-  - 0
-- - :_reduce_415
-  - 0
-- - :_reduce_416
-  - 0
-- - :_reduce_418
-  - 0
-- - :_reduce_419
-  - 0
-- - :_reduce_420
-  - 0
-- - :_reduce_423
-  - 0
-- - :_reduce_425
-  - 0
-- - :_reduce_430
-  - 0
-- - :_reduce_431
-  - 0
-- - :_reduce_432
-  - 0
-- - :_reduce_433
-  - 0
-- - :_reduce_434
-  - 0
-- - :_reduce_435
-  - 0
-- - :_reduce_436
-  - 0
-- - :_reduce_437
-  - 0
-- - :_reduce_438
-  - 0
-- - :_reduce_439
-  - 0
-- - :_reduce_440
-  - 0
-- - :_reduce_441
-  - 0
-- - :_reduce_442
-  - 0
-- - :_reduce_443
-  - 0
-- - :_reduce_444
-  - 0
-- - :_reduce_445
-  - 0
-- - :_reduce_446
-  - 0
-- - :_reduce_447
-  - 0
-- - :_reduce_448
-  - 0
-- - :_reduce_449
-  - 0
-- - :_reduce_450
-  - 0
-- - :_reduce_451
-  - 0
-- - :_reduce_452
-  - 0
-- - :_reduce_453
-  - 0
-- - :_reduce_454
-  - 0
-- - :_reduce_455
-  - 0
-- - :_reduce_456
-  - 0
-- - :_reduce_457
-  - 0
-- - :_reduce_458
-  - 0
-- - :_reduce_459
-  - 0
-- - :_reduce_460
-  - 0
-- - :_reduce_461
-  - 0
-- - :_reduce_462
-  - 0
-- - :_reduce_463
-  - 0
-- - :_reduce_464
-  - 0
-- - :_reduce_466
-  - 0
-- - :_reduce_467
-  - 0
-- - :_reduce_468
-  - 0
-- - :_reduce_469
-  - 0
-- - :_reduce_470
-  - 0
-- - :_reduce_471
-  - 0
-- - :_reduce_472
-  - 0
-- - :_reduce_473
-  - 0
-- - :_reduce_474
-  - 0
-- - :_reduce_475
-  - 0
-- - :_reduce_476
-  - 0
-- - :_reduce_477
-  - 0
-- - :_reduce_478
-  - 0
-- - :_reduce_479
-  - 0
-- - :_reduce_480
-  - 0
-- - :_reduce_481
-  - 0
-- - :_reduce_482
-  - 0
-- - :_reduce_483
-  - 0
-- - :_reduce_484
-  - 0
-- - :_reduce_485
-  - 0
-- - :_reduce_486
-  - 0
-- - :_reduce_487
-  - 0
-- - :_reduce_488
-  - 0
-- - :_reduce_489
-  - 0
-- - :_reduce_490
-  - 0
-- - :_reduce_491
-  - 0
-- - :_reduce_492
-  - 0
-- - :_reduce_493
-  - 0
-- - :_reduce_494
-  - 0
-- - :_reduce_495
-  - 0
-- - :_reduce_496
-  - 0
-- - :_reduce_497
-  - 0
-- - :_reduce_498
-  - 0
-- - :_reduce_499
-  - 0
-- - :_reduce_500
-  - 0
-- - :_reduce_501
-  - 0
-- - :_reduce_502
-  - 0
-- - :_reduce_503
-  - 0
-- - :_reduce_504
-  - 0
-- - :_reduce_505
-  - 0
-- - :_reduce_506
-  - 0
-- - :_reduce_507
-  - 0
-- - :_reduce_508
-  - 0
-- - :_reduce_509
-  - 0
-- - :_reduce_510
-  - 0
-- - :_reduce_511
-  - 0
-- - :_reduce_512
-  - 0
-- - :_reduce_513
-  - 0
-- - :_reduce_514
-  - 0
-- - :_reduce_515
-  - 0
-- - :_reduce_516
-  - 0
-- - :_reduce_517
-  - 0
-- - :_reduce_518
-  - 0
-- - :_reduce_519
-  - 0
-- - :_reduce_520
-  - 0
-- - :_reduce_521
-  - 0
-- - :_reduce_522
-  - 0
-- - :_reduce_523
-  - 0
-- - :_reduce_525
-  - 0
-- - :_reduce_526
-  - 0
-- - :_reduce_527
-  - 0
-- - :_reduce_528
-  - 0
-- - :_reduce_529
-  - 0
-- - :_reduce_530
-  - 0
-- - :_reduce_531
-  - 0
-- - :_reduce_532
-  - 0
-- - :_reduce_533
-  - 0
-- - :_reduce_534
-  - 0
-- - :_reduce_535
-  - 0
-- - :_reduce_536
-  - 0
-- - :_reduce_537
-  - 0
-- - :_reduce_538
-  - 0
-- - :_reduce_539
-  - 0
-- - :_reduce_542
-  - 0
-- - :_reduce_543
-  - 0
-- - :_reduce_544
-  - 0
-- - :_reduce_545
-  - 0
-- - :_reduce_546
-  - 0
-- - :_reduce_547
-  - 0
-- - :_reduce_548
-  - 0
-- - :_reduce_549
-  - 0
-- - :_reduce_552
-  - 0
-- - :_reduce_553
-  - 0
-- - :_reduce_556
-  - 0
-- - :_reduce_557
-  - 0
-- - :_reduce_558
-  - 0
-- - :_reduce_560
-  - 0
-- - :_reduce_561
-  - 0
-- - :_reduce_563
-  - 0
-- - :_reduce_564
-  - 0
-- - :_reduce_565
-  - 0
-- - :_reduce_566
-  - 0
-- - :_reduce_567
-  - 0
-- - :_reduce_568
-  - 0
-- - :_reduce_585
-  - 0
-- - :_reduce_586
-  - 0
-- - :_reduce_590
-  - 0
-- - :_reduce_594
-  - 0
-- - :approximate_recommendation
-  - 0
-- - :_reduce_323
-  - 0
+---
+:[]: 93782
+:new: 30679
+:[]=: 21549
+:==: 19236
+:<<: 17019
+:raise: 14119
+:each: 11728
+:+: 10709
+:to_s: 9674
+:!: 8959
+:name: 8148
+:is_a?: 7404
+:map: 6843
+:nil?: 6798
+:join: 6642
+:class: 6245
+:freeze: 5997
+:include: 5937
+:empty?: 5883
+:options: 5157
+:include?: 5132
+:first: 4874
+:-: 4670
+:respond_to?: 4440
+:delete: 4084
+:size: 4055
+:value: 3780
+:=~: 3713
+:send: 3183
+:to_i: 3172
+:inspect: 3154
+:split: 3129
+:!=: 3084
+:>: 3057
+:autoload: 3015
+:call: 2909
+:length: 2799
+:config: 2764
+:merge!: 2727
+:merge: 2708
+:*: 2699
+:puts: 2608
+:extend: 2577
+:last: 2497
+:to_sym: 2479
+:dup: 2471
+:push: 2310
+:pos=: 2297
+:gsub: 2233
+:find: 2029
+:type: 1954
+:path: 1926
+:<: 1896
+:parse: 1800
+:fetch: 1751
+:key?: 1723
+:message: 1655
+:index: 1641
+:keys: 1635
+:select: 1609
+:read: 1600
+:scan: 1597
+:to: 1583
+:any?: 1574
+:expand_path: 1478
+:match: 1445
+:flatten: 1436
+:warn: 1408
+:concat: 1399
+:escape: 1398
+:now: 1364
+:===: 1343
+:pos: 1334
+:downcase: 1302
+:synchronize: 1293
+:>=: 1267
+:strip: 1187
+:has_key?: 1173
+:shift: 1167
+:load: 1150
+:children: 1138
+:state: 1127
+:%: 1124
+:exist?: 1121
+:source: 1091
+:values: 1082
+:pop: 1081
+:option: 1061
+:get: 1058
+:open: 1056
+:compact: 1045
+:inject: 982
+:version: 967
+:attributes: 959
+:desc: 949
+:kind_of?: 919
+:/: 918
+:loc: 915
+:on: 892
+:&: 886
+:write: 878
+:collect: 870
+:method: 866
+:parent: 849
+:add: 845
+:to_a: 838
+:sub: 837
+:sort: 834
+:<=: 819
+:line: 819
+:close: 803
+:headers: 800
+:text: 797
+:to_f: 796
+:|: 791
+:key: 779
+:current: 778
+:dirname: 753
+:clear: 720
+:class_eval: 703
+:encode: 702
+:format: 685
+:pack: 678
+:reject: 671
+:host: 667
+:gsub!: 657
+:tag: 651
+:args: 639
+:tap: 632
+:output: 625
+:uniq: 608
+:count: 606
+:backtrace: 603
+:each_with_index: 586
+:unpack: 582
+:build: 573
+:exit: 550
+:status: 540
+:print: 538
+:method_defined?: 536
+:unshift: 511
+:deprecate_constant: 509
+:update: 506
+:node: 500
+:upcase: 499
+:command: 496
+:port: 489
+:all?: 481
+:force_encoding: 479
+:chomp: 477
+:basename: 472
+:const_get: 469
+:module_eval: 469
+:run: 469
+:file: 461
+:tok: 457
+:replace: 455
+:instance_variable_set: 453
+:process: 451
+:rand: 448
+:start_with?: 446
+:object_id: 444
+:__send__: 440
+:to_hash: 418
+:bytesize: 415
+:exists?: 415
+:<=>: 411
+:chr: 411
+:instance_eval: 410
+:create: 400
+:begin: 397
+:description: 389
+:separator: 388
+:directory?: 384
+:times: 380
+:sort_by: 379
+:each_pair: 378
+:present?: 376
+:max: 373
+:loop: 371
+:clone: 369
+:hash: 367
+:scheme: 366
+:opts: 361
+:start: 360
+:map!: 355
+:string: 347
+:instance_variable_get: 343
+:end: 341
+:user: 335
+:detect: 333
+:dump: 333
+:eval: 329
+:group: 329
+:const_defined?: 328
+:query: 324
+:superclass: 324
+:column: 320
+:scope: 317
+:accept: 305
+:!~: 303
+:encoding: 302
+:-@: 299
+:delete_if: 299
+:min: 296
+:result: 293
+:reset: 290
+:tr: 290
+:zero?: 290
+:reverse: 282
+:slice: 281
+:emit: 280
+:utc: 279
+:arity: 275
+:insert: 275
+:label: 273
+:environment: 271
+:owner: 271
+:lines: 267
+:at: 266
+:default: 266
+:list: 265
+:location: 263
+:header: 260
+:render: 259
+:check: 258
+:file?: 257
+:sleep: 251
+:tokens: 249
+:declare: 247
+:banner: 244
+:flush: 244
+:zip: 243
+:>>: 240
+:expression: 240
+:members: 239
+:store: 239
+:iso8601: 237
+:block: 232
+:password: 232
+:literal: 230
+:stat: 229
+:filename: 228
+:strftime: 228
+:equal?: 227
+:intern: 227
+:quote: 227
+:reduce: 222
+:peek: 221
+:exec: 220
+:pwd: 220
+:binding: 218
+:diagnostic: 218
+:digest: 217
+:each_line: 216
+:next: 215
+:base: 214
+:call_method: 214
+:sub!: 214
+:offset: 212
+:extend_string: 211
+:glob: 210
+:parameters: 210
+:selector: 210
+:begin_pos: 208
+:commands: 208
+:year: 207
+:hexdigest: 206
+:compile: 205
+:slice!: 204
+:comments: 201
+:filter: 200
+:range: 200
+:lineno: 199
+:stop: 198
+:eql?: 197
+:io: 196
+:binary_op: 195
+:abs: 194
+:remove: 194
+:reject!: 193
+:width: 192
+:flat_map: 191
+:end_with?: 189
+:private_class_method: 187
+:**: 186
+:match?: 186
+:breakable: 179
+:capitalize: 179
+:each_with_object: 175
+:finish: 174
+:skip: 174
+:find_all: 172
+:month: 172
+:pid: 171
+:prefix: 170
+:exitstatus: 168
+:last_match: 168
+:instance_methods: 166
+:name=: 166
+:arguments: 165
+:chdir: 164
+:day: 162
+:value=: 162
+:domain: 161
+:grep: 161
+:to_enum: 160
+:assignable: 159
+:end_pos: 157
+:ord: 156
+:unextend: 155
+:const_set: 154
+:round: 154
+:keyword_cmd: 153
+:shell: 152
+:values_at: 152
+:rewind: 151
+:unescape: 151
+:aliases: 148
+:exception: 148
+:to_str: 148
+:with: 148
+:instance_of?: 147
+:search: 147
+:splat: 145
+:to_h: 144
+:upto: 144
+:parser: 142
+:pp: 141
+:ancestors: 140
+:content_type: 140
+:define: 139
+:extname: 139
+:uniq!: 139
+:cond: 138
+:each_value: 138
+:eos?: 136
+:unlink: 136
+:indent: 133
+:instance_variable_defined?: 133
+:mtime: 133
+:cmdarg: 132
+:builder: 131
+:flatten!: 130
+:op_assign: 130
+:gets: 129
+:normalize: 128
+:constants: 127
+:frozen?: 127
+:public_send: 127
+:types: 127
+:entries: 126
+:closed?: 125
+:instance_method: 125
+:eof?: 124
+:mode: 124
+:captures: 123
+:yyerror: 122
+:bind: 121
+:relative_path_from: 121
+:zone: 120
+:^: 119
+:catch: 119
+:undef_method: 119
+:wait: 118
+:level: 117
+:setup: 117
+:reverse_each: 116
+:partition: 115
+:instance_exec: 112
+:strip!: 111
+:keyword: 110
+:operator: 110
+:sort!: 109
+:for: 108
+:kill: 108
+:convert: 106
+:getc: 105
+:gid: 105
+:success?: 105
+:getbyte: 104
+:order: 104
+:word: 104
+:member?: 103
+:group_by: 101
+:hex: 101
+:abort: 100
+:condition: 100
+:rest: 100
+:pattern: 99
+:matched: 98
+:dir: 96
+:state=: 94
+:append: 93
+:set_backtrace: 93
+:uid: 93
+:local: 92
+:reopen: 92
+:rstrip: 92
+:sample: 92
+:path=: 91
+:regexp?: 91
+:each_key: 90
+:hostname: 90
+:associate: 89
+:parse!: 89
+:receiver: 88
+:instance_variables: 87
+:transaction: 87
+:enum_for: 86
+:lock: 86
+:delete_at: 85
+:ljust: 85
+:version?: 85
+:enabled?: 84
+:chomp!: 82
+:hour: 82
+:private_constant: 82
+:executable?: 81
+:rindex: 81
+:source_location: 81
+:readable?: 80
+:prepend: 79
+:singleton_class: 79
+:bytes: 78
+:depth: 78
+:root?: 78
+:to_set: 78
+:banner=: 77
+:comment: 77
+:none?: 77
+:chars: 76
+:extensions: 75
+:rjust: 75
+:escapeHTML: 74
+:tty?: 74
+:seek: 73
+:each_slice: 72
+:priority: 71
+:chmod: 70
+:gem: 70
+:home: 70
+:pop_literal: 70
+:readlines: 70
+:alias: 69
+:get_byte: 69
+:invert: 69
+:sync=: 69
+:binmode: 67
+:exclude_end?: 67
+:casecmp: 66
+:compact!: 66
+:h: 66
+:restarg: 66
+:source_line: 66
+:valid_encoding?: 66
+:~: 66
+:__id__: 65
+:pointer: 65
+:symlink?: 65
+:union: 65
+:assign: 64
+:logical_op: 64
+:active?: 62
+:request_uri: 62
+:writable?: 62
+:getch: 61
+:goto: 61
+:step: 61
+:insert_before: 60
+:methods: 60
+:mkdir: 60
+:rename: 60
+:untaint: 60
+:headers=: 58
+:sec: 58
+:sync: 58
+:drop: 57
+:fragment: 57
+:pipe: 57
+:is?: 56
+:on_tail: 56
+:popen: 56
+:help: 55
+:httpdate: 55
+:attr_asgn: 54
+:downcase!: 54
+:truncate: 54
+:description=: 53
+:absolute?: 52
+:argument: 52
+:array: 52
+:enable: 52
+:insert_after: 52
+:names: 52
+:nest_and_try_closing: 52
+:public_instance_methods: 52
+:query=: 52
+:realpath: 52
+:chop: 51
+:encode!: 51
+:password=: 51
+:registry: 51
+:scan_until: 51
+:ungetc: 51
+:ceil: 50
+:consumer: 50
+:alive?: 49
+:define_singleton_method: 49
+:unlock: 49
+:allocate: 48
+:release: 48
+:tmpdir: 48
+:to_time: 48
+:raw: 47
+:signal: 47
+:binread: 46
+:const_fetch: 46
+:host=: 46
+:source_buffer: 46
+:to_io: 46
+:copy: 45
+:dot: 45
+:downto: 45
+:encode_escape: 45
+:extend_static: 45
+:ftype: 45
+:gvar: 45
+:heredoc?: 45
+:remove_instance_variable: 45
+:tokenize: 45
+:version=: 45
+:cause: 44
+:munge_escape?: 44
+:source=: 44
+:trace: 44
+:default=: 43
+:fork: 43
+:multi_lhs: 43
+:not_op: 43
+:one?: 43
+:read_nonblock: 43
+:try_convert: 43
+:arg: 42
+:cleanpath: 42
+:each_byte: 42
+:extend_dynamic: 42
+:oct: 42
+:pass: 42
+:to_yaml: 42
+:const_global: 41
+:default_external: 41
+:event: 41
+:float: 41
+:flock: 41
+:nonzero?: 41
+:post_match: 41
+:unary_op: 41
+:utc_offset: 41
+:with_index: 41
+:yield: 41
+:pop_cmdarg: 40
+:push_cmdarg: 40
+:emit_table: 39
+:printf: 39
+:readline: 39
+:replacement: 39
+:squeeze: 39
+:coerce: 38
+:main: 38
+:mkpath: 38
+:regexp: 38
+:required?: 38
+:reverse!: 38
+:take: 38
+:advance: 37
+:errno: 37
+:line_range: 37
+:mktmpdir: 37
+:private_method_defined?: 37
+:program_name: 37
+:sum: 37
+:yyerrok: 37
+:b: 36
+:original_name: 36
+:relative?: 36
+:symbol: 36
+:to_ary: 36
+:begin_body: 35
+:broadcast: 35
+:div: 35
+:empty: 35
+:port=: 35
+:rescue_body: 35
+:last_line: 34
+:readpartial: 34
+:str_s: 34
+:strict?: 34
+:user=: 34
+:divmod: 33
+:each_index: 33
+:expires: 33
+:extract: 33
+:lstrip: 33
+:set_encoding: 33
+:traverse: 33
+:classify: 32
+:cover?: 32
+:enter: 32
+:flush_string: 32
+:original_filename: 32
+:putc: 32
+:resume: 32
+:top: 32
+:tr!: 32
+:usec: 32
+:display: 31
+:link: 31
+:remove_file: 31
+:copy_file: 30
+:else: 30
+:emit_comment: 30
+:fileno: 30
+:lexpop: 30
+:readlink: 30
+:reason: 30
+:seplist: 30
+:stopped?: 30
+:to_path: 30
+:escape_html: 29
+:integer: 29
+:matched_size: 29
+:resize: 29
+:umask: 29
+:lstat: 28
+:shuffle: 28
+:to_proc: 28
+:ascii_only?: 27
+:cmdarg=: 27
+:public_method_defined?: 27
+:scrub: 27
+:class_exec: 26
+:foreach: 26
+:lex_error: 26
+:shellescape: 26
+:byteslice: 25
+:case: 25
+:codepoints: 25
+:floor: 25
+:locked?: 25
+:negate: 25
+:pre_match: 25
+:to_datetime: 25
+:today: 25
+:absolute_path: 24
+:complete: 24
+:ivar: 24
+:max_by: 24
+:transpose: 24
+:userinfo: 24
+:between?: 23
+:chop!: 23
+:close!: 23
+:each_cons: 23
+:first_line: 23
+:multi_assign: 23
+:next_token: 23
+:scheme=: 23
+:symlink: 23
+:write_nonblock: 23
+:chown: 22
+:extend_space: 22
+:in_def?: 22
+:infinite?: 22
+:pair: 22
+:parse_file: 22
+:terminate: 22
+:words?: 22
+:guess: 21
+:lazy: 21
+:lstrip!: 21
+:succ: 21
+:wday: 21
+:with_object: 21
+:const_missing: 20
+:disable: 20
+:each_char: 20
+:expires=: 20
+:fcntl: 20
+:fill: 20
+:filter_backtrace: 20
+:newline: 20
+:opt: 20
+:pry: 20
+:select!: 20
+:syswrite: 20
+:to_date: 20
+:for_fd: 19
+:nan?: 19
+:of: 19
+:scope=: 19
+:short: 19
+:thread: 19
+:wakeup: 19
+:xmlschema: 19
+:back_ref: 18
+:condition_mod: 18
+:const: 18
+:cvar: 18
+:index_asgn: 18
+:ino: 18
+:loop_mod: 18
+:out: 18
+:public_methods: 18
+:return_value: 18
+:second: 18
+:seed: 18
+:string_compose: 18
+:string_internal: 18
+:words_compose: 18
+:abort_on_exception=: 17
+:default_port: 17
+:drop_while: 17
+:eof_codepoint?: 17
+:heredoc_e: 17
+:included_modules: 17
+:infer_indent_level: 17
+:optarg: 17
+:rmtree: 17
+:rstrip!: 17
+:to_int: 17
+:arg_or_cmdarg: 16
+:compstmt: 16
+:console: 16
+:fnmatch: 16
+:force: 16
+:getlocal: 16
+:objc_restarg: 16
+:private_instance_methods: 16
+:set_option: 16
+:accessible: 15
+:assoc: 15
+:civil: 15
+:const_op_assignable: 15
+:default_encoding: 15
+:delete!: 15
+:diagnostics: 15
+:do_parse: 15
+:mon: 15
+:negative?: 15
+:parser=: 15
+:process_all: 15
+:rmdir: 15
+:sysread: 15
+:to_binary: 15
+:ascend: 14
+:collect!: 14
+:copy_stream: 14
+:default_proc=: 14
+:global: 14
+:http_header: 14
+:in: 14
+:jd: 14
+:method_missing: 14
+:scrub!: 14
+:setbyte: 14
+:srand: 14
+:thread_variable_set: 14
+:unescapeHTML: 14
+:__getobj__: 13
+:add?: 13
+:chunk: 13
+:default_proc: 13
+:dn: 13
+:domain=: 13
+:extend_content: 13
+:fragment=: 13
+:long: 13
+:min_by: 13
+:obj: 13
+:on_error: 13
+:private_methods: 13
+:rfc2822: 13
+:sort_by!: 13
+:utc?: 13
+:utime: 13
+:atime: 12
+:autoload?: 12
+:d: 12
+:default_internal: 12
+:even?: 12
+:extensions=: 12
+:find_index: 12
+:modulo: 12
+:opaque: 12
+:order!: 12
+:tell: 12
+:tv_sec: 12
+:wait_until: 12
+:attributes=: 11
+:capitalize!: 11
+:comments=: 11
+:ctime: 11
+:default_parser: 11
+:document?: 11
+:identical?: 11
+:minute: 11
+:new_offset: 11
+:odd?: 11
+:product: 11
+:real: 11
+:string=: 11
+:switch_name: 11
+:thread_variable_get: 11
+:unbind: 11
+:_parse: 10
+:character: 10
+:close_on_exec=: 10
+:declared?: 10
+:def_method: 10
+:default_external=: 10
+:exited?: 10
+:false: 10
+:getwd: 10
+:gmtime: 10
+:hostname=: 10
+:ident: 10
+:inline?: 10
+:keep_if: 10
+:kwoptarg: 10
+:kwrestarg: 10
+:last_column: 10
+:module_exec: 10
+:nil: 10
+:preexe: 10
+:pretty_inspect: 10
+:rpartition: 10
+:sec_fraction: 10
+:self: 10
+:shellsplit: 10
+:subtract: 10
+:symbol_compose: 10
+:symbols_compose: 10
+:take_while: 10
+:ternary: 10
+:to_r: 10
+:true: 10
+:when: 10
+:__FILE__: 9
+:__LINE__: 9
+:absolute: 9
+:argv: 9
+:begin_keyword: 9
+:block_length: 9
+:block_pass: 9
+:blockarg: 9
+:blocks: 9
+:bol?: 9
+:close_write: 9
+:component: 9
+:def_class: 9
+:def_module: 9
+:def_sclass: 9
+:def_singleton: 9
+:denominator: 9
+:dev: 9
+:endTag: 9
+:exclusive: 9
+:fdiv: 9
+:fsync: 9
+:localtime: 9
+:nsec: 9
+:nth_ref: 9
+:postexe: 9
+:protected_methods: 9
+:public_class_method: 9
+:push_literal: 9
+:range_exclusive: 9
+:range_inclusive: 9
+:readbyte: 9
+:regexp_compose: 9
+:regexp_options: 9
+:startTag: 9
+:strptime: 9
+:winsize: 9
+:xstring_compose: 9
+:__ENCODING__: 8
+:add_callback: 8
+:assignment?: 8
+:call_lambda: 8
+:compatible?: 8
+:consumer=: 8
+:each_child: 8
+:each_filename: 8
+:fetch_option: 8
+:heredoc_body: 8
+:id2name: 8
+:in_kwarg=: 8
+:kwarg: 8
+:match_op: 8
+:named_captures: 8
+:node=: 8
+:pair_keyword: 8
+:pretty_print: 8
+:procarg0: 8
+:protected_instance_methods: 8
+:protected_method_defined?: 8
+:restarg_expr: 8
+:set_attributes: 8
+:shadowarg: 8
+:start_interp_brace: 8
+:summarize: 8
+:taint: 8
+:try_lock: 8
+:tv_usec: 8
+:value?: 8
+:__setobj__: 7
+:argument?: 7
+:class_variable_defined?: 7
+:convert!: 7
+:dedent_level: 7
+:default?: 7
+:default_internal=: 7
+:dig: 7
+:filter=: 7
+:finite?: 7
+:fnmatch?: 7
+:handle_interrupt: 7
+:ignore?: 7
+:integer?: 7
+:interrupt: 7
+:last_error: 7
+:max=: 7
+:mday: 7
+:new_cond: 7
+:normalize!: 7
+:object_group: 7
+:raw_source=: 7
+:set_path: 7
+:shelljoin: 7
+:stop?: 7
+:termsig: 7
+:_load: 6
+:ascii_compatible?: 6
+:binwrite: 6
+:blockarg_expr: 6
+:bsearch: 6
+:class_variable_set: 6
+:conj: 6
+:corrections: 6
+:cursor: 6
+:dedent_string: 6
+:each_codepoint: 6
+:each_entry: 6
+:enq: 6
+:first?: 6
+:gmt_offset: 6
+:leap?: 6
+:lineno=: 6
+:minmax: 6
+:numerator: 6
+:passwd: 6
+:priority=: 6
+:quo: 6
+:shell=: 6
+:signaled?: 6
+:singleton_class?: 6
+:size?: 6
+:typecode: 6
+:abort_on_exception: 5
+:class_variable_get: 5
+:column_range: 5
+:conv: 5
+:def_option: 5
+:deq: 5
+:echo?: 5
+:gid=: 5
+:has_value?: 5
+:imag: 5
+:kwsplat: 5
+:lambda?: 5
+:marshal_dump: 5
+:missing: 5
+:noecho: 5
+:optional?: 5
+:overlaps?: 5
+:rewrite: 5
+:rotate: 5
+:set_user: 5
+:skip_until: 5
+:source_encoding: 5
+:squeeze!: 5
+:stack_pop: 5
+:stime: 5
+:subset?: 5
+:symbol_internal: 5
+:tainted?: 5
+:to=: 5
+:tv_nsec: 5
+:upcase!: 5
+:with_expression: 5
+:+@: 4
+:autoclose=: 4
+:beginning_of_line?: 4
+:blksize: 4
+:candidate: 4
+:coerce_encoding: 4
+:complex: 4
+:curry: 4
+:delete?: 4
+:dst?: 4
+:emit_do: 4
+:getutc: 4
+:gm: 4
+:heredoc_end: 4
+:i: 4
+:in_kwarg: 4
+:interpolate?: 4
+:intersection: 4
+:local_path: 4
+:make_regexp: 4
+:mem: 4
+:next!: 4
+:objc_kwarg: 4
+:on_argument: 4
+:phase: 4
+:question: 4
+:random_number: 4
+:rational: 4
+:recover: 4
+:saved_herebody_s=: 4
+:set_password: 4
+:shuffle!: 4
+:socket?: 4
+:source_lines: 4
+:sub_ext: 4
+:succ!: 4
+:swapcase: 4
+:tokens=: 4
+:unscan: 4
+:userinfo=: 4
+:with_operator: 4
+:_dump: 3
+:accepts_optional_argument?: 3
+:advise: 3
+:all_errors_are_fatal=: 3
+:backslash_delimited?: 3
+:build_part: 3
+:casefold?: 3
+:chardev?: 3
+:combination: 3
+:compare_by_identity: 3
+:crypt: 3
+:descend: 3
+:digest!: 3
+:echo=: 3
+:eof: 3
+:error_char: 3
+:expects_argument?: 3
+:feed: 3
+:gecos: 3
+:getopts: 3
+:ignore_warnings=: 3
+:intersect: 3
+:intersect?: 3
+:lex_en_line_begin: 3
+:lex_en_plain_string: 3
+:line_for_position: 3
+:local_variable_get: 3
+:new_seed: 3
+:num_waiting: 3
+:on_args: 3
+:on_if: 3
+:pair_quoted: 3
+:pipe?: 3
+:positive?: 3
+:pretty_print_cycle: 3
+:program_name=: 3
+:reason=: 3
+:rehash: 3
+:release=: 3
+:remainder: 3
+:rfc822: 3
+:secure=: 3
+:set_headers: 3
+:set_trace_func: 3
+:singleton_methods: 3
+:static_env: 3
+:subsec: 3
+:thread_variable?: 3
+:update_operator: 3
+:wait_while: 3
+:yaml_as: 3
+:yday: 3
+:_close: 2
+:_rfc3339: 2
+:_strptime: 2
+:arg_expr: 2
+:bit_length: 2
+:break: 2
+:build_head: 2
+:call_type_for_dot: 2
+:center: 2
+:clear_buffer: 2
+:column_for_position: 2
+:cstime: 2
+:current_group: 2
+:cutime: 2
+:cweek: 2
+:day_fraction: 2
+:decompose_position: 2
+:dedent: 2
+:disasm: 2
+:disjoint?: 2
+:emit_start_tok: 2
+:external_encoding: 2
+:hierarchical?: 2
+:highlights: 2
+:httponly=: 2
+:ioctl: 2
+:isatty: 2
+:lcm: 2
+:lex_en_expr_arg: 2
+:lex_en_expr_cmdarg: 2
+:lex_en_expr_end: 2
+:lex_en_expr_value: 2
+:lex_en_interp_string: 2
+:lex_en_interp_words: 2
+:marshal_load: 2
+:nest: 2
+:next_day: 2
+:objc_varargs: 2
+:on_head: 2
+:on_var: 2
+:on_vasgn: 2
+:opaque=: 2
+:opendir: 2
+:ordinal: 2
+:parse_with_comments: 2
+:permutation: 2
+:pointer=: 2
+:pretty: 2
+:prev_day: 2
+:raise?: 2
+:raised_exception: 2
+:rel: 2
+:rfc3339: 2
+:rotate!: 2
+:saved_herebody_s: 2
+:secure: 2
+:signo: 2
+:singleline_pp: 2
+:source_buffer=: 2
+:stopsig: 2
+:summary_indent=: 2
+:sysopen: 2
+:uid=: 2
+:yyparse: 2
+:__binding__: 1
+:_iso8601: 1
+:_racc_do_parse_rb: 1
+:_racc_setup: 1
+:all_symbols: 1
+:allow_multiple_insertions?: 1
+:argument_in_value: 1
+:argument_in_value=: 1
+:associate_locations: 1
+:attrs_depr: 1
+:attrs_opt: 1
+:attrs_req: 1
+:backtrace_locations: 1
+:base64digest!: 1
+:binmode?: 1
+:blockdev?: 1
+:charpos: 1
+:check_until: 1
+:chroot: 1
+:class_variables: 1
+:close_read: 1
+:colon: 1
+:compile_option=: 1
+:cond=: 1
+:count=: 1
+:defaultsubelt: 1
+:define_head: 1
+:delimiter?: 1
+:depr: 1
+:diagnostics=: 1
+:digest_length: 1
+:dir=: 1
+:dummy?: 1
+:emit_lambda: 1
+:emit_procarg0: 1
+:end_interp_brace_and_try_closing: 1
+:exit_value: 1
+:find_proxy: 1
+:gregorian: 1
+:gregorian_leap?: 1
+:guard_inspect_key: 1
+:handler_missing: 1
+:hexdigest!: 1
+:httponly: 1
+:inc: 1
+:julian?: 1
+:lchmod: 1
+:lchown: 1
+:lex_en_expr_arg=: 1
+:lex_en_expr_beg: 1
+:lex_en_expr_beg=: 1
+:lex_en_expr_cmdarg=: 1
+:lex_en_expr_dot: 1
+:lex_en_expr_dot=: 1
+:lex_en_expr_end=: 1
+:lex_en_expr_endarg: 1
+:lex_en_expr_endarg=: 1
+:lex_en_expr_endfn: 1
+:lex_en_expr_endfn=: 1
+:lex_en_expr_fname: 1
+:lex_en_expr_fname=: 1
+:lex_en_expr_labelarg: 1
+:lex_en_expr_labelarg=: 1
+:lex_en_expr_mid: 1
+:lex_en_expr_mid=: 1
+:lex_en_expr_value=: 1
+:lex_en_expr_variable=: 1
+:lex_en_interp_backslash_delimited: 1
+:lex_en_interp_backslash_delimited=: 1
+:lex_en_interp_backslash_delimited_words: 1
+:lex_en_interp_backslash_delimited_words=: 1
+:lex_en_interp_string=: 1
+:lex_en_interp_words=: 1
+:lex_en_leading_dot=: 1
+:lex_en_line_begin=: 1
+:lex_en_line_comment=: 1
+:lex_en_plain_backslash_delimited: 1
+:lex_en_plain_backslash_delimited=: 1
+:lex_en_plain_backslash_delimited_words: 1
+:lex_en_plain_backslash_delimited_words=: 1
+:lex_en_plain_string=: 1
+:lex_en_plain_words: 1
+:lex_en_plain_words=: 1
+:lex_en_regexp_modifiers: 1
+:lex_en_regexp_modifiers=: 1
+:lex_error=: 1
+:lex_start=: 1
+:local_variable_set: 1
+:local_variables: 1
+:locale_charmap: 1
+:lstat!: 1
+:magnitude: 1
+:method_id: 1
+:mktime: 1
+:modernize: 1
+:mon_enter: 1
+:mon_exit: 1
+:mon_synchronize: 1
+:name_list: 1
+:nesting: 1
+:new2: 1
+:object_address_group: 1
+:on_case: 1
+:on_retry: 1
+:on_send: 1
+:on_while: 1
+:optional_argument?: 1
+:owned?: 1
+:pair_list_18: 1
+:passwd=: 1
+:primitive_convert: 1
+:primitive_errinfo: 1
+:proper_superset?: 1
+:readable_real?: 1
+:readchar: 1
+:recognize_encoding: 1
+:reencode_string: 1
+:rest?: 1
+:route_from: 1
+:saveEndTag: 1
+:set_port: 1
+:static_env=: 1
+:summary_width=: 1
+:sysseek: 1
+:to_c: 1
+:to_yaml_properties: 1
+:token_to_str: 1
+:tr_s: 1
+:try_enter: 1
+:unicode_normalize: 1
+:update_expression: 1
+:world_writable?: 1
+:_httpdate: 0
+:_jisx0301: 0
+:_racc_do_reduce: 0
+:_racc_evalact: 0
+:_racc_init_sysvars: 0
+:_racc_yyparse_rb: 0
+:_reduce_10: 0
+:_reduce_100: 0
+:_reduce_101: 0
+:_reduce_102: 0
+:_reduce_103: 0
+:_reduce_104: 0
+:_reduce_105: 0
+:_reduce_106: 0
+:_reduce_108: 0
+:_reduce_109: 0
+:_reduce_11: 0
+:_reduce_110: 0
+:_reduce_116: 0
+:_reduce_12: 0
+:_reduce_120: 0
+:_reduce_121: 0
+:_reduce_122: 0
+:_reduce_13: 0
+:_reduce_14: 0
+:_reduce_16: 0
+:_reduce_17: 0
+:_reduce_18: 0
+:_reduce_19: 0
+:_reduce_194: 0
+:_reduce_195: 0
+:_reduce_196: 0
+:_reduce_197: 0
+:_reduce_198: 0
+:_reduce_199: 0
+:_reduce_2: 0
+:_reduce_20: 0
+:_reduce_200: 0
+:_reduce_201: 0
+:_reduce_202: 0
+:_reduce_203: 0
+:_reduce_204: 0
+:_reduce_205: 0
+:_reduce_206: 0
+:_reduce_207: 0
+:_reduce_208: 0
+:_reduce_209: 0
+:_reduce_21: 0
+:_reduce_210: 0
+:_reduce_211: 0
+:_reduce_212: 0
+:_reduce_213: 0
+:_reduce_214: 0
+:_reduce_215: 0
+:_reduce_216: 0
+:_reduce_217: 0
+:_reduce_218: 0
+:_reduce_219: 0
+:_reduce_22: 0
+:_reduce_220: 0
+:_reduce_221: 0
+:_reduce_222: 0
+:_reduce_223: 0
+:_reduce_224: 0
+:_reduce_225: 0
+:_reduce_226: 0
+:_reduce_227: 0
+:_reduce_228: 0
+:_reduce_229: 0
+:_reduce_23: 0
+:_reduce_230: 0
+:_reduce_231: 0
+:_reduce_232: 0
+:_reduce_233: 0
+:_reduce_234: 0
+:_reduce_235: 0
+:_reduce_236: 0
+:_reduce_24: 0
+:_reduce_241: 0
+:_reduce_242: 0
+:_reduce_243: 0
+:_reduce_244: 0
+:_reduce_246: 0
+:_reduce_249: 0
+:_reduce_25: 0
+:_reduce_250: 0
+:_reduce_251: 0
+:_reduce_252: 0
+:_reduce_253: 0
+:_reduce_254: 0
+:_reduce_255: 0
+:_reduce_256: 0
+:_reduce_257: 0
+:_reduce_258: 0
+:_reduce_259: 0
+:_reduce_26: 0
+:_reduce_260: 0
+:_reduce_261: 0
+:_reduce_262: 0
+:_reduce_263: 0
+:_reduce_264: 0
+:_reduce_265: 0
+:_reduce_267: 0
+:_reduce_268: 0
+:_reduce_269: 0
+:_reduce_27: 0
+:_reduce_28: 0
+:_reduce_280: 0
+:_reduce_281: 0
+:_reduce_282: 0
+:_reduce_283: 0
+:_reduce_284: 0
+:_reduce_285: 0
+:_reduce_286: 0
+:_reduce_287: 0
+:_reduce_288: 0
+:_reduce_289: 0
+:_reduce_290: 0
+:_reduce_291: 0
+:_reduce_292: 0
+:_reduce_293: 0
+:_reduce_294: 0
+:_reduce_295: 0
+:_reduce_296: 0
+:_reduce_297: 0
+:_reduce_298: 0
+:_reduce_299: 0
+:_reduce_3: 0
+:_reduce_30: 0
+:_reduce_300: 0
+:_reduce_302: 0
+:_reduce_303: 0
+:_reduce_304: 0
+:_reduce_305: 0
+:_reduce_306: 0
+:_reduce_307: 0
+:_reduce_308: 0
+:_reduce_309: 0
+:_reduce_31: 0
+:_reduce_310: 0
+:_reduce_311: 0
+:_reduce_312: 0
+:_reduce_313: 0
+:_reduce_314: 0
+:_reduce_315: 0
+:_reduce_316: 0
+:_reduce_317: 0
+:_reduce_318: 0
+:_reduce_319: 0
+:_reduce_32: 0
+:_reduce_320: 0
+:_reduce_321: 0
+:_reduce_322: 0
+:_reduce_323: 0
+:_reduce_324: 0
+:_reduce_325: 0
+:_reduce_326: 0
+:_reduce_327: 0
+:_reduce_328: 0
+:_reduce_329: 0
+:_reduce_33: 0
+:_reduce_330: 0
+:_reduce_331: 0
+:_reduce_335: 0
+:_reduce_339: 0
+:_reduce_34: 0
+:_reduce_341: 0
+:_reduce_344: 0
+:_reduce_345: 0
+:_reduce_346: 0
+:_reduce_347: 0
+:_reduce_349: 0
+:_reduce_35: 0
+:_reduce_350: 0
+:_reduce_351: 0
+:_reduce_352: 0
+:_reduce_353: 0
+:_reduce_354: 0
+:_reduce_355: 0
+:_reduce_356: 0
+:_reduce_357: 0
+:_reduce_358: 0
+:_reduce_359: 0
+:_reduce_36: 0
+:_reduce_360: 0
+:_reduce_361: 0
+:_reduce_362: 0
+:_reduce_363: 0
+:_reduce_364: 0
+:_reduce_365: 0
+:_reduce_366: 0
+:_reduce_367: 0
+:_reduce_369: 0
+:_reduce_37: 0
+:_reduce_370: 0
+:_reduce_371: 0
+:_reduce_372: 0
+:_reduce_373: 0
+:_reduce_374: 0
+:_reduce_375: 0
+:_reduce_376: 0
+:_reduce_378: 0
+:_reduce_379: 0
+:_reduce_38: 0
+:_reduce_380: 0
+:_reduce_381: 0
+:_reduce_382: 0
+:_reduce_383: 0
+:_reduce_384: 0
+:_reduce_385: 0
+:_reduce_386: 0
+:_reduce_387: 0
+:_reduce_389: 0
+:_reduce_39: 0
+:_reduce_390: 0
+:_reduce_391: 0
+:_reduce_392: 0
+:_reduce_393: 0
+:_reduce_394: 0
+:_reduce_395: 0
+:_reduce_396: 0
+:_reduce_397: 0
+:_reduce_398: 0
+:_reduce_399: 0
+:_reduce_4: 0
+:_reduce_400: 0
+:_reduce_401: 0
+:_reduce_402: 0
+:_reduce_403: 0
+:_reduce_404: 0
+:_reduce_405: 0
+:_reduce_406: 0
+:_reduce_407: 0
+:_reduce_408: 0
+:_reduce_409: 0
+:_reduce_41: 0
+:_reduce_410: 0
+:_reduce_411: 0
+:_reduce_412: 0
+:_reduce_413: 0
+:_reduce_414: 0
+:_reduce_415: 0
+:_reduce_416: 0
+:_reduce_418: 0
+:_reduce_419: 0
+:_reduce_42: 0
+:_reduce_420: 0
+:_reduce_423: 0
+:_reduce_425: 0
+:_reduce_430: 0
+:_reduce_431: 0
+:_reduce_432: 0
+:_reduce_433: 0
+:_reduce_434: 0
+:_reduce_435: 0
+:_reduce_436: 0
+:_reduce_437: 0
+:_reduce_438: 0
+:_reduce_439: 0
+:_reduce_44: 0
+:_reduce_440: 0
+:_reduce_441: 0
+:_reduce_442: 0
+:_reduce_443: 0
+:_reduce_444: 0
+:_reduce_445: 0
+:_reduce_446: 0
+:_reduce_447: 0
+:_reduce_448: 0
+:_reduce_449: 0
+:_reduce_45: 0
+:_reduce_450: 0
+:_reduce_451: 0
+:_reduce_452: 0
+:_reduce_453: 0
+:_reduce_454: 0
+:_reduce_455: 0
+:_reduce_456: 0
+:_reduce_457: 0
+:_reduce_458: 0
+:_reduce_459: 0
+:_reduce_46: 0
+:_reduce_460: 0
+:_reduce_461: 0
+:_reduce_462: 0
+:_reduce_463: 0
+:_reduce_464: 0
+:_reduce_466: 0
+:_reduce_467: 0
+:_reduce_468: 0
+:_reduce_469: 0
+:_reduce_47: 0
+:_reduce_470: 0
+:_reduce_471: 0
+:_reduce_472: 0
+:_reduce_473: 0
+:_reduce_474: 0
+:_reduce_475: 0
+:_reduce_476: 0
+:_reduce_477: 0
+:_reduce_478: 0
+:_reduce_479: 0
+:_reduce_480: 0
+:_reduce_481: 0
+:_reduce_482: 0
+:_reduce_483: 0
+:_reduce_484: 0
+:_reduce_485: 0
+:_reduce_486: 0
+:_reduce_487: 0
+:_reduce_488: 0
+:_reduce_489: 0
+:_reduce_490: 0
+:_reduce_491: 0
+:_reduce_492: 0
+:_reduce_493: 0
+:_reduce_494: 0
+:_reduce_495: 0
+:_reduce_496: 0
+:_reduce_497: 0
+:_reduce_498: 0
+:_reduce_499: 0
+:_reduce_5: 0
+:_reduce_500: 0
+:_reduce_501: 0
+:_reduce_502: 0
+:_reduce_503: 0
+:_reduce_504: 0
+:_reduce_505: 0
+:_reduce_506: 0
+:_reduce_507: 0
+:_reduce_508: 0
+:_reduce_509: 0
+:_reduce_510: 0
+:_reduce_511: 0
+:_reduce_512: 0
+:_reduce_513: 0
+:_reduce_514: 0
+:_reduce_515: 0
+:_reduce_516: 0
+:_reduce_517: 0
+:_reduce_518: 0
+:_reduce_519: 0
+:_reduce_520: 0
+:_reduce_521: 0
+:_reduce_522: 0
+:_reduce_524: 0
+:_reduce_525: 0
+:_reduce_526: 0
+:_reduce_527: 0
+:_reduce_528: 0
+:_reduce_529: 0
+:_reduce_53: 0
+:_reduce_530: 0
+:_reduce_531: 0
+:_reduce_532: 0
+:_reduce_533: 0
+:_reduce_534: 0
+:_reduce_535: 0
+:_reduce_536: 0
+:_reduce_537: 0
+:_reduce_538: 0
+:_reduce_54: 0
+:_reduce_541: 0
+:_reduce_542: 0
+:_reduce_543: 0
+:_reduce_544: 0
+:_reduce_545: 0
+:_reduce_546: 0
+:_reduce_547: 0
+:_reduce_548: 0
+:_reduce_55: 0
+:_reduce_551: 0
+:_reduce_552: 0
+:_reduce_555: 0
+:_reduce_556: 0
+:_reduce_557: 0
+:_reduce_559: 0
+:_reduce_560: 0
+:_reduce_562: 0
+:_reduce_563: 0
+:_reduce_564: 0
+:_reduce_565: 0
+:_reduce_566: 0
+:_reduce_567: 0
+:_reduce_57: 0
+:_reduce_58: 0
+:_reduce_580: 0
+:_reduce_581: 0
+:_reduce_586: 0
+:_reduce_587: 0
+:_reduce_59: 0
+:_reduce_591: 0
+:_reduce_595: 0
+:_reduce_6: 0
+:_reduce_60: 0
+:_reduce_61: 0
+:_reduce_62: 0
+:_reduce_63: 0
+:_reduce_64: 0
+:_reduce_65: 0
+:_reduce_66: 0
+:_reduce_67: 0
+:_reduce_68: 0
+:_reduce_69: 0
+:_reduce_70: 0
+:_reduce_71: 0
+:_reduce_73: 0
+:_reduce_74: 0
+:_reduce_75: 0
+:_reduce_76: 0
+:_reduce_77: 0
+:_reduce_78: 0
+:_reduce_79: 0
+:_reduce_8: 0
+:_reduce_80: 0
+:_reduce_81: 0
+:_reduce_83: 0
+:_reduce_84: 0
+:_reduce_85: 0
+:_reduce_86: 0
+:_reduce_87: 0
+:_reduce_88: 0
+:_reduce_89: 0
+:_reduce_9: 0
+:_reduce_90: 0
+:_reduce_91: 0
+:_reduce_92: 0
+:_reduce_93: 0
+:_reduce_94: 0
+:_reduce_95: 0
+:_reduce_96: 0
+:_reduce_97: 0
+:_reduce_98: 0
+:_reduce_99: 0
+:_reduce_none: 0
+:_rfc2822: 0
+:_rfc822: 0
+:_xmlschema: 0
+:abs2: 0
+:accept_charset: 0
+:accept_charset=: 0
+:add_banner: 0
+:add_officious: 0
+:add_trace_func: 0
+:ajd: 0
+:all_errors_are_fatal: 0
+:allow_multiple_insertions: 0
+:amjd: 0
+:angle: 0
+:as?: 0
+:asciicompat_encoding: 0
+:asctime: 0
+:attrs_depr=: 0
+:attrs_opt=: 0
+:attrs_req=: 0
+:atype: 0
+:autoclose?: 0
+:autocreated?: 0
+:base64digest: 0
+:base_label: 0
+:beep: 0
+:birthtime: 0
+:break?: 0
+:break_outmost_groups: 0
+:breakables: 0
+:bsearch_index: 0
+:build2: 0
+:callback?: 0
+:check_inspect_key: 0
+:chunk_while: 0
+:close_on_exec?: 0
+:closed_read?: 0
+:closed_write?: 0
+:collect_concat: 0
+:comma_breakable: 0
+:commercial: 0
+:compare_by_identity?: 0
+:compile_file: 0
+:compile_option: 0
+:component_ary: 0
+:compsys: 0
+:conjugate: 0
+:convpath: 0
+:cooked: 0
+:cooked!: 0
+:copy_metadata: 0
+:coredump?: 0
+:cstime=: 0
+:cursor=: 0
+:cutime=: 0
+:cwday: 0
+:cwyear: 0
+:cycle: 0
+:def_head_option: 0
+:def_tail_option: 0
+:default_argv: 0
+:default_argv=: 0
+:defaultsubelt=: 0
+:define_tail: 0
+:defined_class: 0
+:delegating_block: 0
+:deploy_gem: 0
+:depr=: 0
+:dereference?: 0
+:desc=: 0
+:destination_encoding: 0
+:destination_encoding_name: 0
+:dev_major: 0
+:dev_minor: 0
+:difference: 0
+:disassemble: 0
+:divide: 0
+:dn=: 0
+:door?: 0
+:double_colon: 0
+:dtd: 0
+:dtd=: 0
+:each_option: 0
+:emit_file_line_as_literals: 0
+:emit_file_line_as_literals=: 0
+:emit_lambda=: 0
+:emit_procarg0=: 0
+:empty=: 0
+:enclose: 0
+:enclosed?: 0
+:endTag=: 0
+:england: 0
+:error_bytes: 0
+:escapeElement: 0
+:escape_element: 0
+:executable_real?: 0
+:fdatasync: 0
+:fetch_command: 0
+:fetch_values: 0
+:fill_breakable: 0
+:first_lineno: 0
+:fixed_encoding?: 0
+:flatten_merge: 0
+:force_utf32: 0
+:force_utf32=: 0
+:friday?: 0
+:gcd: 0
+:gcdlcm: 0
+:gecos=: 0
+:generate_gem_ranking: 0
+:genspace: 0
+:getgm: 0
+:getpass: 0
+:gmt?: 0
+:gmtoff: 0
+:gregorian?: 0
+:grep_v: 0
+:group_queue: 0
+:group_sub: 0
+:grpowned?: 0
+:iflush: 0
+:ignore_warnings: 0
+:imaginary: 0
+:incompatible_argument_styles: 0
+:incomplete_input?: 0
+:inplace_mode: 0
+:inplace_mode=: 0
+:insert_after_multi: 0
+:insert_before_multi: 0
+:insert_output: 0
+:internal_encoding: 0
+:ioflush: 0
+:isdst: 0
+:isinline: 0
+:isinline=: 0
+:italy: 0
+:itself: 0
+:jisx0301: 0
+:julian: 0
+:julian_leap?: 0
+:ld: 0
+:lex_en_expr_variable: 0
+:lex_en_leading_dot: 0
+:lex_en_line_comment: 0
+:lex_start: 0
+:limit?: 0
+:load_from_binary: 0
+:load_from_binary_extra_data: 0
+:local_variable_defined?: 0
+:make_link: 0
+:make_switch: 0
+:make_symlink: 0
+:match_nonswitch?: 0
+:matched?: 0
+:maxwidth: 0
+:mcall: 0
+:mem=: 0
+:method_name_dictionary: 0
+:minmax_by: 0
+:mjd: 0
+:mkfifo: 0
+:mon_try_enter: 0
+:monday?: 0
+:mountpoint?: 0
+:must_C_version: 0
+:new_start: 0
+:next_float: 0
+:next_month: 0
+:next_values: 0
+:next_year: 0
+:nlink: 0
+:nph?: 0
+:oflush: 0
+:on_alias: 0
+:on_and: 0
+:on_and_asgn: 0
+:on_arg: 0
+:on_arg_expr: 0
+:on_array: 0
+:on_back_ref: 0
+:on_begin: 0
+:on_block: 0
+:on_block_pass: 0
+:on_blockarg: 0
+:on_blockarg_expr: 0
+:on_break: 0
+:on_casgn: 0
+:on_class: 0
+:on_const: 0
+:on_csend: 0
+:on_cvar: 0
+:on_cvasgn: 0
+:on_def: 0
+:on_defined?: 0
+:on_defs: 0
+:on_dstr: 0
+:on_dsym: 0
+:on_eflipflop: 0
+:on_ensure: 0
+:on_erange: 0
+:on_for: 0
+:on_gvar: 0
+:on_gvasgn: 0
+:on_hash: 0
+:on_iflipflop: 0
+:on_irange: 0
+:on_ivar: 0
+:on_ivasgn: 0
+:on_kwarg: 0
+:on_kwbegin: 0
+:on_kwoptarg: 0
+:on_kwrestarg: 0
+:on_lvar: 0
+:on_lvasgn: 0
+:on_masgn: 0
+:on_match_current_line: 0
+:on_match_with_lvasgn: 0
+:on_mlhs: 0
+:on_module: 0
+:on_next: 0
+:on_not: 0
+:on_nth_ref: 0
+:on_op_asgn: 0
+:on_optarg: 0
+:on_or: 0
+:on_or_asgn: 0
+:on_pair: 0
+:on_postexe: 0
+:on_preexe: 0
+:on_procarg0: 0
+:on_redo: 0
+:on_regexp: 0
+:on_resbody: 0
+:on_rescue: 0
+:on_restarg: 0
+:on_restarg_expr: 0
+:on_return: 0
+:on_sclass: 0
+:on_shadowarg: 0
+:on_splat: 0
+:on_super: 0
+:on_undef: 0
+:on_until: 0
+:on_until_post: 0
+:on_when: 0
+:on_while_post: 0
+:on_xstr: 0
+:on_yield: 0
+:optspec: 0
+:original_message: 0
+:parsable_gems: 0
+:parse_file_with_comments: 0
+:parse_project: 0
+:pathconf: 0
+:peek_values: 0
+:peep: 0
+:pending_interrupt?: 0
+:permute: 0
+:permute!: 0
+:platform_support: 0
+:polar: 0
+:pop_cond: 0
+:pop_inspect_key: 0
+:postorder_traverse: 0
+:pp_hash: 0
+:pp_object: 0
+:pred: 0
+:preorder_traverse: 0
+:pressed?: 0
+:pretty_print_inspect: 0
+:pretty_print_instance_variables: 0
+:prev_float: 0
+:prev_month: 0
+:prev_year: 0
+:process_argument_node: 0
+:process_regular_node: 0
+:process_var_asgn_node: 0
+:process_variable_node: 0
+:proper_subset?: 0
+:psych_to_yaml: 0
+:psych_yaml_as: 0
+:public_api: 0
+:public_constant: 0
+:public_instance_method: 0
+:public_method: 0
+:push_cond: 0
+:push_inspect_key: 0
+:putback: 0
+:racc_accept: 0
+:racc_e_pop: 0
+:racc_next_state: 0
+:racc_print_stacks: 0
+:racc_print_states: 0
+:racc_read_token: 0
+:racc_reduce: 0
+:racc_runtime_type: 0
+:racc_shift: 0
+:racc_token2str: 0
+:rassoc: 0
+:rationalize: 0
+:raw!: 0
+:raw_seed: 0
+:rb_files: 0
+:rdev: 0
+:rdev_major: 0
+:rdev_minor: 0
+:readagain_bytes: 0
+:real?: 0
+:realdirpath: 0
+:rect: 0
+:rectangular: 0
+:registry=: 0
+:remove_class_variable: 0
+:remove_dir1: 0
+:repeated_combination: 0
+:repeated_permutation: 0
+:replacement=: 0
+:replicate: 0
+:rest_size: 0
+:restsize: 0
+:rfc1123_date: 0
+:route_to: 0
+:safe_level: 0
+:saturday?: 0
+:saveEndTag=: 0
+:scan_full: 0
+:search_convpath: 0
+:search_full: 0
+:second_fraction: 0
+:set_banner: 0
+:set_dn: 0
+:set_extensions: 0
+:set_filter: 0
+:set_host: 0
+:set_opaque: 0
+:set_program_name: 0
+:set_registry: 0
+:set_scheme: 0
+:set_scope: 0
+:set_summary_indent: 0
+:set_summary_width: 0
+:set_to: 0
+:set_typecode: 0
+:set_userinfo: 0
+:setgid?: 0
+:setuid?: 0
+:sharing_detection: 0
+:sharing_detection=: 0
+:signm: 0
+:singleline_format: 0
+:singleton_method: 0
+:singleton_method_added: 0
+:skip_directives: 0
+:skip_directives=: 0
+:slice_after: 0
+:slice_before: 0
+:slice_when: 0
+:source_encoding_name: 0
+:spell_checker: 0
+:squeeze_method_names: 0
+:startTag=: 0
+:stat!: 0
+:sticky?: 0
+:stime=: 0
+:subelts: 0
+:subelts=: 0
+:summary_indent: 0
+:summary_width: 0
+:sunday?: 0
+:super_method: 0
+:superset?: 0
+:swapcase!: 0
+:tail?: 0
+:thread_variables: 0
+:thursday?: 0
+:to_mailtext: 0
+:to_rfc822text: 0
+:to_write_io: 0
+:tr_s!: 0
+:trust: 0
+:try_mon_enter: 0
+:tuesday?: 0
+:typecode=: 0
+:unescapeElement: 0
+:unescape_element: 0
+:unescape_html: 0
+:ungetbyte: 0
+:unicode_normalize!: 0
+:unicode_normalized?: 0
+:untrust: 0
+:untrusted?: 0
+:use_registry: 0
+:utime=: 0
+:valid_civil?: 0
+:valid_commercial?: 0
+:valid_date?: 0
+:valid_jd?: 0
+:valid_ordinal?: 0
+:ver: 0
+:wednesday?: 0
+:winsize=: 0
+:world_readable?: 0
+:wrap_traverse: 0
+:writable_real?: 0
+:yaml_tag: 0
+:yyaccept: 0
