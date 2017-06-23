@@ -1,1 +1,674 @@
-gems/debug_inspector-0.0.2/lib/debug_inspector/version.rb¥ngems/debug_inspector-0.0.2/lib/debug_inspector.rb
+gems/stripe-2.9.0/lib/stripe/stripe_object.rb
+def method_missing(name, *args)
+  # TODO: only allow setting in updateable classes.
+  if name.to_s.end_with?('=')
+    attr = name.to_s[0...-1].to_sym
+
+    # Pull out the assigned value. This is only used in the case of a
+    # boolean value to add a question mark accessor (i.e. `foo?`) for
+    # convenience.
+    val = args.first
+
+    # the second argument is only required when adding boolean accessors
+    add_accessors([attr], { attr => val })
+
+    begin
+      mth = method(name)
+    rescue NameError
+      raise NoMethodError.new("Cannot set #{attr} on this object. HINT: you can't set: #{@@permanent_attributes.to_a.join(', ')}")
+    end
+    return mth.call(args[0])
+  else
+    return @values[name] if @values.has_key?(name)
+  end
+
+  begin
+    super
+  rescue NoMethodError => e
+    if @transient_values.include?(name)
+      raise NoMethodError.new(e.message + ".  HINT: The '#{name}' attribute was set in the past, however.  It was then wiped when refreshing the object with the result returned by Stripe's API, probably as a result of a save().  The attributes currently available on this object are: #{@values.keys.join(', ')}")
+    else
+      raise
+    end
+  end
+end
+
+def respond_to_missing?(symbol, include_private = false)
+  @values && @values.has_key?(symbol) || super
+end
+
+gems/term-ansicolor-1.6.0/lib/term/ansicolor/hsl_triple.rb
+def method_missing(name, *args, &block)
+  if Term::ANSIColor::RGBTriple.method_defined?(name)
+    to_rgb_triple.send(name, *args, &block)
+  else
+    super
+  end
+end
+
+gems/term-ansicolor-1.6.0/lib/term/ansicolor/rgb_triple.rb
+def method_missing(name, *args, &block)
+  if Term::ANSIColor::HSLTriple.method_defined?(name)
+    to_hsl_triple.send(name, *args, &block)
+  else
+    super
+  end
+end
+
+gems/test-unit-3.1.8/lib/test/unit/assertions.rb
+def method_missing(name, *args, &block)
+  @exception.__send__(name, *args, &block)
+end
+
+gems/test-unit-3.1.8/lib/test/unit/attribute-matcher.rb
+def method_missing(name, *args)
+  if args.empty?
+    @test[name]
+  else
+    super
+  end
+end
+
+gems/therubyracer-0.12.3/lib/v8/object.rb
+def method_missing(name, *args, &block)
+  if name.to_s =~ /(.*)=$/
+    if args.length > 1
+      self[$1] = args
+      return args
+    else
+      self[$1] = args.first
+      return args
+    end
+  end
+  return super(name, *args, &block) unless self.respond_to?(name)
+  property = self[name]
+  if property.kind_of?(V8::Function)
+    property.methodcall(self, *args)
+  elsif args.empty?
+    property
+  else
+    raise ArgumentError, "wrong number of arguments (#{args.length} for 0)" unless args.empty?
+  end
+end
+
+gems/thor-0.19.4/lib/thor/core_ext/hash_with_indifferent_access.rb
+def method_missing(method, *args)
+  method = method.to_s
+  if method =~ /^(\w+)\?$/
+    if args.empty?
+      !!self[$1]
+    else
+      self[$1] == args.first
+    end
+  else
+    self[method]
+  end
+end
+
+gems/thor-0.19.4/lib/thor/runner.rb
+def method_missing(meth, *args)
+  meth = meth.to_s
+  initialize_thorfiles(meth)
+  klass, command = Thor::Util.find_class_and_command_by_namespace(meth)
+  self.class.handle_no_command_error(command, false) if klass.nil?
+  args.unshift(command) if command
+  klass.start(args, :shell => shell)
+end
+
+gems/thread_safe-0.3.6/lib/thread_safe/synchronized_delegator.rb
+def method_missing(method, *args, &block)
+  monitor = @monitor
+  begin
+    monitor.enter
+    super
+  ensure
+    monitor.exit
+  end
+end
+
+gems/tins-1.14.0/lib/tins/dslkit.rb
+def method_missing(id, *args)
+  if args.empty?
+    id
+  else
+    super
+  end
+end
+
+gems/tins-1.14.0/lib/tins/null.rb
+def method_missing(*)
+  self
+end
+
+gems/tins-1.14.0/lib/tins/sexy_singleton.rb
+def method_missing(name, *args, &block)
+  if instance.respond_to?(name)
+    instance.__send__(name, *args, &block)
+  else
+    super
+  end
+end
+
+gems/trollop-2.1.2/lib/trollop.rb
+def method_missing(m, *args)
+  self[m] || self[m.to_s]
+end
+
+gems/twilio-ruby-4.13.0/lib/twilio-ruby/rest/client.rb
+def method_missing(method_name, *args, &block)
+  if account.respond_to?(method_name)
+    account.send(method_name, *args, &block)
+  else
+    super
+  end
+end
+
+def respond_to?(method_name, include_private=false)
+  if account.respond_to?(method_name, include_private)
+    true
+  else
+    super
+  end
+end
+
+gems/twilio-ruby-4.13.0/lib/twilio-ruby/rest/instance_resource.rb
+def method_missing(method, *args)
+  super if @updated
+  set_up_properties_from(@client.get(@path))
+  self.send method, *args
+end
+
+gems/twilio-ruby-4.13.0/lib/twilio-ruby/rest/task_router_client.rb
+def method_missing(method_name, *args, &block)
+  if workspace.respond_to?(method_name)
+    workspace.send(method_name, *args, &block)
+  else
+    super
+  end
+end
+
+def respond_to?(method_name, include_private=false)
+  if workspace.respond_to?(method_name, include_private)
+    true
+  else
+    super
+  end
+end
+
+gems/twilio-ruby-4.13.0/lib/twilio-ruby/rest/usage/records.rb
+def method_missing(method, *args)
+  return super unless SUBRESOURCES.include? method
+  self.class.new "#{@path}/#{twilify(method)}", @client
+end
+
+gems/warden-1.1.1/lib/warden/errors.rb
+def method_missing(meth, *args, &block)
+  errors.send(meth, *args, &block)
+end
+
+gems/web-console-3.5.0/lib/web_console/testing/erb_precompiler.rb
+def method_missing(name, *args, &block)
+  return super unless @view.respond_to?(name)
+  @view.send(name, *args, &block)
+end
+
+gems/whenever-0.9.7/lib/whenever/numeric.rb
+def method_missing(method, *args, &block)
+  if Whenever::NumericSeconds.public_method_defined?(method)
+    Whenever::NumericSeconds.new(self).send(method)
+  else
+    super
+  end
+end
+
+gems/xpath-2.0.0/lib/xpath/union.rb
+def method_missing(*args)
+  XPath::Union.new(*arguments.map { |e| e.send(*args) })
+end
+
+gems/yard-0.8.7.6/lib/yard/code_objects/base.rb
+def method_missing(meth, *args, &block)
+  if meth.to_s =~ /=$/
+    self[meth.to_s[0..-2]] = args.first
+  elsif instance_variable_get("@#{meth}")
+    self[meth]
+  else
+    super
+  end
+end
+
+gems/yard-0.8.7.6/lib/yard/code_objects/extended_method_object.rb
+def method_missing(sym, *args, &block) @del.__send__(sym, *args, &block) end
+
+gems/yard-0.8.7.6/lib/yard/code_objects/proxy.rb
+def method_missing(meth, *args, &block)
+  if obj = to_obj
+    obj.__send__(meth, *args, &block)
+  else
+    log.warn "Load Order / Name Resolution Problem on #{path}:"
+    log.warn "-"
+    log.warn "Something is trying to call #{meth} on object #{path} before it has been recognized."
+    log.warn "This error usually means that you need to modify the order in which you parse files"
+    log.warn "so that #{path} is parsed before methods or other objects attempt to access it."
+    log.warn "-"
+    log.warn "YARD will recover from this error and continue to parse but you *may* have problems"
+    log.warn "with your generated documentation. You should probably fix this."
+    log.warn "-"
+    begin
+      super
+    rescue NoMethodError
+      raise ProxyMethodError, "Proxy cannot call method ##{meth} on object '#{path}'"
+    end
+  end
+end
+
+gems/yard-0.8.7.6/lib/yard/options.rb
+def method_missing(meth, *args, &block)
+  if meth.to_s =~ /^(.+)=$/
+    log.debug "Attempting to set unregistered key #{$1} on #{self.class}"
+    instance_variable_set("@#{$1}", args.first)
+  elsif args.size == 0
+    log.debug "Attempting to access unregistered key #{meth} on #{self.class}"
+    instance_variable_get("@#{meth}")
+  else
+    super
+  end
+end
+
+gems/yard-0.8.7.6/lib/yard/serializers/yardoc_serializer.rb
+def method_missing(meth, *args, &block)
+  return true if meth == :respond_to? && args.first == :_dump
+  @object = nil if @transient
+  @object ||= Registry.at(@path)
+  @object.send(meth, *args, &block)
+rescue NoMethodError => e
+  e.backtrace.delete_if {|l| l[0, __FILE__.size] == __FILE__ }
+  raise
+end
+
+gems/yard-0.8.7.6/lib/yard/tags/overload_tag.rb
+def method_missing(*args, &block)
+  object.send(*args, &block)
+end
+
+gems/yard-0.8.7.6/lib/yard/verifier.rb
+def method_missing(sym, *args, &block)
+  if object.respond_to?(sym)
+    object.send(sym, *args, &block)
+  else
+    super
+  end
+end
+
+gems/puppet-4.10.1/lib/puppet/external/nagios/base.rb
+def method_missing(mname, *args)
+  pname = mname.to_s
+  pname.sub!(/=/, '')
+
+  if self.class.parameter?(pname)
+    if pname =~ /A-Z/
+      pname = self.class.decamelcase(pname)
+    end
+    self.class.paramattr(pname)
+
+    # Now access the parameters directly, to make it at least less
+    # likely we'll end up in an infinite recursion.
+    if mname.to_s =~ /=$/
+      @parameters[pname] = args.first
+    else
+      return @parameters[mname]
+    end
+  else
+    super
+  end
+end
+
+gems/puppet-4.10.1/lib/puppet/module_tool/metadata.rb
+def method_missing(name, *args)
+  return @data[name.to_s] if @data.key? name.to_s
+  super
+end
+
+gems/puppet-4.10.1/lib/puppet/parser/scope.rb
+def method_missing(method, *args, &block)
+  method.to_s =~ /^function_(.*)$/
+  name = $1
+  super unless name
+  super unless Puppet::Parser::Functions.function(name)
+  # In odd circumstances, this might not end up defined by the previous
+  # method, so we might as well be certain.
+  if respond_to? method
+    send(method, *args)
+  else
+    raise Puppet::DevError, "Function #{name} not defined despite being loaded!"
+  end
+end
+
+gems/puppet-4.10.1/lib/puppet/pops/binder/bindings_factory.rb
+def method_missing(meth, *args, &block)
+  factory = BindingsFactory
+  if factory.respond_to?(meth)
+    factory.send(meth, *args, &block)
+  else
+    super
+  end
+end
+
+gems/puppet-4.10.1/lib/puppet/pops/model/factory.rb
+def method_missing(meth, *args, &block)
+  if current.respond_to?(meth)
+    current.send(meth, *args, &block)
+  else
+    super
+  end
+end
+
+def respond_to?(meth, include_all=false)
+  current.respond_to?(meth, include_all) || super
+end
+
+gems/puppet-4.10.1/lib/puppet/pops/types/iterable.rb
+def respond_to_missing?(name, include_private)
+  @enumeration.respond_to?(name, include_private)
+end
+
+def method_missing(name, *arguments, &block)
+  @enumeration.send(name, *arguments, &block)
+end
+
+gems/puppet-4.10.1/lib/puppet/pops/types/types.rb
+def respond_to_missing?(name, include_private)
+  resolved_type.respond_to?(name, include_private)
+end
+
+# Delegates to resolved type
+def method_missing(name, *arguments, &block)
+  super if @resolved_type.equal?(PTypeReferenceType::DEFAULT)
+  resolved_type.send(name, *arguments, &block)
+end
+
+gems/puppet-4.10.1/lib/puppet/util/command_line/trollop.rb
+def method_missing(m, *args)
+  self[m] || self[m.to_s]
+end
+
+gems/puppet-4.10.1/lib/puppet/util/feature.rb
+def method_missing(method, *args)
+  return super unless method.to_s =~ /\?$/
+
+  feature = method.to_s.sub(/\?$/, '')
+  @loader.load(feature)
+
+  respond_to?(method) && self.send(method)
+end
+
+gems/puppet-4.10.1/lib/puppet/vendor/rgen/lib/rgen/array_extensions.rb
+def method_missing(m, *args)
+
+  # This extensions has the side effect that it allows to call any method on any
+  # empty array with an empty array as the result. This behavior is required for
+  # navigating models.
+  #
+  # This is a problem for Hash[] called with an (empty) array of tupels.
+  # It will call to_hash expecting a Hash as the result. When it gets an array instead,
+  # it fails with an exception. Make sure it gets a NoMethodException as without this
+  # extension and it will catch that and return an empty hash as expected.
+  #
+  # Similar problems exist for other Ruby built-in methods which are expected to fail.
+  #
+  return super unless (size == 0 &&
+    m != :to_hash && m != :to_str) ||
+    compact.any?{|e| e.is_a? RGen::MetamodelBuilder::MMBase}
+  # use an array to build the result to achiev similar ordering
+  result = []
+  inResult = {}
+  compact.each do |e|
+    if e.is_a? RGen::MetamodelBuilder::MMBase
+      ((o=e.send(m)).is_a?(Array) ? o : [o] ).each do |v|
+        next if inResult[v.object_id]
+        inResult[v.object_id] = true
+        result << v
+      end
+    else
+      raise StandardError.new("Trying to call a method on an array element not a RGen MMBase")
+    end
+  end
+  result.compact
+end
+
+gems/puppet-4.10.1/lib/puppet/vendor/rgen/lib/rgen/ecore/ecore_to_ruby.rb
+def method_missing(m, *args)
+  if self.class._ecore_to_ruby.add_features(self.class.ecore)
+    send(m, *args)
+  else
+    _method_missing(m, *args)
+  end
+end
+
+def respond_to?(m, include_all=false)
+  self.class._ecore_to_ruby.add_features(self.class.ecore)
+  _respond_to(m)
+end
+
+gems/puppet-4.10.1/lib/puppet/vendor/rgen/lib/rgen/instantiator/abstract_instantiator.rb
+def method_missing(m, *args) #:nodoc:
+	if @current_object
+		@current_object.send(m)
+	else
+		super
+	end
+end
+
+gems/puppet-4.10.1/lib/puppet/vendor/rgen/lib/rgen/model_builder/builder_context.rb
+def method_missing(m, *args, &block)
+  package, classOrContainer = @commandResolver.resolveCommand(m, @package)
+  return super if package.nil?
+  return classOrContainer.send(m, *args, &block) if classOrContainer.is_a?(ExtensionContainerFactory::ExtensionContainer)
+  eClass = classOrContainer
+  nameArg, argHash = self.class.processArguments(args)
+  internalName = nameArg || argHash[:name]
+  argHash[:name] ||= nameArg if nameArg && self.class.hasNameAttribute(eClass)
+  resolverJobs, asRole, helperName = self.class.filterArgHash(argHash, eClass)
+  element = eClass.instanceClass.new(argHash)
+  @resolver.setElementName(element, internalName)
+  @env << element if @env
+  contextElement = @contextStack.last
+  if contextElement
+    self.class.associateWithContextElement(element, contextElement, asRole)
+  else
+    @toplevelElements << element
+  end
+  resolverJobs.each do |job|
+    job.receiver = element
+    job.namespace = contextElement
+    @resolver.addJob(job)
+  end
+  # process block
+  if block
+    @contextStack.push(element)
+    @package, oldPackage = package, @package
+    instance_eval(&block)
+    @package = oldPackage
+    @contextStack.pop
+  end
+  element
+end
+
+gems/puppet-4.10.1/lib/puppet/vendor/rgen/lib/rgen/template_language/template_container.rb
+def method_missing(name, *args)
+  @context.send(name, *args)
+end
+
+gems/puppet-4.10.1/lib/puppet/vendor/rgen/lib/rgen/transformer.rb
+def method_missing(m, *args) #:nodoc:
+	if @current_object.respond_to?(m)
+		@current_object.send(m, *args)
+	else
+		_invokeMethod(m, *args)
+	end
+end
+
+gems/puppet-4.10.1/lib/puppet/vendor/rgen/lib/rgen/util/auto_class_creator.rb
+def method_missing(m,*args)
+	return super unless self.class.parent.accEnabled
+	if m.to_s =~ /(.*)=$/
+		self.class.has_one($1)
+		send(m,args[0])
+	elsif args.size == 0
+		self.class.has_many(m)
+		send(m)
+	end
+end
+
+gems/puppet-4.10.1/lib/puppet/vendor/rgen/lib/rgen/util/pattern_matcher.rb
+def method_missing(m, *args)
+  result = @_target.send(m, *args)
+  if result.is_a?(Array)
+    result.collect do |e|
+      if e.is_a?(RGen::MetamodelBuilder::MMBase)
+        Proxy.new(e)
+      else
+        e
+      end
+    end
+  else
+    if result.is_a?(RGen::MetamodelBuilder::MMBase)
+      Proxy.new(result)
+    else
+      result
+    end
+  end
+end
+
+gems/puppet-lint-2.2.1/lib/puppet-lint/configuration.rb
+def method_missing(method, *args, &block)
+  if method.to_s =~ /^(\w+)=$/
+    option = $1
+    add_option(option.to_s) if settings[option].nil?
+    settings[option] = args[0]
+  else
+    nil
+  end
+end
+
+gems/rack-2.0.1/lib/rack/auth/digest/request.rb
+def method_missing(sym, *args)
+  return super unless params.has_key?(key = sym.to_s)
+  return params[key] if args.size == 0
+  raise ArgumentError, "wrong number of arguments (#{args.size} for 0)"
+end
+
+gems/rack-2.0.1/lib/rack/body_proxy.rb
+def method_missing(method_name, *args, &block)
+  super if :to_ary == method_name
+  @body.__send__(method_name, *args, &block)
+end
+
+gems/rack-2.0.1/lib/rack/multipart/uploaded_file.rb
+def method_missing(method_name, *args, &block) #:nodoc:
+  @tempfile.__send__(method_name, *args, &block)
+end
+
+gems/rack-test-0.6.3/lib/rack/test/mock_digest_request.rb
+def method_missing(sym)
+  if @params.has_key? k = sym.to_s
+    return @params[k]
+  end
+
+  super
+end
+
+gems/rack-test-0.6.3/lib/rack/test/uploaded_file.rb
+def method_missing(method_name, *args, &block) #:nodoc:
+  @tempfile.__send__(method_name, *args, &block)
+end
+
+def respond_to?(method_name, include_private = false) #:nodoc:
+  @tempfile.respond_to?(method_name, include_private) || super
+end
+
+gems/rails-observers-0.1.2/lib/rails/observers/action_controller/caching/sweeping.rb
+def method_missing(method, *arguments, &block)
+  return super unless @controller
+  @controller.__send__(method, *arguments, &block)
+end
+
+gems/railties-5.0.2/lib/rails/application/configuration.rb
+def method_missing(method, *args)
+  if method =~ /=$/
+    @configurations[$`.to_sym] = args.first
+  else
+    @configurations.fetch(method) {
+      @configurations[method] = ActiveSupport::OrderedOptions.new
+    }
+  end
+end
+
+def respond_to_missing?(symbol, *)
+  true
+end
+
+gems/railties-5.0.2/lib/rails/configuration.rb
+def method_missing(method, *args)
+  method = method.to_s.sub(/=$/, '').to_sym
+
+  return @options[method] if args.empty?
+
+  if method == :rails || args.first.is_a?(Hash)
+    namespace, configuration = method, args.shift
+  else
+    namespace, configuration = args.shift, args.shift
+    namespace = namespace.to_sym if namespace.respond_to?(:to_sym)
+    @options[:rails][method] = namespace
+  end
+
+  if configuration
+    aliases = configuration.delete(:aliases)
+    @aliases[namespace].merge!(aliases) if aliases
+    @options[namespace].merge!(configuration)
+  end
+end
+
+gems/railties-5.0.2/lib/rails/generators/rails/app/app_generator.rb
+def method_missing(meth, *args, &block)
+  @generator.send(meth, *args, &block)
+end
+
+gems/railties-5.0.2/lib/rails/railtie/configurable.rb
+def method_missing(*args, &block)
+  instance.send(*args, &block)
+end
+
+gems/railties-5.0.2/lib/rails/railtie/configuration.rb
+def method_missing(name, *args, &blk)
+  if name.to_s =~ /=$/
+    @@options[$`.to_sym] = args.first
+  elsif @@options.key?(name)
+    @@options[name]
+  else
+    super
+  end
+end
+
+gems/railties-5.0.2/lib/rails/railtie.rb
+def respond_to_missing?(*args)
+  instance.respond_to?(*args) || super
+end
+
+gems/rainbow-2.2.2/lib/rainbow/null_presenter.rb
+def method_missing(method_name,*args)
+  if Color::X11Named.color_names.include? method_name and args.empty? then
+    self
+  else
+    super
+  end
+end
+
+gems/rainbow-2.2.2/lib/rainbow/presenter.rb
+def method_missing(method_name,*args)
+  if Color::X11Named.color_names.include? method_name and args.empty? then
+    color(method_name)
+  else
+    super
+  end
+end

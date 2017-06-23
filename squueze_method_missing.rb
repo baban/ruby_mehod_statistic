@@ -10,11 +10,13 @@ class RubyStatics
 
     base_dirs = parsable_gems
     # 順番にファイルをパースしてメソッド名とその使用回数を抜き取っていく
-    result = base_dirs.reduce({}){ |total, dir| p dir; scans(dir) }
-    # 抜き取った結果をテキストファイル状に出力する
-    open("method_missings.txt","w") { |f| f<< result*"¥n" }
-
-    result
+    open("method_missings.txt","w") do |f|
+      result = base_dirs.each do |dir|
+        p dir;
+        s = scans(dir)
+        f<< s*"\n"
+      end
+    end
   end
 
   def self.parsable_gems
@@ -26,14 +28,19 @@ class RubyStatics
   end
 
   def self.scans(dir)
-    rb_files(dir).map{ |file| squueze_method_missing(file, hash) }.flatten.compact
+    rb_files(dir).map{ |file| p file; s=squueze_method_missing(file); s }.flatten.compact
   end
 
-  def self.squueze_method_missing(file, hash)
-    p file
-    #stream = File.open(file, "r", encoding: Encoding::UTF_8).read
-    #stream.scan(/def method_missing.+$(.*$)[1-20]/)
+  def self.squueze_method_missing(file)
+    stream = File.open(file, "r", encoding: Encoding::UTF_8).read
+    stream.scan(/(((^)[ \t]*?)def (method_missing|respond_to_missing)(.+?\n){1,40})/m) do |m|
+      #return [file, m[0].gsub(m[1],m[2])]
+      return [file, m[0]]
+    end
+    nil
   end
 end
+
+#open("method_missings.txt","w") { |f| f<< RubyStatics.squueze_method_missing("./gems/stripe-2.9.0/lib/stripe/stripe_object.rb")[1] }
 
 pp RubyStatics.exec
